@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Webo Motors</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<table width="100%" border="0" cellspacing="0"  >
@@ -53,6 +54,147 @@
 					</table>
 				</td>
 			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="Image/car1.jpg" width="960" height="400" alt="car wallpaper">
+					
+				</td>
+				<td>
+					<table width="100%" border="0" cellspacing="0"  >
+						<tr>
+							<td><img src="Image/motorcycle.jpg" width="370" height="200" valign="top" alt="motorcycle"></td>
+						</tr>
+						<tr>
+							<td><img src="Image/engine.jpg" width="370" height="200" valign="top" alt="car engine image"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top" align="left">
+					<table border="1" cellspacing="0" bgcolor="#cad6e2">
+						<tr>
+							<td valign="top" align="left">
+								<ul align="left">
+									<li>CATEGORY</li>
+										<ul>
+											<li>SEDANS
+												<ul>
+													<li>Toyota</li>
+													<li>BMW</li>
+													<li>Hyundai</li>
+												</ul>
+											</li>
+											<li>SUV</li>
+											<li>CROSSOVER
+												<ul>
+													<li>Toyota</li>
+													<li>BMW</li>
+													<li>Hyundai</li>
+												</ul>
+											</li>
+											<li>PICKUP TRUCKS</li>
+										<ul>
+
+								</ul>
+							</td>
+							<td colspan="2" align="center">
+								<table bgcolor="#C0C0C0">
+									<tr>
+										<td align="center">
+											<img src="Image/product1.jpg" border="1" height="180" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+											
+										</td>
+										<td align="center">
+											<img src="Image/product2.png" border="1" height="180" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+										<td align="center">
+											<img src="Image/product3.png" border="1" height="180" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+										<td align="center">
+											<img src="Image/product1.jpg" border="1" height="180" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+									</tr>
+									<tr>
+										<td align="center">
+											<img src="Image/product4.jpg" border="1" height="160" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+										<td align="center">
+											<img src="Image/product5.wdp.jxr" border="1" height="160" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+										<td align="center">
+											<img src="Image/product6.png" border="1" height="160" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+										<td align="center">
+											<img src="Image/product2.png" border="1" height="160" valign="top">
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr bgcolor="#424949 ">
+				<td colspan="3">
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td align="center">
+									<font color="#f7f9f9" size="5"><u>Contact Us</u></font><br/>
+									<font color="#f7f9f9" size="4">Webomotorsbd.com<br/>
+									Dhaka,Bangladesh.<br/>
+									Email:&nbsp;webomotor@gmail.com<br/>
+									Phone:&nbsp;01234-123456<br/><hr/>
+									
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td align="center">
+								<font color="#f7f9f9" size="5"><u><i>Give Us Feedback</i></u></font><br/>
+								<font size="5" color="#f7f9f9">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" style="padding: 6px;" size="30" placeholder="Your name"/><br/>
+									<font size="5" color="#f7f9f9">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" style="padding: 6px;" size="30" placeholder="Your email"/><br/>
+									<font size="5" color="#f7f9f9">Message&nbsp;&nbsp;<input type="text" size="30" style="padding: 6px;" placeholder="Your Message"/><br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Send Message">
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td><font size="5" color="white"><b><u>Join Us On</u></b></font><br/><br/>
+								<a href="http://www.linkedin.com"><img src="Image/linkedin.png"  height="35" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="http://www.gmail.com"><img src="Image/googleplus.png"  height="35" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="http://www.facebook.com"><img src="Image/facebook.png"  height="35" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="http://www.twitter.com"><img src="Image/twitter.png"  height="35" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="http://www.instagram.com"><img src="Image/instagram.png"  height="35" valign="top"><br/><br/></a>
+								<font size="5" color="white"><b><u><i>Payement Method</i></u></b></font><br/><br/>
+								<img src="Image/payoneer.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="Image/payza.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="Image/paypal.png"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</td>
+						</tr>
+						
+					</table>
+				</td>	
+			</tr>
+			<tr bgcolor="black" height="50">
+				<td colspan="2" align="center" valign="center"><font color="white">Copyright©2017</td>
+				<td align="center" valign="center"><font color="white">Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</td>
+			<tr>
 		</table>
 	</body>
 </html>
