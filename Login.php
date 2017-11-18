@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<table width="1170" align="center" border="0" cellspacing="0"  >
+		<table width="100%" align="center" border="0" cellspacing="0"  >
 			<tr bgcolor="black">
 				<td width="200">
 					<table border="0">
@@ -53,7 +53,7 @@
 					</table>
 				</td>
 			</tr>
-			<tr>
+			<tr height="500" bgcolor="#c6d2d2">
 				<td>
 					<table width="100%" border="0" cellspacing="0"  >
 						<tr>
@@ -64,92 +64,41 @@
 						</tr>
 					</table>
 				</td>
-				<td colspan="2">
-					<img src="Image/car1.jpg" width="960" height="400" alt="car wallpaper">
-					
+				<td colspan="2" align="center">
+					<fieldset>
+						<legend><font size="5"><b>LOGIN</b></font></legend>
+						<table>
+							<tr>
+								<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" placeholder="Username" name="username" style="padding: 6px;" size="30" valign="center" required/><td>
+							</tr>
+							<tr></tr>
+							<tr>
+								<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" placeholder="Password" name="password" style="padding: 6px;" size="30" valign="center" required/><td>
+							</tr>
+						</table>
+						<hr/>
+						<table>
+							<tr>
+								<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>Forgot Password?<br/></font></td>
+							</tr>
+							<tr>
+								<td align="left">
+									<button valign="center" align="right">
+										<font size="5">Login</font>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><u>New to Webomotorsbd?</u>&nbsp;&nbsp;Sign Up</td>
+								
+							</tr>
+						</table>
+	
+						
+					</fieldset>
 				</td>
 			</tr>
-			<tr>
-				<td colspan="3" valign="top" align="left">
-					<table border="1" cellspacing="0" bgcolor="#cad6e2">
-						<tr>
-							<td valign="top" align="left">
-								<ul align="left">
-									<li>CATEGORY</li>
-										<ul>
-											<li>SEDANS
-												<ul>
-													<li>Toyota</li>
-													<li>BMW</li>
-													<li>Hyundai</li>
-												</ul>
-											</li>
-											<li>SUV</li>
-											<li>CROSSOVER
-												<ul>
-													<li>Toyota</li>
-													<li>BMW</li>
-													<li>Hyundai</li>
-												</ul>
-											</li>
-											<li>PICKUP TRUCKS</li>
-										<ul>
-
-								</ul>
-							</td>
-							<td colspan="2" align="center">
-								<table bgcolor="#C0C0C0">
-									<tr>
-										<td align="center">
-											<img src="Image/product1.jpg" border="1" height="180" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-											
-										</td>
-										<td align="center">
-											<img src="Image/product2.png" border="1" height="180" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-										<td align="center">
-											<img src="Image/product3.png" border="1" height="180" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-										<td align="center">
-											<img src="Image/product1.jpg" border="1" height="180" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-									</tr>
-									<tr>
-										<td align="center">
-											<img src="Image/product4.jpg" border="1" height="160" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-										<td align="center">
-											<img src="Image/product5.wdp.jxr" border="1" height="160" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-										<td align="center">
-											<img src="Image/product6.png" border="1" height="160" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-										<td align="center">
-											<img src="Image/product2.png" border="1" height="160" valign="top">
-											<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-											<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
+			
 			<tr bgcolor="#424949 ">
 				<td colspan="3">
 					<table>
