@@ -64,15 +64,9 @@
 						</tr>
 					</table>
 				</td>
-				<td colspan="2" align="center">
-					<fieldset>
-						<legend>LOGIN<img source="Image/login.png" height="25" alt="login_icon"></legend>
-						<table>
-							<tr>
-								<td><font size="6"><b><i>Username</i></b><input ><td>
-							</tr>
-						</table>
-					</fieldset>
+				<td colspan="2">
+					<img src="Image/car1.jpg" width="960" height="400" alt="car wallpaper">
+					
 				</td>
 			</tr>
 			<tr>
