@@ -37,14 +37,14 @@
 							<td><a style="text-decoration:none;" href="Homepage.php"><font size="5"><b>Home</b></font></a></td>
 							<td><a href="Homepage.php"><img src="Image/home.png" height="25" alt="home_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-							<td><a style="text-decoration:none;"><font size="5"><b>About</b></font></a></td>
+							<td><a style="text-decoration:none;" ><font size="5"><b>About</b></font></a></td>
 							<td><a><img src="Image/about.png" height="25" alt="about_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
 							<td><a style="text-decoration:none;"><font size="5"><b>Contact</b></font></a></td>
 							<td><a><img src="Image/contact.png" height="25" alt="contact_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-							<td><a style="text-decoration:none;"><font size="5"><b>Login</b></font></a></td>
-							<td><a><img src="Image/login.png" height="25" alt="login_icon"></a></td>
+							<td><a style="text-decoration:none;" href="Login.php"><font size="5"><b>Login</b></font></a></td>
+							<td><a href="Login.php"<img src="Image/login.png" height="25" alt="login_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
 							<td><a style="text-decoration:none;"><font size="5"><b>Sign Up</b></font></a></td>
 							<td><a><img src="Image/signup.png" height="25" alt="signup_icon"></a></td>
@@ -54,10 +54,6 @@
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2">
-					<img src="Image/car1.jpg" width="960" height="400" alt="car wallpaper">
-					
-				</td>
 				<td>
 					<table width="100%" border="0" cellspacing="0"  >
 						<tr>
@@ -67,6 +63,16 @@
 							<td><img src="Image/engine.jpg" width="370" height="200" valign="top" alt="car engine image"></td>
 						</tr>
 					</table>
+				</td>
+				<td colspan="2" align="center">
+					<fieldset>
+						<legend>LOGIN<img source="Image/login.png" height="25" alt="login_icon"></legend>
+						<table>
+							<tr>
+								<td><font size="6"><b><i>Username</i></b><input ><td>
+							</tr>
+						</table>
+					</fieldset>
 				</td>
 			</tr>
 			<tr>
