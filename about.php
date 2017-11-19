@@ -11,7 +11,7 @@
 					<table border="0">
 						<tr>
 							<td>&nbsp;&nbsp;&nbsp;</td>
-							<td><?phpecho ""?><a href="Homepage.php"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+							<td><?phpecho ""?><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
 					</table>
 				</td>
