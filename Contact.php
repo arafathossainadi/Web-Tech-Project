@@ -52,54 +52,56 @@
 							
 							<td><a style="text-decoration:none;" href="Registration.php"><font size="5"><b>Sign Up</b></font></a></td>
 							<td><a href="Registration.php"><img src="Image/signup.png" height="25" alt="signup_icon"></a></td>
-							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>						</tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						</tr>
 					</table>
 				</td>
 			</tr>
-			<tr height="500" bgcolor="#c6d2d2">
-				<td>
-					<table width="100%" border="0" cellspacing="0"  >
+			<tr height="500" bgcolor="#C0C0C0">
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td valign="top" align="left">
+					<font size="6"><b><u>Contact Us</u></b></font><br><br/>
+					<b>Contact Information<br><br/></b>
+					<table>
 						<tr>
-							<td><img src="Image/motorcycle.jpg" width="370" height="200" valign="top" alt="motorcycle"></td>
+							<td>
+								<b>Name</b><br/>
+								<input type="text" placeholder="Your Name" name="name" style="padding: 8px;" size="40" valign="center"/>
+							</td>
 						</tr>
 						<tr>
-							<td><img src="Image/engine.jpg" width="370" height="200" valign="top" alt="car engine image"></td>
+							<td>
+								<b>Email</b><br/>
+								<input type="text" placeholder="Your Email" name="email" style="padding: 8px;" size="40" valign="center"/>
+							</td>
 						</tr>
-					</table>
+						<tr>
+							<td>
+								<b>Telephone</b><br/>
+								<input type="text" placeholder="Your Mobile Number" name="mbno" style="padding: 8px;" size="40" valign="center"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Comment</b><br/>
+								<input type="text" placeholder="Your Comment" name="comment" style="padding: 8px;" size="40" valign="center"/>
+							</td>
+							
+						</tr>
+						<tr>
+							<td><br/><input type="submit" value="submit"></td>
+						</tr>
+					</table>				
 				</td>
-				<td colspan="2" align="center">
-					<fieldset>
-						<legend><font size="5"><b>LOGIN</b></font></legend>
-						<table>
-							<tr>
-								<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" placeholder="Username" name="username" style="padding: 6px;" size="30" valign="center" required/><td>
-							</tr>
-							<tr></tr>
-							<tr>
-								<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" placeholder="Password" name="password" style="padding: 6px;" size="30" valign="center" required/><td>
-							</tr>
-						</table>
-						<hr/>
-						<table>
-							<tr>
-								<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>Forgot Password?<br/></font></td>
-							</tr>
-							<tr>
-								<td align="left">
-									<button valign="center" align="right">
-										<font size="5">Login</font>
-									</button>
-								</td>
-							</tr>
-							<tr>
-								<td><u>New to Webomotorsbd?</u>&nbsp;&nbsp;Sign Up</td>
-								
-							</tr>
-						</table>
-	
-						
-					</fieldset>
+				<td valign="top" align="center"><br/><br/>Hotline: +88 012 34 56 78 91<br/>
+					Whatsapp & Viber: 01234567890<br/>
+					Email: info@webomotors.com<br/>
+					House# 0, Road# 1, Block# A,Banani, Dhaka 1212<br/>
+					<u><b>Corporate Office:</b></u><br/>
+					House# 0, Road# 1, Block# A,Banani, Dhaka 1212<br/><br/><br/>
+					<img src="Image/map.png" alt="map" width="400" height="350">
 				</td>
+				
 			</tr>
 			
 			<tr bgcolor="#424949 ">
@@ -135,7 +137,8 @@
 						</tr>
 						
 					</table>
-				</td>	
+				</td>
+				
 			</tr>
 			<tr bgcolor="black" height="50">
 				<td colspan="2" align="center" valign="center"><font color="white">Copyright©2017</td>

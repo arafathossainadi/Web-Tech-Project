@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<table width="1170" align="center" border="0" cellspacing="0"  >
+		<table width="100%" align="center" border="0" cellspacing="0"  >
 			<tr bgcolor="black">
 				<td width="200">
 					<table border="0">
@@ -34,26 +34,30 @@
 				<td colspan="3" align="right">
 					<table>
 						<tr>
-							<td><a style="text-decoration:none;" href="Homepage.php"><font size="5"><b>Home</b></font></a></td>
-							<td><a href="Homepage.php"><img src="Image/home.png" height="25" alt="home_icon"></a></td>
+							<td><a style="text-decoration:none;" href="Index.html"><font size="5"><b>Home</b></font></a></td>
+							<td><a href="Index.html"><img src="Image/home.png" height="25" alt="home_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-							<td><a style="text-decoration:none;"><font size="5"><b>About</b></font></a></td>
-							<td><a><img src="Image/about.png" height="25" alt="about_icon"></a></td>
+							
+							<td><a style="text-decoration:none;" href="About.php"><font size="5"><b>About</b></font></a></td>
+							<td><a href="About.php"><img src="Image/about.png" height="25" alt="about_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-							<td><a style="text-decoration:none;"><font size="5"><b>Contact</b></font></a></td>
-							<td><a><img src="Image/contact.png" height="25" alt="contact_icon"></a></td>
+							
+							<td><a style="text-decoration:none;" href="Contact.php"><font size="5"><b>Contact</b></font></a></td>
+							<td><a href="Contact.php"><img src="Image/contact.png" height="25" alt="contact_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-							<td><a style="text-decoration:none;"><font size="5"><b>Login</b></font></a></td>
-							<td><a><img src="Image/login.png" height="25" alt="login_icon"></a></td>
+							
+							<td><a style="text-decoration:none;" href="Login.php"><font size="5"><b>Login</b></font></a></td>
+							<td><a href="Login.php"><img src="Image/login.png" height="25" alt="login_icon"></a></td>
 							<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-							<td><a style="text-decoration:none;"><font size="5"><b>Sign Up</b></font></a></td>
-							<td><a><img src="Image/signup.png" height="25" alt="signup_icon"></a></td>
+							
+							<td><a style="text-decoration:none;" href="Registration.php"><font size="5"><b>Sign Up</b></font></a></td>
+							<td><a href="Registration.php"><img src="Image/signup.png" height="25" alt="signup_icon"></a></td>
 							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 						</tr>
 					</table>
 				</td>
 			</tr>
-			<tr>
+			<tr bgcolor="#C0C0C0">
 				<td   valign="top" align="center" colspan="3">
 					<table border="0" bgcolor="#C0C0C0" width="1170">
 						<tr>
