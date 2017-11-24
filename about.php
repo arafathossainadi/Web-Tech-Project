@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>Sign Up</title>
+		<title>About</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
@@ -9,28 +9,40 @@
 			<tr bgcolor="black">
 				<td>
 					<table width="1170" align="center">
-						<td width="200">
-							<table border="0">
-								<tr>
-									<td>&nbsp;&nbsp;&nbsp;</td>
-									<td><?phpecho ""?><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-								</tr>
-							</table>
-						</td>
-						<td colspan="3" align="right">
-							<table border="0">
-								<tr>
-									<td><input type="text" placeholder="Search Your Product Here" name="search_bar" style="padding: 8px;" size="60" valign="center"/></td>
-									<td>
-										<button valign="center">
-											<font size="5">Search</font><img src="Image/icon1.png" height="25" alt="Save icon">
-										</button>
-									</td>
-									<td><a><img src="Image/cart.png" height="55" alt="cart_icon"></a></td>
-									<td width="10"></td>
-								</tr>
-							</table>
-						</td>
+						<tr>
+							<td height="10"></td>
+						</tr>
+						<tr>
+							<td width="200">
+								<table border="0">
+									<tr>
+										<td>&nbsp;&nbsp;&nbsp;</td>
+										<td><?phpecho ""?><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+									</tr>
+								</table>
+							</td>
+							<td colspan="3" align="right">
+								<table border="0">
+									<tr>
+										<td>
+											<input type="text" placeholder="  Search Here" name="search_bar"  size="60"  valign="center"/>
+										</td>
+										<td width="10"></td>
+										<td>
+											<button valign="center">
+												<font size="2">Search</font><img src="Image/icon1.png" height="10" alt="Save icon">
+											</button>
+										</td>
+										<td width="10"></td>
+										<td><a><img src="Image/cart.png" height="40" alt="cart_icon"></a></td>
+										<td width="10"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="10"></td>
+						</tr>
 					</table>
 				</td>
 			</tr>
@@ -40,25 +52,23 @@
 						<td colspan="3" align="right">
 							<table>
 								<tr>
-									<td><a style="text-decoration:none;" href="Index.html"><font size="5"><b>Home</b></font></a></td>
+									<td><a href="Index.html"><font size="5"><b>Home</b></font></a></td>
 									<td><a href="Index.html"><img src="Image/home.png" height="25" alt="home_icon"></a></td>
-									<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
-									
-									<td><a style="text-decoration:none;" href="About.php"><font size="5"><b>About</b></font></a></td>
+									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
+									<td><a  href="About.php"><font size="5"><b>About</b></font></a></td>
 									<td><a href="About.php"><img src="Image/about.png" height="25" alt="about_icon"></a></td>
-									<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
+									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
 									
-									<td><a style="text-decoration:none;" href="Contact.php"><font size="5"><b>Contact</b></font></a></td>
+									<td><a href="Contact.php"><font size="5"><b>Contact</b></font></a></td>
 									<td><a href="Contact.php"><img src="Image/contact.png" height="25" alt="contact_icon"></a></td>
-									<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
+									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
 									
-									<td><a style="text-decoration:none;" href="Login.php"><font size="5"><b>Login</b></font></a></td>
+									<td><a href="Login.php"><font size="5"><b>Login</b></font></a></td>
 									<td><a href="Login.php"><img src="Image/login.png" height="25" alt="login_icon"></a></td>
-									<td>&nbsp;<font size=4"><b>|&nbsp;&nbsp;</b></font></td>
+									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
 									
-									<td><a style="text-decoration:none;" href="Registration.php"><font size="5"><b>Sign Up</b></font></a></td>
+									<td><a href="Registration.php"><font size="5"><b>Sign Up</b></font></a></td>
 									<td><a href="Registration.php"><img src="Image/signup.png" height="25" alt="signup_icon"></a></td>
-									<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 								</tr>
 							</table>
 						</td>
@@ -77,7 +87,7 @@
 											<tr>
 												<td>
 													<h1>About Us</h1>
-													<font size="5" style="text-align: justify;"><p>WEBO MOTORS is most growing online car shop, offering an flexible garage experience in Bangladesh. WEBO MOTORS hosts a wide range of SUVs, Sedans, Crossovers, Pickup Trucks, alongside a rapidly growing miscellany of car parts. WEBO MOTORS has the special focus on security of the customer's experience above all else. Excellent value-for-money, large assortment of original branded vehicles and parts, fast delivery and easy returns are WEBO MOTORS signatures.</p></font>
+													<font size="5"><p align="justify">WEBO MOTORS is most growing online car shop, offering an flexible garage experience in Bangladesh. WEBO MOTORS hosts a wide range of SUVs, Sedans, Crossovers, Pickup Trucks, alongside a rapidly growing miscellany of car parts. WEBO MOTORS has the special focus on security of the customer's experience above all else. Excellent value-for-money, large assortment of original branded vehicles and parts, fast delivery and easy returns are WEBO MOTORS signatures.</p></font>
 												</td>
 											</tr>
 										</table>
