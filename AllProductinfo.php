@@ -167,7 +167,7 @@
 											</select>
 											<input type="text" placeholder="Search here"/>
 											<input type="submit" value="Search"/>
-											<a href="#">Add New Product</a>
+											<a href="addnewproduct.php">Add New Product</a>
 										</td>
 									</tr>
 									<tr align="center">
@@ -190,7 +190,7 @@
 										<td align="center">3</td>
 										<td><a href="product_details.php">See Details</a></td>
 										<td align="center"><a href="#.php">Edit</a></td>
-										<td align="center"><a href="#.php">Delete</a></td>
+										<td align="center"><a href="deleteproduct.php">Delete</a></td>
 									</tr>
 								</table>
 							</font>
