@@ -88,30 +88,26 @@
 										</td>
 										<td  align="center">
 											<fieldset>
-												<legend><font size="5"><b>LOGIN</b></font></legend>
+												<legend><font size="5"><b>Email Verification</b></font></legend>
 												<table>
 													<tr>
-														<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" placeholder="  Username" name="username" size="30" valign="center" required/><td>
+														<td><font size="5"><b><i>Enter your Email&nbsp;&nbsp;&nbsp;</i></b><input type="text" placeholder="  someone@example.com" name="email" size="40" valign="center" required/><td>
 													</tr>
 													<tr></tr>
-													<tr>
-														<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" placeholder="  Password" name="password"  size="30" valign="center" required/><td>
-													</tr>
 												</table>
 												<hr/>
-												<table align="left">
+												<table align="center">
 													<tr>
-														<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><a href="emailverification.php">Forgot Password?</a><br/><br></font></td>
-													</tr>
-													<tr>
-														<td align="left">
-															<button valign="center" align="right">
-																<font size="5">Login</font>
+														<td align="center">
+															<button valign="right" align="right">
+																<font size="5">Cancel</font>
 															</button>
 														</td>
-													</tr>
-													<tr>
-														<td><br><u>Not a member yet ?</u>&nbsp;&nbsp;<a href="registration.php">Sign Up</a></td>
+														<td align="left">&nbsp;&nbsp;
+															<button valign="right" align="right">
+																<font size="5">Submit</font>
+															</button>
+														</td>
 													</tr>
 												</table>
 											</fieldset>
