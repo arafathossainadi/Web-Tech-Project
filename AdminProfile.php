@@ -109,77 +109,34 @@
 												<tr>
 													<td>
 														<fieldset>
-															<legend align="center"><font size="5"><b>Edit Car Details</b></font></legend>
+														<legend align="center"><font size="5"><b>Edit Profile</b></font></legend>
 															<table border="0">
-																<td align="center" colspan="2">
-																	<img src="image/cars.png" alt="car Image" width="700"><br/>
-																	<input type="submit" value="Change Image"/>
-																</td>
 																<tr>
-																	<td align="right"><b>Model No./ Car Name</b></td>
+																	<td align="right"><b>Username</b></td>
 																	<td>&nbsp;<input type="text"/></td>
 																</tr>
 																<tr>
-																	<td align="right"><b>Category</b></td>
-																	<td>
-																		&nbsp;
-																		<select>
-																		<option value="SUV">SUV</option>
-																		<option value="SEDAN">SEDAN</option>
-																		<option value="CROSSOVER">CROSSOVER</option>
-																		<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-																		<option value="PARTS">VEHICLE PARTS</option>
-																	</select>
-																	</td>
+																	<td align="right"><b>Email</b></td>
+																	<td>&nbsp;<input type="text"/></td>
 																</tr>
 																<tr>
-																	<td align="right">&nbsp;<b>Brand</b></td>
-																	<td>
-																		&nbsp;<select>
-																		<option value="TOYOTA">TOYOTA</option>
-																		<option value="NISSAN">NISSAN</option>
-																		<option value="MITSUBISHI">MITSUBISHI</option>
-																		<option value="MERCEDES">MERCEDES</option>
-																		<option value="PORCHE">PORCHE</option>
-																	</select>
-																	</td>
+																	<td align="right"><b>Password</b></td>
+																	<td>&nbsp;<input type="text"/></td>
 																</tr>
 																<tr>
-																	<td valign="top" align="right"><b>Fetures</b></td>
-																	<td>
-																		&nbsp;<textarea name=""  cols="40" rows="10"></textarea>
-																	</td>
-																</tr>
-																<tr>
-																	<td align="right"><b>Colors</b></td>
-																	<td valign="top">
-																		&nbsp;<input type="checkbox">RED
-																		 <input type="checkbox">Black
-																		 <input type="checkbox">Silver
-																	</td>
-																</tr>
-																<tr>
-																	<td align="right"><b>Price</b></td>
-																	<td>
-																		&nbsp;<input type="text"/>
-																	</td>
-																</tr>
-																<tr>
-																	<td align="right"><b>In Stock</b></td>
-																	<td>
-																		&nbsp;<input type="text"/>
-																	</td>
+																	<td align="right"><b>Confirm Password</b></td>
+																	<td>&nbsp;<input type="text"/></td>
 																</tr>
 																<tr>
 																	<td colspan="3"><hr/></td>
 																</tr>
 																<tr>
-																	
-																	<td>&nbsp;&nbsp;</td>
-																	<td align="left">
-																		<input type="submit" value="SAVE"/>
+																	<td align="right">
+																		<input type="submit" value="Cancel"/>
 																	</td>
-																</tr>
+																	<td align="left">
+																		&nbsp;&nbsp;<input type="submit" value="SAVE"/>
+																	</td>
 															</table>
 														</fieldset>
 													</td>
