@@ -105,43 +105,43 @@
 											</tr>
 										</table>
 										<font size="5">
-											<table border="1" cellspacing="0" cellpadding="10" align="center">
+											<table width="500" border="1" cellspacing="0" cellpadding="10" align="center">
 												<tr>
 													<td valign="top" colspan="2" align="center"><b>STUFFS IN STOCK</b></td>
 												</tr>
 												<tr>
 													<td valign="top">Total Stuffs</td>
-													<td valign="top">10</td>
+													<td valign="top" align="center">10</td>
 												</tr>
 												<tr>
 													<td valign="top" colspan="2" align="center"><b>CATEGORY</b></td>
 												</tr>
 												<tr>
 													<td valign="top">SUV</td>
-													<td valign="top">1</td>
+													<td valign="top" align="center">1</td>
 												</tr>
 												<tr>
 													<td valign="top">SEDAN</td>
-													<td valign="top">1</td>
+													<td valign="top" align="center">1</td>
 												</tr>
 												<tr>
 													<td valign="top">CROSSOVER</td>
-													<td valign="top">1</td>
+													<td valign="top" align="center">1</td>
 												</tr>
 												<tr>
 													<td valign="top">PICKUP TRUCKS</td>
-													<td valign="top">1</td>
+													<td valign="top" align="center">1</td>
 												</tr>
 												<tr>
 													<td valign="top" colspan="2" align="center"><b>VEHICLE PARTS</b></td>
 												</tr>
 												<tr>
 													<td valign="top">Engine</td>
-													<td valign="top">1</td>
+													<td valign="top" align="center">1</td>
 												</tr>
 												<tr>
 													<td valign="top">Headlight</td>
-													<td valign="top">1</td>
+													<td valign="top" align="center">1</td>
 												</tr>
 											</table>
 										</font>
