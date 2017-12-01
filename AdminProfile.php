@@ -81,7 +81,7 @@
 								<tr>
 									<td width="10"></td>
 									<td >
-										<font size="5">Email</font>
+										<font size="5">Messages</font>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
