@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Login</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="Image/logo.png">
 	</head>
 	<body>
 		<table width="100%" align="center" border="0" cellspacing="0"  >

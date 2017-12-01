@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<title>ADMIN</title>
+	<link rel="icon" href="Image/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">

@@ -1,8 +1,8 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>Login</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Reset Password</title>
+		<link rel="icon" href="Image/logo.png">
 	</head>
 	<body>
 		<table width="100%" align="center" border="0" cellspacing="0"  >
@@ -86,10 +86,15 @@
 										<td width="300">
 											<img src="Image/p1.png" height="250" alt="">
 										</td>
-										<td  align="center">
+										<td  align="center" width="500">
 											<fieldset>
 												<legend><font size="5"><b>Reset Password</b></font></legend>
 												<table>
+													<tr>
+														<td height="50"></td>
+													</tr>
+												</table>
+												<table border="0">
 													<tr>
 														<td colspan="2" align="right"><font size="5"><b><i>New Password&nbsp;&nbsp;</i></b></td>
 														<td><input type="text" name="password" size="30" valign="center" required/></td>
@@ -113,6 +118,11 @@
 																<font size="5">Submit</font>
 															</button>
 														</td>
+													</tr>
+												</table>
+												<table>
+													<tr>
+														<td height="50"></td>
 													</tr>
 												</table>
 											</fieldset>

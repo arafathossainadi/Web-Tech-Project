@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ADMIN</title>
+	<link rel="icon" href="Image/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -112,7 +113,7 @@
 														<legend align="center"><font size="5"><b>Edit Profile</b></font></legend>
 															<table border="0">
 																<tr>
-																	<td align="right"><b>Username</b></td>
+																	<td align="right"><b>Contact Number</b></td>
 																	<td>&nbsp;<input type="text"/></td>
 																</tr>
 																<tr>

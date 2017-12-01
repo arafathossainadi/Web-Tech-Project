@@ -1,8 +1,8 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>Login</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Email Verify</title>
+		<link rel="icon" href="Image/logo.png">
 	</head>
 	<body>
 		<table width="100%" align="center" border="0" cellspacing="0"  >
@@ -91,7 +91,12 @@
 												<legend><font size="5"><b>Email Verification</b></font></legend>
 												<table>
 													<tr>
-														<td><font size="5"><b><i>Enter your Email&nbsp;&nbsp;&nbsp;</i></b><input type="text" placeholder="  someone@example.com" name="email" size="40" valign="center" required/><td>
+														<td height="50"></td>
+													</tr>
+												</table>
+												<table>
+													<tr>
+														<td align="center"><font size="5"><b>ENTER YOUR EMAIL</b><input type="text" placeholder="                   someone@example.com" name="email" size="40" valign="center" required/><td>
 													</tr>
 													<tr></tr>
 												</table>
@@ -108,6 +113,11 @@
 																<font size="5">Submit</font>
 															</button>
 														</td>
+													</tr>
+												</table>
+												<table>
+													<tr>
+														<td height="50"></td>
 													</tr>
 												</table>
 											</fieldset>
