@@ -46,56 +46,61 @@
 								<tr>
 									<td width="10"></td>
 									<td  width="250">
-										<a href="dashboard.php"><font size="5">Dashboard</font>
 										<img src="Image/dashboard.png"/ height="30">
+										<a href="dashboard.php"><font size="5">Dashboard</font>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td width="10"></td>
 									<td >
-										<a href="allproductinfo.php"><font size="5">Vehicles Information</font>
 										<img src="Image/vehicle.png"/ height="30">
+										<a href="allproductinfo.php"><font size="5">Vehicles Information</font>
+										
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td width="10"></td>
 									<td >
-										<a href="employeeinfo.php"><font size="5">Employee Information</font>
 										<img src="Image/employee.png"/ height="30">
+										<a href="employeeinfo.php"><font size="5">Employee Information</font>
+										
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td width="10"></td>
 									<td >
+										<img src="Image/customerinfo.png"/ height="30">
 										<a href="customerinfo.php"><font size="5">Customer Information</font>
-										<img src="Image/customer.png"/ height="30">
+										
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td width="10"></td>
 									<td >
-										<a href="saleshistory.php"><font size="5">Sales History</font>
 										<img src="Image/chart.png"/ height="30">
+										<a href="saleshistory.php"><font size="5">Sales History</font></a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td width="10"></td>
 									<td >
-										<a href="message.php"><font size="5">Messages</font>
 										<img src="Image/message.png"/ height="30">
+										<a href="message.php"><font size="5">Messages</font>
+										
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td width="10"></td>
 									<td >
-										<a href="adminprofile.php"><font size="5">Edit Profile</font>
 										<img src="Image/profile.png"/ height="30">
+										<a href="adminprofile.php"><font size="5">Edit Profile</font>
+										
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
