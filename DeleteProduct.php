@@ -166,7 +166,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td bgcolor="7F788E"></td>
+						<td bgcolor="52be80"></td>
 						<td bgcolor="D7DBDD" align="center" colspan="3">
 							<font size="5">
 								Are you sure, you want to delete this ?
