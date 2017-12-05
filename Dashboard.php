@@ -106,7 +106,87 @@
 								<tr><td height="10"></td></tr>
 							</table>
 						</td> 
-						<td width="895" bgcolor="#C0C0C0">&nbsp;&nbsp;</td>
+						<td width="895" bgcolor="#C0C0C0" valign="top">
+							<table border="0" width="860" align="center">
+								<tr><td height="20"></td></tr>
+								<tr>
+									<td align="center">
+										<table border="1" align="center" cellpadding="10" width="100%">
+											<tr align="center">
+												<th colspan="9">RECENT DELIVARIES</th>
+											</tr>
+											<tr align="center">
+												<td><b>Name & Model</b></td>
+												<td><b>Quantity</b></td>
+												<td><b>Order Date & Time</b></td>
+												<td><b>Order ID</b></td>
+												<td><b>Shipment Date</b></td>
+												<td><b>Customer Name</b></td>
+											</tr>
+											<tr align="center">
+												<td>Lamborghini Centenario</td>
+												<td>01</td>
+												<td>03/02/1995 at 12:30 AM</td>
+												<td>LAMCEN031230</td>
+												<td>02/03/1995 at 05:00 PM</td>
+												<td>Jishan</td>
+											</tr>
+											<tr align="center">
+												<td>Lamborghini Aventador</td>
+												<td>02</td>
+												<td>03/02/1995 at 12:30 AM</td>
+												<td>LAMAV031230</td>
+												<td>02/03/1995 at 05:00 PM</td>
+												<td>Abir</td>
+											</tr>
+											<tr align="center">
+												<td>Lamborghini Gallardo</td>
+												<td>01</td>
+												<td>03/02/1995 at 12:30 AM</td>
+												<td>LAMGAL031230</td>
+												<td>02/03/1995 at 05:00 PM</td>
+												<td>Sanjida</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr><td height="20"></td></tr>
+								<tr>
+									<td align="center">
+										<table border="1" align="center" cellpadding="10">
+											<tr align="center">
+												<th colspan="9">PUBLIC OPINIONS</th>
+											</tr>
+											<tr align="center">
+												<td><b>Name</b></td>
+												<td><b>Email</b></td>
+												<td><b>Contact Number</b></td>
+												<td><b>Message</b></td>
+											</tr>
+											<tr align="center">
+												<td>Abir</td>
+												<td>abir@example.com</td>
+												<td>0123456789</td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi odit nihil temporibus odio delectus provident laborum! Quaerat ratione aliquid eum fugit deleniti repellat, possimus ad cupiditate aliquam, aspernatur sit!</td>
+											</tr>
+											<tr align="center">
+												<td>Jishan</td>
+												<td>jishan@example.com</td>
+												<td>0123456789</td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi odit nihil temporibus odio delectus provident laborum! Quaerat ratione aliquid eum fugit deleniti repellat, possimus ad cupiditate aliquam, aspernatur sit!</td>
+											</tr>
+											<tr align="center">
+												<td>Sanjida</td>
+												<td>sanjida@example.com</td>
+												<td>0123456789</td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi odit nihil temporibus odio delectus provident laborum! Quaerat ratione aliquid eum fugit deleniti repellat, possimus ad cupiditate aliquam, aspernatur sit!</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr><td height="20"></td></tr>
+							</table>
+						</td>
 					</tr>
 				</table>
 			</td>
