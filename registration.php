@@ -127,7 +127,7 @@
 																<span>Contact Number</span>
 															</td>
 															<td>
-																&nbsp&nbsp&nbsp&nbsp:&nbsp<input type="text" name="address">
+																&nbsp&nbsp&nbsp&nbsp:&nbsp;<input type="text" name="address">
 															</td>
 														</tr>
 													</table>
@@ -160,7 +160,7 @@
 																<span>Confirm Password</span>
 															</td>
 															<td>
-																:&nbsp<input type="Password">
+																:&nbsp;<input type="Password">
 															</td>
 														</tr>
 													</table>
