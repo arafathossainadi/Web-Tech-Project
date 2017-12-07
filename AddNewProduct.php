@@ -6,7 +6,7 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>

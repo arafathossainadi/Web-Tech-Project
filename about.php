@@ -5,73 +5,37 @@
 		<link rel="icon" href="Image/logo.png">
 	</head>
 	<body>
-		<table width="100%" align="center" border="0" cellspacing="0"  >
-			<tr bgcolor="black">
+		<table width="100%" border="0" cellspacing="0" align="center">
+			<tr bgcolor="#212121">
 				<td>
-					<table width="1170" align="center">
-						<tr>
-							<td height="10"></td>
+					<table width="1170" align="center" border="0" cellspacing="0">
+						<tr><td height="10"></td></tr>
+						<tr id="schct">
+							<td width="25"></td>
+							<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
-						<tr>
-							<td width="200">
-								<table border="0">
-									<tr>
-										<td>&nbsp;&nbsp;&nbsp;</td>
-										<td><?phpecho ""?><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-									</tr>
-								</table>
-							</td>
-							<td colspan="3" align="right">
-								<table border="0">
-									<tr>
-										<td>
-											<input type="text" placeholder="  Search Here" name="search_bar"  size="60"  valign="center"/>
-										</td>
-										<td width="10"></td>
-										<td>
-											<button valign="center">
-												<font size="2">Search</font><img src="Image/icon1.png" height="10" alt="Save icon">
-											</button>
-										</td>
-										<td width="10"></td>
-										<td><a><img src="Image/cart.png" height="40" alt="cart_icon"></a></td>
-										<td width="10"></td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-						<tr>
-							<td height="10"></td>
-						</tr>
+						<tr><td height="10"></td></tr>
 					</table>
 				</td>
 			</tr>
 			<tr bgcolor="#d1f2eb">
 				<td>
-					<table width="1170" align="center">
-						<td colspan="3" align="right">
-							<table>
-								<tr>
-									<td><a href="Index.html"><font size="5"><b>Home</b></font></a></td>
-									<td><a href="Index.html"><img src="Image/home.png" height="25" alt="home_icon"></a></td>
-									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
-									<td><a  href="About.php"><font size="5"><b>About</b></font></a></td>
-									<td><a href="About.php"><img src="Image/about.png" height="25" alt="about_icon"></a></td>
-									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
-									
-									<td><a href="Contact.php"><font size="5"><b>Contact</b></font></a></td>
-									<td><a href="Contact.php"><img src="Image/contact.png" height="25" alt="contact_icon"></a></td>
-									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
-									
-									<td><a href="Login.php"><font size="5"><b>Login</b></font></a></td>
-									<td><a href="Login.php"><img src="Image/login.png" height="25" alt="login_icon"></a></td>
-									<td>&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font></td>
-									
-									<td><a href="Registration.php"><font size="5"><b>Sign Up</b></font></a></td>
-									<td><a href="Registration.php"><img src="Image/signup.png" height="25" alt="signup_icon"></a></td>
-								</tr>
-							</table>
-						</td>
+					<table width="1170" align="center" border="0" cellspacing="0">
+						<tr><td height="5"></td></tr>
+						<tr>
+							<td align="right" id="top-menu">
+								<a  href="index.html"><font size="5"><b>HOME</b></font></a>
+								<font>&nbsp;&nbsp;</font>
+								<a href="about" target="_blank"><font size="5"><b>ABOUT</b></font></a>
+								<font>&nbsp;&nbsp;</font>
+								<a href="Contact" target="_blank"><font size="5"><b>CONTACT</b></font></a>
+								<font>&nbsp;&nbsp;</font>
+								<a href="Login" target="_blank"><font size="5"><b>LOGIN</b></font></a>
+								<font>&nbsp;&nbsp;</font>
+								<a href="registration" target="_blank"><font size="5"><b>SIGN UP</b></font></a>
+							</td>
+						</tr>
+						<tr><td height="5"></td></tr>
 					</table>
 				</td>
 			</tr>
@@ -154,5 +118,6 @@
 				</td>
 			</tr>
 		</table>
+	<script type="text/javascript" src="js/abst.js"></script>
 	</body>
 </html>

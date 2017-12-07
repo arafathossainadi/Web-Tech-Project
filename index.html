@@ -6,22 +6,23 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
-					<tr>
+					<tr id="schct">
 						<td width="25"></td>
 						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-						<td align="right"><input type="text" placeholder="   Search your Product Here" name="search_bar" size="60" valign="center"/></td>
+						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
 						<td width="7"></td>
 						<td width="50">
-							<button valign="center" align="left">
-								<font size="4">Search</font>
-							</button>
+							<a href="search"><button valign="center" align="left">
+									<font size="4">Search</font>
+								</button>
+							</a>
 						</td>
 						<td width="10"></td>
-						<td><a><img src="Image/cart.png" height="40" alt="cart_icon"></a></td>
+						<td><a href="#" target="_blank"><img src="Image/cart.png" height="40" alt="cart_icon"></a></td>
 					</tr>
 					<tr><td height="10"></td></tr>
 				</table>
@@ -32,21 +33,16 @@
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="5"></td></tr>
 					<tr>
-						<td align="right">
-							<a  href="index.html"><font size="5"><b>Home</b></font></a>
-							<a href="Index.html"><img src="Image/home.png" height="25" alt="home_icon"></a>
-							&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font>
-							<a href="about.php" ><font size="5"><b>About</b></font></a>
-							<a href="about.php"><img src="Image/about.png" height="25" alt="about_icon"></a>
-							&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font>
-							<a href="Contact.php"><font size="5"><b>Contact</b></font></a>
-							<a href="Contact.php"><img src="Image/contact.png" height="25" alt="contact_icon"></a>
-							&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font>
-							<a href="Login.php"><font size="5"><b>Login</b></font></a>
-							<a href="Login.php"><img src="Image/login.png" height="25" alt="login_icon"></a>
-							&nbsp;<font size="4"><b>|&nbsp;&nbsp;</b></font>
-							<a href="registration.php"><font size="5"><b>Sign Up</b></font></a>
-							<a href="registration.php"><img src="Image/signup.png" height="25" alt="signup_icon"></a>
+						<td align="right" id="top-menu">
+							<a  href="index.html"><font size="5"><b>HOME</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="about" target="_blank"><font size="5"><b>ABOUT</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="Contact" target="_blank"><font size="5"><b>CONTACT</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="Login" target="_blank"><font size="5"><b>LOGIN</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="registration" target="_blank"><font size="5"><b>SIGN UP</b></font></a>
 						</td>
 					</tr>
 					<tr><td height="5"></td></tr>
@@ -124,43 +120,72 @@
 								<tr>
 									<td width="20"></td>
 									<td align="center">
-										<img src="Image/product1.jpg" border="1" height="180" valign="top">
+										<div class="container">
+										  <img src="Image/product1.jpg" border="1" alt="Avatar" class="image">
+										  <div class="middle">
+										    <div class="text"><a href="#">See Details</a></div>
+										  </div>
+										</div>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
-										
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 									</td>
 									<td width="20"></td>
 									<td align="center">
-										<img src="Image/product2.png" border="1" height="180" valign="top">
+										<div class="container">
+										  <img src="Image/product2.png" border="1" alt="Avatar" class="image">
+										  <div class="middle">
+										    <div class="text"><a href="#">See Details</a></div>
+										  </div>
+										</div>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 									</td>
 									<td width="20"></td>
 									<td align="center">
-										<img src="Image/product3.png" border="1" height="180" valign="top">
+										<div class="container">
+										  <img src="Image/product3.png" border="1" alt="Avatar" class="image">
+										  <div class="middle">
+										    <div class="text"><a href="#">See Details</a></div>
+										  </div>
+										</div>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 									</td>
 								</tr>
 								<tr>
 									<td width="20"></td>
 									<td align="center">
-										<img src="Image/product1.jpg" border="1" height="180" valign="top">
+										<div class="container">
+										  <img src="Image/product1.jpg" border="1" alt="Avatar" class="image">
+										  <div class="middle">
+										    <div class="text"><a href="#">See Details</a></div>
+										  </div>
+										</div>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 										
 									</td>
 									<td width="20"></td>
 									<td align="center">
-										<img src="Image/product2.png" border="1" height="180" valign="top">
+										<div class="container">
+										  <img src="Image/product2.png" border="1" alt="Avatar" class="image">
+										  <div class="middle">
+										    <div class="text"><a href="#">See Details</a></div>
+										  </div>
+										</div>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 									</td>
 									<td width="20"></td>
 									<td align="center">
-										<img src="Image/product3.png" border="1" height="180" valign="top">
+										<div class="container">
+										  <img src="Image/product3.png" border="1" alt="Avatar" class="image">
+										  <div class="middle">
+										    <div class="text"><a href="#">See Details</a></div>
+										  </div>
+										</div>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart"></p>
+										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 									</td>
 								</tr>
 							</table>
@@ -195,10 +220,28 @@
 									<td height="5"></td>
 								</tr>
 							</table>
-							<font size="5" color="#f7f9f9">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  size="30" placeholder="  Your name"/><br/><br>
-								<font size="5" color="#f7f9f9">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  size="30" placeholder="  Your email"/><br/><br>
-								<font size="5" color="#f7f9f9">Message&nbsp;&nbsp;<input type="text" size="30"  placeholder="  Your Message"/><br/><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Send Message">
+							<table border="0" id="feedback">
+								<form action="publicopininon">
+									<tr>
+										<td><font size="5" color="#f7f9f9">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td><input type="text"  size="30" placeholder="  Your name"/></td>
+									</tr>
+									<tr><td height="10"></td></tr>
+									<tr>
+										<td><font size="5" color="#f7f9f9">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td><input type="text"  size="30" placeholder="  Your email"/></td>
+									</tr>
+									<tr><td height="10"></td></tr>
+									<tr>
+										<td valign="top"><font size="5" color="#f7f9f9">Message&nbsp;&nbsp;</td>
+										<td><textarea name="" id="" cols="30" rows="10"  placeholder="  Your Message"></textarea></td>
+									</tr>
+									<tr>
+										<td><font size="5" color="#f7f9f9"></td>
+										<td><input type="submit" id="smbtn" value="Send Message"></td>
+									</tr>
+								</form>
+							</table>
 						</td>
 						<td width="50`"></td>
 						<td align="left" valign="top">
@@ -231,5 +274,6 @@
 			</td>
 		</tr>
 	</table>
+<script type="text/javascript" src="js/hpst.js"></script>
 </body>
 </html>
