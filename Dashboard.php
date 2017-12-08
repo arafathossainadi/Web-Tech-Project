@@ -40,7 +40,7 @@
 			<td >
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr>
-						<td width="275" align="left" valign="top" bgcolor="#52be80">
+						<td width="280" align="left" valign="top" bgcolor="#52be80">
 							<table border="0" bgcolor="#52be80">
 								<tr><td height="10"></td></tr>
 								<tr>
