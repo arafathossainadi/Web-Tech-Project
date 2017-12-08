@@ -78,50 +78,57 @@
 									<td align="center">
 										<table border="1" align="center" cellpadding="10" width="100%" cellspacing="0">
 											<tr align="center">
-												<th colspan="9">
-													EMPLOYEE INFORMATION&nbsp;&nbsp;&nbsp;
-													<a href="employee_register.php">Create a New Employee Profile</a>
+												<th colspan="10">
+													ORDER DETAILS
 												</th>
 											</tr>
 											<tr align="center">
-												<td><b>Employee ID</b></td>
-												<td><b>Employee Name</b></td>
-												<td><b>Gender</b></td>
+												<td><b>Order ID</b></td>
+												<td><b>Product ID</b></td>
+												<td><b>Product Name</b></td>
+												<td><b>Customer Name</b></td>
 												<td><b>Phone No.</b></td>
 												<td><b>Email Address</b></td>
-												<td><b>Salary</b></td>
-												<td><b>Joining Date</b></td>
-												<td><b>Total Product Delivered</b></td>
+												<td><b>Address</b></td>
+												<td><b>Order Date</b></td>
+												<td><b>Quantity</b></td>
+												<td><b>Details</b></td>
 											</tr>
 											<tr align="center">
 												<td>1001</td>
+												<td>2001</td>
+												<td>Car-1-1</td>
 												<td>ABC XYZ</td>
-												<td>Male</td>
 												<td>0123456789</td>
 												<td>abc@gmail.com</td>
-												<td>20000</td>
+												<td>Dhaka</td>
 												<td>1/1/2017</td>
-												<td>4</td>
+												<td>2</td>
+												<td><a href="#">See Details</a></td>
 											</tr>
 											<tr align="center">
-												<td>1002</td>
+												<td>1001</td>
+												<td>2001</td>
+												<td>Car-1-1</td>
 												<td>ABC XYZ</td>
-												<td>Male</td>
 												<td>0123456789</td>
 												<td>abc@gmail.com</td>
-												<td>20000</td>
+												<td>Dhaka</td>
 												<td>1/1/2017</td>
-												<td>4</td>
+												<td>2</td>
+												<td><a href="#">See Details</a></td>
 											</tr>
 											<tr align="center">
-												<td>1003</td>
+												<td>1001</td>
+												<td>2001</td>
+												<td>Car-1-1</td>
 												<td>ABC XYZ</td>
-												<td>Male</td>
 												<td>0123456789</td>
 												<td>abc@gmail.com</td>
-												<td>20000</td>
+												<td>Dhaka</td>
 												<td>1/1/2017</td>
-												<td>4</td>
+												<td>2</td>
+												<td><a href="#">See Details</a></td>
 											</tr>
 										</table>
 									</td>
