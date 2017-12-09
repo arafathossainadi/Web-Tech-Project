@@ -45,7 +45,7 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td >
-										<a href="dashboard.php">
+										<a href="employeedashboard.php">
 											<button>
 												<img src="Image/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
