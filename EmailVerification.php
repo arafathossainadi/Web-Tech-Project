@@ -73,9 +73,11 @@
 															</button>
 														</td>
 														<td align="left">&nbsp;&nbsp;
+															<a href="resetpassword.php">
 															<button valign="right" align="right">
 																<font size="5">Submit</font>
 															</button>
+															</a>
 														</td>
 													</tr>
 												</table>

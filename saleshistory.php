@@ -45,7 +45,7 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td >
-										<a href="dashboard">
+										<a href="dashboard.php">
 											<button>
 												<img src="Image/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
@@ -57,60 +57,72 @@
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/vehicle.png" height="40">
-											<span >Vehicle<br>Information</span>
-										</button>
+										<a href="product_details.php">
+											<button>
+												<img src="Image/vehicle.png" height="40">
+												<span >Vehicle<br>Information</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/employee.png" height="40">
-											<span >Employee<br>Information</span>
-										</button>
+										<a href="employeeinfo.php">
+											<button>
+												<img src="Image/employee.png" height="40">
+												<span >Employee<br>Information</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/customerinfo.png" height="40">
-											<span >Customer<br>Information</span>
-										</button>
+										<a href="customerinfo.php">
+											<button>
+												<img src="Image/customerinfo.png" height="40">
+												<span >Customer<br>Information</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/chart.png" height="40">
-											<span >Sales<br>History</span>
-										</button>
+										<a href="saleshistory.php">
+											<button>
+												<img src="Image/chart.png" height="40">
+												<span >Sales<br>History</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/message.png" height="40">
-											<span class="dash">Messages</span>
-										</button>
+										<a href="message.php">
+											<button>
+												<img src="Image/message.png" height="40">
+												<span class="dash">Messages</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/profile.png" height="40">
-											<span class="dash">Edit Profile</span>
-										</button>
+										<a href="adminprofile.php">
+											<button>
+												<img src="Image/profile.png" height="40">
+												<span class="dash">Edit Profile</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
