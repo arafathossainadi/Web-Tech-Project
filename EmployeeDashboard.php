@@ -40,32 +40,37 @@
 			<td >
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr>
-						<td width="278" align="left" valign="top" bgcolor="#52be80">
-							<table border="0" bgcolor="#52be80">
+						<td width="150" align="left" valign="top" bgcolor="#52be80" class="addash">
+							<table border="0" bgcolor="#52be80" align="center">
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
-									<td  width="250">
-										<img src="Image/dashboard.png"/ height="30">
-										<a href="employeedashboard.php"><font size="5">Dashboard</font>
+									<td >
+										<a href="dashboard">
+											<button>
+												<img src="Image/dashboard.png" height="40">
+												<span class="dash">Dashboard</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/message.png"/ height="30">
-										<a href="employeeMessage.php"><font size="5">Messages</font>
-										
+										<button>
+											<img src="Image/message.png" height="40">
+											<span class="dash">Messages</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/profile.png"/ height="30">
-										<a href="EmployeeEditProfile.php"><font size="5">Edit Profile</font>
-										
+										<button>
+											<img src="Image/profile.png" height="40">
+											<span class="dash">Edit Profile</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
@@ -155,5 +160,6 @@
 			</td>
 		</tr>
 	</table>
+	<script src="js/emdashst.js"></script>
 </body>
 </html>

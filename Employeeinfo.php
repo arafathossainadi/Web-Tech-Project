@@ -6,7 +6,7 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
@@ -39,68 +39,77 @@
 		<tr bgcolor="#C0C0C0">
 			<td >
 				<table width="1170" align="center" border="0" cellspacing="0">
-					<tr>
-						<td width="278" align="left" valign="top" bgcolor="#52be80">
-							<table border="0" bgcolor="#52be80">
+					<td width="150" align="left" valign="top" bgcolor="#52be80" class="addash">
+							<table border="0" bgcolor="#52be80" align="center">
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
-									<td  width="250">
-										<img src="Image/dashboard.png"/ height="30">
-										<a href="dashboard.php"><font size="5">Dashboard</font>
+									<td >
+										<a href="dashboard">
+											<button>
+												<img src="Image/dashboard.png" height="40">
+												<span class="dash">Dashboard</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/vehicle.png"/ height="30">
-										<a href="allproductinfo.php"><font size="5">Vehicles Information</font>
-										
+										<button>
+											<img src="Image/vehicle.png" height="40">
+											<span >Vehicle<br>Information</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/employee.png"/ height="30">
-										<a href="employeeinfo.php"><font size="5">Employee Information</font>
-										
+										<button>
+											<img src="Image/employee.png" height="40">
+											<span >Employee<br>Information</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/customerinfo.png"/ height="30">
-										<a href="customerinfo.php"><font size="5">Customer Information</font>
-										
+										<button>
+											<img src="Image/customerinfo.png" height="40">
+											<span >Customer<br>Information</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/chart.png"/ height="30">
-										<a href="saleshistory.php"><font size="5">Sales History</font></a>
+										<button>
+											<img src="Image/chart.png" height="40">
+											<span >Sales<br>History</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/message.png"/ height="30">
-										<a href="message.php"><font size="5">Messages</font>
-										
+										<button>
+											<img src="Image/message.png" height="40">
+											<span class="dash">Messages</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td width="10"></td>
+									
 									<td >
-										<img src="Image/profile.png"/ height="30">
-										<a href="adminprofile.php"><font size="5">Edit Profile</font>
-										
+										<button>
+											<img src="Image/profile.png" height="40">
+											<span class="dash">Edit Profile</span>
+										</button>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
@@ -183,5 +192,6 @@
 			</td>
 		</tr>
 	</table>
+<script src="js/eminst.js"></script>
 </body>
 </html>
