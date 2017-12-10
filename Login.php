@@ -53,7 +53,6 @@
 										<td  align="center">
 											<fieldset>
 												<legend><font size="5"><b>LOGIN</b></font></legend>
-												<form action="">
 													<table>
 														<tr>
 															<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" id="username" placeholder="  Username" name="username" size="30" valign="center" required/><td>
@@ -70,18 +69,17 @@
 														</tr>
 														<tr>
 															<td align="left">
-																<a href="dashboard.php">
-																	<button type="submit" onsubmit="loginhandle();" id="smbtn" valign="center" align="right">
+																<!-- <a href="dashboard.php"> -->
+																	<button type="submit" onclick="loginhandle();" id="smbtn" valign="center" align="right">
 																		<font size="">login</font>
 																	</button>
-																</a>
+																<!-- </a> -->
 															</td>
 														</tr>
 														<tr>
 															<td><br><u>Not a member yet ?</u>&nbsp;&nbsp;<a href="registration.php">Sign Up</a></td>
 														</tr>
 													</table>
-												</form>
 											</fieldset>
 										</td>
 										<td width="300" align="right">
@@ -154,5 +152,6 @@
 			</tr>
 		</table>
 	<script src="js/logst.js"></script>
+	<script src="js/handler.js"></script>
 	</body>
 </html>

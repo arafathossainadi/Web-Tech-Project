@@ -16,8 +16,13 @@ $("#uploadimage").change(function() {
 });
 
 function loginhandle() {
-	var uname = document.getElementById('usename');
+	var uname = document.getElementById('username');
 	var pass = document.getElementById('password');
 
-	alert(uname.value);
+	if (uname.value == "admin") {
+		window.location = "./Dashboard.php";
+	}
+	else if(uname.value == "emp"){
+		window.location = "./EmployeeDashboard.php";
+	}
 }
