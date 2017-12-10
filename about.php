@@ -5,7 +5,7 @@
 		<link rel="icon" href="Image/logo.png">
 	</head>
 	<body>
-		<table width="100%" border="0" cellspacing="0" align="center">
+		<table width="100%"  border="0" cellspacing="0" align="center">
 			<tr bgcolor="#212121">
 				<td>
 					<table width="1170" align="center" border="0" cellspacing="0">
@@ -51,7 +51,7 @@
 											<tr>
 												<td>
 													<h1>About Us</h1>
-													<font size="5"><p align="justify">WEBO MOTORS is most growing online car shop, offering an flexible garage experience in Bangladesh. WEBO MOTORS hosts a wide range of SUVs, Sedans, Crossovers, Pickup Trucks, alongside a rapidly growing miscellany of car parts. WEBO MOTORS has the special focus on security of the customer's experience above all else. Excellent value-for-money, large assortment of original branded vehicles and parts, fast delivery and easy returns are WEBO MOTORS signatures.</p></font>
+													<font size="5"><p align="justify">WEBO MOTORS is most growing online car shop, offering an flexible showroom experience in Bangladesh. WEBO MOTORS hosts a wide range of SUVs, Sedans, Crossovers, Pickup Trucks, alongside a rapidly growing miscellany of car parts. WEBO MOTORS has the special focus on security of the customer's experience above all else. Excellent value-for-money, large assortment of original branded vehicles and parts, fast delivery and easy returns are WEBO MOTORS signatures.</p></font>
 												</td>
 											</tr>
 										</table>
@@ -103,13 +103,14 @@
 					</table>
 				</td>
 			</tr>
-			<tr bgcolor="black" height="50" >
+			<tr bgcolor="#212121" height="50" >
 				<td>
 					<table width="1170" align="center">
 						<td colspan="2">
-							<table border="0">
+							<table border="0" align="center">
 								<tr>
-									<td  width="800"  align="center" valign="center"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright©2017</td>
+									<td width="300"></td>
+									<td  width="600"  align="center" valign="center"><font color="white">Copyright©2017</td>
 									<td  width="300" align="center" valign="center"><font color="white">Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</td>
 								</tr>
 							</table>

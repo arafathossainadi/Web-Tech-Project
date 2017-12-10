@@ -116,6 +116,7 @@ newStyle.appendChild(document.createTextNode("\
 }\
 #atc:hover{\
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
+	cursor: pointer;\
 }\
 #feedback input{\
 	height: 25px;\
@@ -137,6 +138,7 @@ newStyle.appendChild(document.createTextNode("\
 }\
 #smbtn:hover{\
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
+	cursor: pointer;\
 }\
 "));
 document.head.appendChild(newStyle);

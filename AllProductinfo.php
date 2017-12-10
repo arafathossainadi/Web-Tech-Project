@@ -6,7 +6,7 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
@@ -26,9 +26,10 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<font size="5">Log Out
-									<image src="Image/logout.jpg" height="25" alt="icon"/>
-								</font>
+								<a href="login.php" id="logout">
+									<font size="5">Logout</font>
+									<image src="Image/logout.png" height="25" alt="icon"/>
+								</a>
 							</td>
 						</td>
 					</tr>
@@ -201,11 +202,11 @@
 											</select>
 											<input type="text" placeholder="Search here"/>
 											<input type="submit" value="Search"/>
-											<a href="addnewproduct.php">Add New Product</a>
+											<a href="addnewproduct.php">Add New Stuff</a>
 										</td>
 									</tr>
 									<tr align="center">
-										<th><b>Product ID</b></th>
+										<th><b>Stuff ID</b></th>
 										<th><b>Car Name/Model No.</b></th>
 										<th><b>Category</b></th>
 										<th><b>Brand</b></th>
@@ -238,15 +239,18 @@
 				</table>
 			</td>
 		</tr>
-		<tr>
-			<td bgcolor="black">
-				<table width="1170" align="center" border="0" cellspacing="0">
-					<tr><td height="10"></td></tr>
-					<tr>
-						<td colspan="2" align="center" valign="center"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright©2017</td>
-						<td align="center" valign="center" width="300"><font color="white">Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</td>
-					</tr>
-					<tr><td height="10"></td></tr>
+		<tr bgcolor="#212121" height="50" >
+			<td>
+				<table width="1170" align="center">
+					<td colspan="2">
+						<table border="0" align="center">
+							<tr>
+								<td width="300"></td>
+								<td  width="600"  align="center" valign="center"><font color="white">Copyright©2017</td>
+								<td  width="300" align="center" valign="center"><font color="white">Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</td>
+							</tr>
+						</table>
+					</td>
 				</table>
 			</td>
 		</tr>

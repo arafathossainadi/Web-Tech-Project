@@ -7,7 +7,7 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
@@ -27,9 +27,10 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<font size="5">Log Out
-									<image src="Image/logout.jpg" height="25" alt="icon"/>
-								</font>
+								<a href="login.php" id="logout">
+									<font size="5">Logout</font>
+									<image src="Image/logout.png" height="25" alt="icon"/>
+								</a>
 							</td>
 						</td>
 					</tr>
@@ -130,47 +131,42 @@
 							</table>
 						</td> 
 						<td width="10" bgcolor="D7DBDD"></td>
-						<td valign="top" bgcolor="D7DBDD" align="center">
-							<table>
+						<td valign="center" bgcolor="D7DBDD" align="center">
+							<table border="0">
 								<tr>
-									<td>
-										<table>
-											<tr>
-												<td height="20"></td>
-											</tr>
-										</table>
-										<font size="5">
-											<table align="left">
+									<td valign="center">
+										<font size="4">
+											<table align="left" border="0">
 												<tr>
 													<td>
 														<fieldset>
 														<legend align="center"><font size="5"><b>Edit Profile</b></font></legend>
-															<table border="0">
+															<table border="0 class="smbtn"" cellpadding="5">
 																<tr>
-																	<td align="right"><b>Contact Number</b></td>
-																	<td>&nbsp;<input type="text"/></td>
+																	<td align="left"><b>Contact Number:</b></td>
+																	<td><input type="text"/></td>
 																</tr>
 																<tr>
-																	<td align="right"><b>Email</b></td>
-																	<td>&nbsp;<input type="text"/></td>
+																	<td align="left"><b>Email:</b></td>
+																	<td><input type="text"/></td>
 																</tr>
 																<tr>
-																	<td align="right"><b>Password</b></td>
-																	<td>&nbsp;<input type="text"/></td>
+																	<td align="left"><b>Password:</b></td>
+																	<td><input type="text"/></td>
 																</tr>
 																<tr>
-																	<td align="right"><b>Confirm Password</b></td>
-																	<td>&nbsp;<input type="text"/></td>
+																	<td align="left"><b>Confirm Password:</b></td>
+																	<td><input type="text"/></td>
 																</tr>
 																<tr>
 																	<td colspan="3"><hr/></td>
 																</tr>
 																<tr>
 																	<td align="right">
-																		<input type="submit" value="Cancel"/>
+																		<input type="submit" value="Cancel" class="smbtn"/>
 																	</td>
 																	<td align="left">
-																		&nbsp;&nbsp;<input type="submit" value="SAVE"/>
+																		<input type="submit" value="SAVE" class="smbtn"/>
 																	</td>
 															</table>
 														</fieldset>
@@ -191,15 +187,18 @@
 				</table>
 			</td>
 		</tr>
-		<tr>
-			<td bgcolor="black">
-				<table width="1170" align="center" border="0" cellspacing="0">
-					<tr><td height="10"></td></tr>
-					<tr>
-						<td colspan="2" align="center" valign="center"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright©2017</td>
-						<td align="center" valign="center" width="300"><font color="white">Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</td>
-					</tr>
-					<tr><td height="10"></td></tr>
+		<tr bgcolor="#212121" height="50" >
+			<td>
+				<table width="1170" align="center">
+					<td colspan="2">
+						<table border="0" align="center">
+							<tr>
+								<td width="300"></td>
+								<td  width="600"  align="center" valign="center"><font color="white">Copyright©2017</td>
+								<td  width="300" align="center" valign="center"><font color="white">Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</td>
+							</tr>
+						</table>
+					</td>
 				</table>
 			</td>
 		</tr>

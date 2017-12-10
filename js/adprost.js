@@ -6,6 +6,7 @@ newStyle.appendChild(document.createTextNode("\
 }\
 *{\
 	font-family: lr;\
+	text-decoration: none;\
 }\
 .addash button{\
 	position:relative;\
@@ -34,6 +35,36 @@ newStyle.appendChild(document.createTextNode("\
 	left: 54px;\
 	position: absolute;\
 	font-size: 17px;\
+}\
+.smbtn{\
+	height: 31px !important;\
+	border: none;\
+	border-radius: 3px;\
+	width: 95px;\
+	background-color: #E41E26;\
+	color: #D2D2D2;\
+	transition: all  0.2s ease-in-out 0s;\
+}\
+.smbtn:hover{\
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
+	cursor: pointer;\
+}\
+#logout{\
+	position: relative;\
+	bottom : 1px;\
+	color: #212121;\
+	padding: 9px;\
+	padding-bottom: 5px;\
+	transition: all  0.2s ease-in-out 0s\
+}\
+#logout:hover{\
+	background-color: #D7DBDD;\
+	border-radius: 45px;\
+}\
+#logout img{\
+	position: relative;\
+	top: 4px;\
+	left: 3px;\
 }\
 "));
 document.head.appendChild(newStyle);

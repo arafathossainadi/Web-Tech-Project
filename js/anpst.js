@@ -35,5 +35,32 @@ newStyle.appendChild(document.createTextNode("\
 	position: absolute;\
 	font-size: 17px;\
 }\
+#anc select{\
+	width: 156px;\
+}\
+#anc textarea{\
+	width: 151px;\
+	resize: none;\
+}\
+#color{\
+	width: 150px;\
+}\
+#ancdet{\
+	margin: 0 auto;\
+	width: 330px;\
+}\
+#smbtn{\
+	height: 31px !important;\
+	border: none;\
+	border-radius: 3px;\
+	width: 95px;\
+	background-color: #E41E26;\
+	color: #D2D2D2;\
+	transition: all  0.2s ease-in-out 0s;\
+}\
+#smbtn:hover{\
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
+	cursor: pointer;\
+}\
 "));
 document.head.appendChild(newStyle);
