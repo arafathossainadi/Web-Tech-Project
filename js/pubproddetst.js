@@ -36,21 +36,25 @@ newStyle.appendChild(document.createTextNode("\
 	  -webkit-transform: scaleX(0.9);\
 	  transform: scaleX(0.9);\
 }\
-.smbtn{\
-	height: 31px !important;\
+#schct input{\
+	height: 25px;\
+}\
+#schct input::placeholder{\
+	color:#E41E26;\
+}\
+#schct button{\
+	height: 31px;\
 	border: none;\
 	border-radius: 3px;\
-	width: 60px !important;\
-	margin-right: 10px;\
+	width: 85px;\
 	background-color: #E41E26;\
 	color: #D2D2D2;\
 	transition: all  0.2s ease-in-out 0s;\
 }\
-.smbtn:hover{\
-	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
-}\
-#reginfo input{\
-	width: 176px\
+#schct button:hover{\
+	background-color: #D2D2D2;\
+	color: #E41E26;\
+	cursor: pointer;\
 }\
 "));
 document.head.appendChild(newStyle);

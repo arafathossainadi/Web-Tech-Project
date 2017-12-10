@@ -26,13 +26,13 @@
 							<td align="right" id="top-menu">
 								<a  href="index.html"><font size="5"><b>HOME</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="about.php" target="_blank"><font size="5"><b>ABOUT</b></font></a>
+								<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Contact.php" target="_blank"><font size="5"><b>CONTACT</b></font></a>
+								<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Login.php" target="_blank"><font size="5"><b>LOGIN</b></font></a>
+								<a href="Login.php" ><font size="5"><b>LOGIN</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="registration.php" target="_blank"><font size="5"><b>SIGN UP</b></font></a>
+								<a href="registration.php" ><font size="5"><b>SIGN UP</b></font></a>
 							</td>
 						</tr>
 						<tr><td height="5"></td></tr>
@@ -156,8 +156,8 @@
 														</tr>
 													</table>
 													<hr>
-													<a href="login.php"><input type="submit"></a>
-													<a href="login.php"><input type="Reset" value="Reset"></a>
+													<a href="login.php"><input type="submit" class="smbtn"></a>
+													<a href="login.php"><input type="Reset" value="Reset" class="smbtn"></a>
 												</form>
 											</fieldset>
 										</td>

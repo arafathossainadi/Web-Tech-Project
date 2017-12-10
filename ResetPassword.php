@@ -73,12 +73,12 @@
 												<table align="center">
 													<tr>
 														<td align="center">
-															<button valign="right" align="right">
+															<button valign="right" align="right" class="smbtn">
 																<font size="5">Cancel</font>
 															</button>
 														</td>
 														<td align="left">&nbsp;&nbsp;
-															<button valign="right" align="right">
+															<button valign="right" align="right" class="smbtn">
 																<font size="5">Submit</font>
 															</button>
 														</td>

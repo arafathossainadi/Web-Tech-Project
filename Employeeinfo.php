@@ -26,9 +26,10 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<font size="5">Log Out
-									<image src="Image/logout.jpg" height="25" alt="icon"/>
-								</font>
+								<a href="login.php" id="logout">
+									<font size="5">Logout</font>
+									<image src="Image/logout.png" height="25" alt="icon"/>
+								</a>
 							</td>
 						</td>
 					</tr>
@@ -136,7 +137,7 @@
 											<tr align="center">
 												<th colspan="9">
 													EMPLOYEE INFORMATION&nbsp;&nbsp;&nbsp;
-													<a href="employee_register.php">Create a New Employee Profile</a>
+													<a href="employee_register.html">Create a New Employee Profile</a>
 												</th>
 											</tr>
 											<tr align="center">

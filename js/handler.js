@@ -14,3 +14,10 @@ function readURL(input) {
 $("#uploadimage").change(function() {
   readURL(this);
 });
+
+function loginhandle() {
+	var uname = document.getElementById('usename');
+	var pass = document.getElementById('password');
+
+	alert(uname.value);
+}

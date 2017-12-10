@@ -10,27 +10,39 @@
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
-					<tr>
+					<tr id="schct">
 						<td width="25"></td>
 						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-						<td align="right"><font size="10" color="white">ADMIN PANEL</font></td>
+						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
+						<td width="7"></td>
+						<td width="50">
+							<a href="#"><button valign="center" align="left">
+									<font size="4">Search</font>
+								</button>
+							</a>
+						</td>
+						<td width="10"></td>
+						<td><a href="#" ><img src="Image/cart.png" height="40" alt="cart_icon"></a></td>
 					</tr>
 					<tr><td height="10"></td></tr>
 				</table>
 			</td>
 		</tr>
-		<tr bgcolor="8DCAA1">
+		<tr bgcolor="#d1f2eb">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="5"></td></tr>
 					<tr>
-						<td align="right">
-							<td align="right" valign="center">&nbsp;
-								<a href="login.php" id="logout">
-									<font size="5">Logout</font>
-									<image src="Image/logout.png" height="25" alt="icon"/>
-								</a>
-							</td>
+						<td align="right" id="top-menu">
+							<a  href="index.html"><font size="5"><b>HOME</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="Login.php" ><font size="5"><b>LOGIN</b></font></a>
+							<font>&nbsp;&nbsp;</font>
+							<a href="registration.php" ><font size="5"><b>SIGN UP</b></font></a>
 						</td>
 					</tr>
 					<tr><td height="5"></td></tr>
@@ -39,96 +51,8 @@
 		</tr>
 		<tr bgcolor="#C0C0C0">
 			<td>
-				<table width="1170" align="center" border="0" cellspacing="0">
+				<table width="100%" align="center" border="0" cellspacing="0">
 					<tr>
-						<td width="180" align="left" valign="top" bgcolor="#52be80" class="addash">
-							<table border="0" bgcolor="#52be80" align="center">
-								<tr><td height="10"></td></tr>
-								<tr>
-									<td >
-										<a href="dashboard.php">
-											<button>
-												<img src="Image/dashboard.png" height="40">
-												<span class="dash">Dashboard</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-								<tr>
-									
-									<td >
-										<a href="product_details.php">
-											<button>
-												<img src="Image/vehicle.png" height="40">
-												<span >Vehicle<br>Information</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-								<tr>
-									
-									<td >
-										<a href="employeeinfo.php">
-											<button>
-												<img src="Image/employee.png" height="40">
-												<span >Employee<br>Information</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-								<tr>
-									
-									<td >
-										<a href="customerinfo.php">
-											<button>
-												<img src="Image/customerinfo.png" height="40">
-												<span >Customer<br>Information</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-								<tr>
-									
-									<td >
-										<a href="saleshistory.php">
-											<button>
-												<img src="Image/chart.png" height="40">
-												<span >Sales<br>History</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-								<tr>
-									
-									<td >
-										<a href="message.php">
-											<button>
-												<img src="Image/message.png" height="40">
-												<span class="dash">Messages</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-								<tr>
-									
-									<td >
-										<a href="adminprofile.php">
-											<button>
-												<img src="Image/profile.png" height="40">
-												<span class="dash">Edit Profile</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-								<tr><td height="10"></td></tr>
-							</table>
-						</td> 
 						<td valign="center" bgcolor="D7DBDD">
 							<table border="0" width="800" align="center">
 								<tr>
@@ -162,7 +86,7 @@
 													<font size="5">
 														<table align="left" border="0" cellpadding="5">
 															<tr>
-																<td width="230px" align="left" valign="top"><b>Name</b></td>
+																<td width="170px" align="left" valign="top"><b>Name</b></td>
 																<td valign="top">:</td>
 																<td align="left" valign="top">Harrier</td>
 															</tr>
@@ -202,7 +126,6 @@
 						</td>
 					</tr>
 					<tr>
-						<td bgcolor="52be80"></td>
 						<td  bgcolor="D7DBDD" align="center" colspan="3">
 							<table border="0">
 								<tr>
@@ -230,6 +153,6 @@
 			</td>
 		</tr>
 	</table>
-<script src="js/proddetst.js"></script>
+<script src="js/pubproddetst.js"></script>
 </body>
 </html>

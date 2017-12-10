@@ -40,7 +40,7 @@ newStyle.appendChild(document.createTextNode("\
 	height: 31px !important;\
 	border: none;\
 	border-radius: 3px;\
-	width: 95px !important;\
+	width: 65px !important;\
 	background-color: #E41E26;\
 	color: #D2D2D2;\
 	transition: all  0.2s ease-in-out 0s;\

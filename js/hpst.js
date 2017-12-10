@@ -54,6 +54,7 @@ newStyle.appendChild(document.createTextNode("\
 #schct button:hover{\
 	background-color: #D2D2D2;\
 	color: #E41E26;\
+	cursor: pointer;\
 }\
 .container {\
     position: relative;\
