@@ -6,7 +6,7 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
@@ -26,9 +26,10 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<font size="5">Log Out
-									<image src="Image/logout.jpg" height="25" alt="icon"/>
-								</font>
+								<a href="login.php" id="logout">
+									<font size="5">Logout</font>
+									<image src="Image/logout.png" height="25" alt="icon"/>
+								</a>
 							</td>
 						</td>
 					</tr>
@@ -128,9 +129,26 @@
 								<tr><td height="10"></td></tr>
 							</table>
 						</td> 
-						<td width="10" bgcolor="D7DBDD"></td>
-						<td valign="top" bgcolor="D7DBDD">
-							<table>
+						<td valign="center" bgcolor="D7DBDD">
+							<table border="0" width="800" align="center">
+								<tr>
+									<td valign="top" bgcolor="D7DBDD" align="center">
+										<table>
+											<tr>
+												<td height="50"></td>
+											</tr>
+										</table>
+										<table width="500" align="center">
+											<tr>
+												<td>
+													<fieldset>
+														<img src="image/cars.png" alt="car Image" width="500"><br/><br><br>
+													</fieldset>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
 								<tr>
 									<td>
 										<table border="0">
@@ -142,36 +160,36 @@
 														</tr>
 													</table>
 													<font size="5">
-														<table align="left" border="0">
+														<table align="left" border="0" cellpadding="5">
 															<tr>
-																<td><font size="5"><b><u>Full Specification</u></b></font></td>
+																<td width="230px" align="left" valign="top"><b>Name</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">Harrier</td>
 															</tr>
 															<tr>
-																<td>&nbsp;&nbsp;</td>
+																<td align="left" valign="top"><b>Category</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">SUV</td>
 															</tr>
 															<tr>
-																<td align="right"><b>Car Name/Model No. :</b></td>
-																<td align="center">ABCD</td>
+																<td align="left" valign="top"><b>Brand</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">Toyota</td>
 															</tr>
 															<tr>
-																<td align="right"><b>Category :</b></td>
-																<td align="center"></td>
+																<td align="left" valign="top"><b>Features</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ipsa, porro nisi eveniet rem libero quo possimus, voluptate minus est necessitatibus numquam, aliquid praesentium quasi cum officia quibusdam enim neque.</td>
 															</tr>
 															<tr>
-																<td align="right"><b>Brand :</b></td>
-																<td align="center"></td>
+																<td align="left" valign="top"><b>Available Colors</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">WHITE, BLACK</td>
 															</tr>
 															<tr>
-																<td align="right"><b>Features :</b></td>
-																<td align="center"></td>
-															</tr>
-															<tr>
-																<td align="right"><b>Available Colors :</b></td>
-																<td align="center"></td>
-															</tr>
-															<tr>
-																<td align="right"><b>Price :</b></td>
-																<td align="center"></td>
+																<td align="left" valign="top"><b>Price</b></td>
+																<td align="left" valign="top">: </td>
+																<td>$54854884</td>
 															</tr>
 														</table>
 													</font>
@@ -182,21 +200,25 @@
 								</tr>
 							</table>
 						</td>
-						<td valign="center" bgcolor="D7DBDD" align="center">
-							<img src="image/cars.png" alt="car Image" width="500"><br/><br><br>
-							<input type="submit" value="Change Image"/>
-						</td>
 					</tr>
 					<tr>
 						<td bgcolor="52be80"></td>
-						<td bgcolor="D7DBDD" align="center" colspan="3">
-							<font size="5">
-								Are you sure, you want to delete this ?
-							</font>
-							<br><br>
-							<input type="submit" name="" id="" value="YES">
-							&nbsp;&nbsp;
-							<input type="submit" name="" id="" value="NO">
+						<td  bgcolor="D7DBDD" align="center" colspan="3">
+							<table width="500px" align="center">
+								<tr>
+									<td align="center">
+										<fieldset>
+											<font size="5">
+												Are you sure, you want to delete this ?
+											</font>
+											<br><br>
+											<input type="submit" class="smbtn" value="YES">
+											&nbsp;&nbsp;
+											<input type="submit" class="smbtn" value="NO">
+										</fieldset>
+									</td>
+								</tr>
+							</table>
 							<table border="0">
 								<tr>
 									<td height="20"></td>

@@ -3,10 +3,11 @@
 <head>
 	<title>ADMIN</title>
 	<link rel="icon" href="Image/logo.png">
+	<script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
@@ -26,9 +27,10 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<font size="5">Log Out
-									<image src="Image/logout.jpg" height="25" alt="icon"/>
-								</font>
+								<a href="login.php" id="logout">
+									<font size="5">Logout</font>
+									<image src="Image/logout.png" height="25" alt="icon"/>
+								</a>
 							</td>
 						</td>
 					</tr>
@@ -138,80 +140,101 @@
 												<td height="20"></td>
 											</tr>
 										</table>
-										<font size="5">
+										<font size="3">
 											<table align="left">
 												<tr>
 													<td>
 														<fieldset>
-															<legend align="center"><font size="5"><b>Edit Car Details</b></font></legend>
-															<table border="0">
-																<td align="center" colspan="2">
-																	<img src="image/cars.png" alt="car Image" width="700"><br/>
-																	<input type="submit" value="Change Image"/>
-																</td>
+															<legend align="center"><font size="5"><b>Edit Details</b></font></legend>
+															<table border="0" id="anc">
 																<tr>
-																	<td align="right"><b>Model No./ Car Name</b></td>
-																	<td>&nbsp;<input type="text"/></td>
-																</tr>
-																<tr>
-																	<td align="right"><b>Category</b></td>
 																	<td>
-																		&nbsp;
-																		<select>
-																		<option value="SUV">SUV</option>
-																		<option value="SEDAN">SEDAN</option>
-																		<option value="CROSSOVER">CROSSOVER</option>
-																		<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-																		<option value="PARTS">VEHICLE PARTS</option>
-																	</select>
+																		<table>
+																			<tr>
+																				<td align="center" colspan="2">
+																					<img src="image/cars.png" alt="car Image" width="700" id="empp"><br/>
+																					<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
+																					<input type="file" style="display:none;" id="uploadimage" name="file">
+																				</td>
+																			</tr>
+																		</table>
 																	</td>
 																</tr>
 																<tr>
-																	<td align="right">&nbsp;<b>Brand</b></td>
 																	<td>
-																		&nbsp;<select>
-																		<option value="TOYOTA">TOYOTA</option>
-																		<option value="NISSAN">NISSAN</option>
-																		<option value="MITSUBISHI">MITSUBISHI</option>
-																		<option value="MERCEDES">MERCEDES</option>
-																		<option value="PORCHE">PORCHE</option>
-																	</select>
-																	</td>
-																</tr>
-																<tr>
-																	<td valign="top" align="right"><b>Fetures</b></td>
-																	<td>
-																		&nbsp;<textarea name=""  cols="40" rows="10"></textarea>
-																	</td>
-																</tr>
-																<tr>
-																	<td align="right"><b>Colors</b></td>
-																	<td valign="top">
-																		&nbsp;<input type="checkbox">RED
-																		 <input type="checkbox">Black
-																		 <input type="checkbox">Silver
-																	</td>
-																</tr>
-																<tr>
-																	<td align="right"><b>Price</b></td>
-																	<td>
-																		&nbsp;<input type="text"/>
-																	</td>
-																</tr>
-																<tr>
-																	<td align="right"><b>In Stock</b></td>
-																	<td>
-																		&nbsp;<input type="text"/>
-																	</td>
-																</tr>
-																<tr>
-																	<td colspan="3"><hr/></td>
-																</tr>
-																<tr>
-																	
-																	<td>&nbsp;&nbsp;</td>
-																	<td align="left">
-																		<input type="submit" value="SAVE"/>
+																		<fieldset id="ancdet">
+																			<table border="0" align="center">
+																				<tr><td height="10"></td></tr>
+																				<tr>
+																					<td align="left"><b>Name:</b></td>
+																					<td><input type="text"/></td>
+																				</tr>
+																				<tr><td height="5"></td></tr>
+																				<tr>
+																					<td align="left"><b>Category:</b></td>
+																					<td>
+																						<select>
+																							<option value="SUV">SUV</option>
+																							<option value="SEDAN">SEDAN</option>
+																							<option value="CROSSOVER">CROSSOVER</option>
+																							<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
+																							<option value="PARTS">VEHICLE PARTS</option>
+																						</select>
+																					</td>
+																				</tr>
+																				<tr><td height="5"></td></tr>
+																				<tr>
+																					<td align="left"><b>Brand:</b></td>
+																					<td>
+																						<select>
+																							<option value="TOYOTA">TOYOTA</option>
+																							<option value="NISSAN">NISSAN</option>
+																							<option value="MITSUBISHI">MITSUBISHI</option>
+																							<option value="MERCEDES">MERCEDES</option>
+																							<option value="PORCHE">PORCHE</option>
+																						</select>
+																					</td>
+																				</tr>
+																				<tr><td height="5"></td></tr>
+																				<tr>
+																					<td align="left"><b>Colors:</b></td>
+																					<td valign="top">
+																						<input type="color" id="color">
+																					</td>
+																				</tr>
+																				<tr><td height="5"></td></tr>
+																				<tr>
+																					<td align="left"><b>Price:</b></td>
+																					<td>
+																						<input type="text"/>
+																					</td>
+																				</tr>
+																				<tr><td height="5"></td></tr>
+																				<tr>
+																					<td align="left"><b>In Stock:</b></td>
+																					<td>
+																						<input type="text"/>
+																					</td>
+																				</tr>
+																				<tr><td height="5"></td></tr>
+																				<tr>
+																					<td valign="top" align="left"><b>Features:</b></td>
+																					<td>
+																						<textarea name=""  cols="40" rows="10"></textarea>
+																					</td>
+																				</tr>
+																				<tr>
+																					<td colspan="3"><hr/></td>
+																				</tr>
+																				<tr>
+																					
+																					<td></td>
+																					<td align="left">
+																						<input type="submit" value="SAVE" id="smbtn" />
+																					</td>
+																				</tr>
+																			</table>
+																		</fieldset>
 																	</td>
 																</tr>
 															</table>
@@ -249,6 +272,7 @@
 			</td>
 		</tr>
 	</table>
+<script src="js/handler.js"></script>
 <script src="js/edprodst.js"></script>
 </body>
 </html>

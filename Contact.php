@@ -76,7 +76,7 @@
 										<td>
 											<br>
 											<b>Message</b><br/>
-											<textarea name=""  cols="38" rows="10" placeholder=" Your Message"></textarea>
+											<textarea name=""  cols="38" rows="10" placeholder="  Your Message"></textarea>
 										</td>
 									</tr>
 									<tr>

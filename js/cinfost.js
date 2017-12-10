@@ -35,5 +35,24 @@ newStyle.appendChild(document.createTextNode("\
 	position: absolute;\
 	font-size: 17px;\
 }\
+#logout{\
+	text-decoration: none;\
+	position: relative;\
+	bottom : 1px;\
+	color: #212121;\
+	padding: 9px;\
+	padding-bottom: 5px;\
+	transition: all  0.2s ease-in-out 0s\
+}\
+#logout:hover{\
+	cursor: pointer;\
+	background-color: #D7DBDD;\
+	border-radius: 45px;\
+}\
+#logout img{\
+	position: relative;\
+	top: 4px;\
+	left: 3px;\
+}\
 "));
 document.head.appendChild(newStyle);

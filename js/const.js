@@ -54,6 +54,7 @@ newStyle.appendChild(document.createTextNode("\
 }\
 #opi input{\
  	width: 250px;\
+ 	height: 25px;\
 }\
 "));
 document.head.appendChild(newStyle);

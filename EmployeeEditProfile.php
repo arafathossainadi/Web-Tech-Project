@@ -3,6 +3,7 @@
 <head>
 	<title>EMPLOYEE</title>
 	<link rel="icon" href="Image/logo.png">
+	<script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -84,7 +85,7 @@
 										<table>
 											<tr>
 												<td>
-													<fieldset>
+												<fieldset>
 												<legend><h3>EDIT PROFILE</h3></legend>
 												<form action="regHandle.php">
 													<table border="0">
@@ -192,7 +193,7 @@
 													<input type="Reset" value="Reset">
 													<input type="submit">
 												</form>
-											</fieldset>
+												</fieldset>
 												</td>
 											</tr>
 										</table>
@@ -223,6 +224,7 @@
 			</td>
 		</tr>
 	</table>
+	<script src="js/handler.js"></script>
 	<script src="js/emedst.js"></script>
 </body>
 </html>

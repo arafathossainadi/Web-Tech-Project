@@ -62,5 +62,24 @@ newStyle.appendChild(document.createTextNode("\
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
 	cursor: pointer;\
 }\
+#logout{\
+	text-decoration: none;\
+	position: relative;\
+	bottom : 1px;\
+	color: #212121;\
+	padding: 9px;\
+	padding-bottom: 5px;\
+	transition: all  0.2s ease-in-out 0s\
+}\
+#logout:hover{\
+	background-color: #D7DBDD;\
+	border-radius: 45px;\
+	cursor: pointer;\
+}\
+#logout img{\
+	position: relative;\
+	top: 4px;\
+	left: 3px;\
+}\
 "));
 document.head.appendChild(newStyle);

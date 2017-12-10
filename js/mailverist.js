@@ -45,7 +45,7 @@ newStyle.appendChild(document.createTextNode("\
 	width: 217px;\
 	margin-top: 7px;\
 }\
-#smbtn{\
+.smbtn{\
 	height: 31px !important;\
 	border: none;\
 	border-radius: 3px;\
@@ -54,7 +54,7 @@ newStyle.appendChild(document.createTextNode("\
 	color: #D2D2D2;\
 	transition: all  0.2s ease-in-out 0s;\
 }\
-#smbtn:hover{\
+.smbtn:hover{\
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
 }\
 "));

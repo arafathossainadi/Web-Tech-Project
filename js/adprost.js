@@ -6,7 +6,6 @@ newStyle.appendChild(document.createTextNode("\
 }\
 *{\
 	font-family: lr;\
-	text-decoration: none;\
 }\
 .addash button{\
 	position:relative;\
@@ -50,6 +49,7 @@ newStyle.appendChild(document.createTextNode("\
 	cursor: pointer;\
 }\
 #logout{\
+	text-decoration: none;\
 	position: relative;\
 	bottom : 1px;\
 	color: #212121;\
@@ -60,6 +60,7 @@ newStyle.appendChild(document.createTextNode("\
 #logout:hover{\
 	background-color: #D7DBDD;\
 	border-radius: 45px;\
+	cursor: pointer;\
 }\
 #logout img{\
 	position: relative;\

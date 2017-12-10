@@ -6,7 +6,7 @@
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
-		<tr bgcolor="black">
+		<tr bgcolor="#212121">
 			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="10"></td></tr>
@@ -26,9 +26,10 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<font size="5">Log Out
-									<image src="Image/logout.jpg" height="25" alt="icon"/>
-								</font>
+								<a href="login.php" id="logout">
+									<font size="5">Logout</font>
+									<image src="Image/logout.png" height="25" alt="icon"/>
+								</a>
 							</td>
 						</td>
 					</tr>
