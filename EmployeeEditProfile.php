@@ -47,7 +47,7 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td >
-										<a href="dashboard">
+										<a href="employeedashboard.php">
 											<button>
 												<img src="Image/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
@@ -59,20 +59,22 @@
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/message.png" height="40">
-											<span class="dash">Messages</span>
-										</button>
+										<a href="employeemessage.php"><button>
+												<img src="Image/message.png" height="40">
+												<span class="dash">Messages</span>
+											</button></a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
 									
 									<td >
-										<button>
-											<img src="Image/profile.png" height="40">
-											<span class="dash">Edit Profile</span>
-										</button>
+										<a href="employeeeditprofile.php">
+											<button>
+												<img src="Image/profile.png" height="40">
+												<span class="dash">Edit Profile</span>
+											</button>
+										</a>
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>

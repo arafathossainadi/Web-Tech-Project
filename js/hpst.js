@@ -6,6 +6,7 @@ newStyle.appendChild(document.createTextNode("\
 }\
 *{\
 	font-family: lr;\
+	text-decoration: none;\
 }\
 #top-menu > a{\
 	position: relative;\
@@ -89,6 +90,7 @@ newStyle.appendChild(document.createTextNode("\
 \
 .text {\
   background-color: #D2D2D2;\
+  color: #E41E26;\
   border-radius: 5px;\
   width:80px;\
   font-size: 16px;\
@@ -102,6 +104,7 @@ newStyle.appendChild(document.createTextNode("\
 }\
 .text:hover {\
   background-color: #E41E26;\
+  color: #D2D2D2;\
 }\
  .text:hover a {\
   color: #D2D2D2;\

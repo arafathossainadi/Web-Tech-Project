@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>ADMIN</title>
+	<title>Details</title>
 	<link rel="icon" href="Image/logo.png">
 </head>
 <body>

@@ -58,10 +58,10 @@
 								<tr>
 									
 									<td >
-										<a href="product_details.php">
+										<a href="AllProductinfo.php">
 											<button>
 												<img src="Image/vehicle.png" height="40">
-												<span >Vehicle<br>Information</span>
+												<span >All Stuff<br>Information</span>
 											</button>
 										</a>
 									</td>
@@ -207,7 +207,7 @@
 									</tr>
 									<tr align="center">
 										<th><b>Stuff ID</b></th>
-										<th><b>Car Name/Model No.</b></th>
+										<th><b>Name/Model No.</b></th>
 										<th><b>Category</b></th>
 										<th><b>Brand</b></th>
 										<th><b>Price</b></th>
@@ -224,7 +224,7 @@
 										<td>$50000</td>
 										<td align="center">3</td>
 										<td><a href="product_details.php">See Details</a></td>
-										<td align="center"><a href="#.php">Edit</a></td>
+										<td align="center"><a href="edit_product.php">Edit</a></td>
 										<td align="center"><a href="deleteproduct.php">Delete</a></td>
 									</tr>
 								</table>

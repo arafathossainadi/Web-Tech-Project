@@ -59,10 +59,10 @@
 								<tr>
 									
 									<td >
-										<a href="product_details.php">
+										<a href="AllProductinfo.php">
 											<button>
 												<img src="Image/vehicle.png" height="40">
-												<span >Vehicle<br>Information</span>
+												<span >All Stuff<br>Information</span>
 											</button>
 										</a>
 									</td>
