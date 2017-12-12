@@ -50,7 +50,7 @@
 										<a href="PurchasedProduct.php">
 											<button>
 												<img src="Image/dashboard.png" height="43">
-												<span class="dash">Product<br>Purchased</span>
+												<span >Product<br>Purchased</span>
 											</button>
 										</a>
 									</td>
@@ -212,6 +212,6 @@
 		</tr>
 	</table>
 	<script src="js/handler.js"></script>
-	<script src="js/emedst.js"></script>
+	<script src="js/custedst.js"></script>
 </body>
 </html>

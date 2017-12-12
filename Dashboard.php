@@ -134,10 +134,10 @@
 								<tr><td height="20"></td></tr>
 								<tr>
 									<td align="center">
-										<table>
-											<tr>
-												<td height="100" width="150">
-													<table border="1" cellspacing="0">
+										<table border="0" width="100%">
+											<tr align="center">
+												<td height="100" width="200" align="right">
+													<table border="1" cellspacing="0" cellpadding="10">
 														<tr>
 															<td align="center" height="70">
 																<font size="4"><b>TOTAL USERS</b><br/>1100</font>
@@ -145,8 +145,8 @@
 														</tr>
 													</table>	
 												</td>
-												<td height="100" width="150">
-													<table border="1" cellspacing="0">
+												<td height="100" width="200">
+													<table border="1" cellspacing="0" cellpadding="10">
 														<tr>
 															<td align="center" height="70">
 																<font size="4"><b>TOTAL PRODUCT SOLD</b><br/>1100</font>
@@ -154,9 +154,8 @@
 														</tr>
 													</table>	
 												</td>
-												<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-												<td  height="100" width="150">
-													<table border="1" cellspacing="0">
+												<td  height="100" width="200" align="left">
+													<table border="1" cellspacing="0" cellpadding="10">
 														<tr>
 															<td align="center" height="70">
 																<font size="4"><b>TOTAL EMPLOYEE</b><br/>20</font>
