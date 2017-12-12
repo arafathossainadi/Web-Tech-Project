@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>EMPLOYEE</title>
+	<title>Customer</title>
 	<link rel="icon" href="Image/logo.png">
 </head>
 <body>
@@ -12,8 +12,8 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-						<td align="right"><font size="7" color="white">EMPLOYEE PANEL</font></td>
+						<td height="160"><a href="PurchasedProduct.php"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td align="right"><font size="4" color="white">Hello ABC</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
 				</table>
@@ -45,11 +45,11 @@
 							<table border="0" bgcolor="#52be80" align="center">
 								<tr><td height="10"></td></tr>
 								<tr>
-									<td >
-										<a href="employeedashboard.php">
+									<td valign="top">
+										<a href="PurchasedProduct.php">
 											<button>
-												<img src="Image/dashboard.png" height="40">
-												<span class="dash">Dashboard</span>
+												<img src="Image/dashboard.png" height="43">
+												<span class="dash">Product<br>Purchased</span>
 											</button>
 										</a>
 									</td>
@@ -58,7 +58,7 @@
 								<tr>
 									
 									<td >
-									<a href="employeemessage.php">
+									<a href="customerMessage.php">
 										<button>
 											<img src="Image/message.png" height="40">
 											<span class="dash">Messages(3)</span>
@@ -70,7 +70,7 @@
 								<tr>
 									
 									<td >
-									<a href="employeeeditprofile.php">
+									<a href="customereditprofile.php">
 										<button>
 											<img src="Image/profile.png" height="40">
 											<span class="dash">Edit Profile</span>
@@ -85,17 +85,42 @@
 								<tr><td height="20"></td></tr>
 								<tr>
 									<td align="center">
-										<table border="1" align="center" cellpadding="10">
+										<table border="1" align="center" cellpadding="10" width="100%" cellspacing="0">
 											<tr align="center">
-												<th colspan="9">MESSAGE</th>
+												<th colspan="10">
+													ORDER DETAILS
+												</th>
 											</tr>
 											<tr align="center">
-												<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi odit nihil temporibus odio delectus provident laborum! Quaerat ratione aliquid eum fugit deleniti repellat, possimus ad cupiditate aliquam, aspernatur sit!</td>
+												<td><b>Product ID</b></td>
+												<td><b>Product Name</b></td>
+												<td><b>Order Date</b></td>
+												<td><b>Quantity</b></td>
+												<td><b>Status</b></td>
 											</tr>
 											<tr align="center">
-												<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi odit nihil temporibus odio delectus provident laborum! Quaerat ratione aliquid eum fugit deleniti repellat, possimus ad cupiditate aliquam, aspernatur sit!</td>
+												<td>2001</td>
+												<td>Car-1-1</td>
+												<td>1/1/2017</td>
+												<td>2</td>
+												<td>Pending</td>
+											</tr>
+											<tr align="center">
+												<td>2001</td>
+												<td>Car-1-1</td>
+												<td>1/1/2017</td>
+												<td>2</td>
+												<td>Pending</td>
+											</tr>
+											<tr align="center">
+												<td>2001</td>
+												<td>Car-1-1</td>
+												<td>1/1/2017</td>
+												<td>2</td>
+												<td>Delivered</td>
 											</tr>
 										</table>
+	
 										</td>
 								</tr>
 								<tr><td height="20"></td></tr>

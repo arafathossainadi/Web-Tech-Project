@@ -50,7 +50,7 @@
 										<td>
 											<fieldset>
 												<legend><h3>SIGN UP</h3></legend>
-												<form action="regHandle">
+												<form>
 													<table border="0" id="reginfo">
 														<tr>
 															<td>
@@ -156,7 +156,7 @@
 														</tr>
 													</table>
 													<hr>
-													<a href="login.php"><input type="submit" class="smbtn"></a>
+													<a href="login.php"><input type="submit" value="Submit" class="smbtn"></a>
 													<a href="login.php"><input type="Reset" value="Reset" class="smbtn"></a>
 												</form>
 											</fieldset>

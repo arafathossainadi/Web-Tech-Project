@@ -61,7 +61,7 @@
 									<a href="employeemessage.php">
 										<button>
 											<img src="Image/message.png" height="40">
-											<span class="dash">Messages</span>
+											<span class="dash">Messages(3)</span>
 										</button>
 									</a>
 									</td>

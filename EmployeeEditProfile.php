@@ -61,7 +61,7 @@
 									<td >
 										<a href="employeemessage.php"><button>
 												<img src="Image/message.png" height="40">
-												<span class="dash">Messages</span>
+												<span class="dash">Messages(3)</span>
 											</button></a>
 									</td>
 								</tr>
@@ -194,7 +194,7 @@
 													</table>
 													<hr>
 													<input type="Reset" value="Reset" class="smbtn">
-													<input type="submit" class="smbtn">
+													<input type="submit" value="Submit" class="smbtn">
 												</form>
 												</fieldset>
 												</td>
