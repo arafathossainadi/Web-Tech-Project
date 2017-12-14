@@ -69,11 +69,9 @@
 														</tr>
 														<tr>
 															<td align="left">
-																 <a href="dashboard.php">
-																	<button type="submit" onclick="loginhandle();" id="smbtn" valign="center" align="right">
-																		<font size="">Login</font>
-																	</button>
-																 </a>
+																<button type="submit" onclick="loginhandle();" id="smbtn" valign="center" align="right">
+																	<font size="">Login</font>
+																</button>
 															</td>
 														</tr>
 														<tr>

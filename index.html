@@ -16,7 +16,8 @@
 						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
 						<td width="7"></td>
 						<td width="50">
-							<a href="#"><button valign="center" align="left">
+							<a href="search.php">
+								<button valign="center" align="left">
 									<font size="4">Search</font>
 								</button>
 							</a>
@@ -68,141 +69,327 @@
 		</tr>
 		<tr bgcolor="#C0C0C0">
 			<td >
-				<table width="1170" align="center" border="1" cellspacing="0">
+				<table width="1170" align="center" border="0" cellspacing="0" id="exclusive-filed">
+					<tr><td height="50"></td></tr>
 					<tr>
-						<td width="200" valign="top" bgcolor="#C0C0C0">
-							<table>
-								<tr>
-									<td height="20"></td>
-								</tr>
-							</table>
-							<table>
-								<tr>
-									<td width="10"></td>
-									<td >
-										<fieldset>
-											<legend>CATEGORY</legend>
-											<select name="" id="">
-												<option value="Select" selected="selected">Select Anyone</option>
-												<option value="SUV">SUV</option>
-												<option value="SEDAN">SEDAN</option>
-												<option value="CROSSOVER">CROSSOVER</option>
-												<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-												<option value="PARTS">VEHICLE PARTS</option>
-											</select>
-										</fieldset>
-									</td>
-								</tr>
-								<tr><td height="20"></td></tr>
-								<tr>
-									<td width="10"></td>
-									<td >
-										<fieldset>
-											<legend>BRAND</legend>
-											<select name="" id="">
-												<option value="Select" selected="selected">Select Anyone</option>
-												<option value="TOYOTA">TOYOTA</option>
-												<option value="NISSAN">NISSAN</option>
-												<option value="MITSUBISHI">MITSUBISHI</option>
-												<option value="MERCEDES">MERCEDES</option>
-												<option value="PROCHE">PROCHE</option>
-											</select>
-										</fieldset>
-									</td>
-								</tr>
-							</table>
-						</td>
-						<td bgcolor="#C0C0C0">
-							<table>
-								<tr>
-									<td height="20"></td>
-								</tr>
-								<tr>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="Image/product1.jpg" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="Image/product2.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="Image/product3.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-								</tr>
-								<tr>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="Image/product1.jpg" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-										
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="Image/product2.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="Image/product3.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-								</tr>
-							</table>
+						<td bgcolor="#C0C0C0" align="center">
+							<fieldset>
+								<legend>EXCLUSIVE</legend>
+								<table border="0" id="exclusive-item">
+									<tr><td height="20"></td></tr>
+									<tr>
+										<td width="20"></td>
+										<td align="left">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td align="left" bgcolor="#212121">
+														<p>Toyota Model-ABC<br/>Price-$10000</p>
+														<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="left">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+									</tr>
+									<tr><td height="20"></td></tr>
+									<tr>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td bgcolor="#EEEDEB">
+														<div class="container">
+														  <img src="Image/product3.png" border="0" alt="Avatar" class="image">
+														  <a href="publicproductdetails.php" target="_blank">
+														  	<div class="middle">
+														  	  <div class="text">VIEW NOW</div>
+														  	</div>
+														  </a>
+														</div>
+													</td>
+												</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<a href="publicproductdetails.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+									</tr>
+									<tr><td height="20"></td></tr>
+								</table>
+							</fieldset>
 						</td>
 					</tr>
+					<tr><td height="50"></td></tr>
+				</table>
+			</td>
+		</tr>
+		<tr bgcolor="#C0C0C0">
+			<td >
+				<table width="1170" align="center" border="0" cellspacing="0" id="exclusive-filed">
+					<tr>
+						<td bgcolor="#C0C0C0" align="center">
+							<fieldset>
+								<legend>BRANDS</legend>
+								<table border="0" id="exclusive-item" width="100%">
+									<tr><td height="20"></td></tr>
+									<tr>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"   width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b1.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+													<tr>
+														<td align="center"  width="100%" height="" class="brands-item">
+															<a href=""><img src="image/b2.png" alt=""></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+													<tr>
+														<td align="center"  width="100%" height="" class="brands-item">
+															<a href=""><img src="image/b3.png" alt=""></a>
+														</td>
+													</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+									</tr>
+									<tr><td height="20"></td></tr>
+									<tr>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"  width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b4.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"  width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b5.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"  width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b6.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr><td height="20"></td></tr>
+									<tr>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"  width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b7.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"  width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b8.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td width="20"></td>
+										<td align="center">
+											<table border="0" cellspacing="0">
+												<tr>
+													<td align="center"  width="100%" height="" class="brands-item">
+														<a href=""><img src="image/b9.png" alt=""></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr><td height="20"></td></tr>
+								</table>
+							</fieldset>
+						</td>
+					</tr>
+					<tr><td height="50"></td></tr>
 				</table>
 			</td>
 		</tr>
@@ -250,7 +437,7 @@
 									</tr>
 									<tr>
 										<td><font size="5" color="#f7f9f9"></td>
-										<td><input type="submit" id="smbtn" value="Send Message"></td>
+										<td><input type="submit" class="smbtn" value="Send Message"></td>
 									</tr>
 								</form>
 							</table>

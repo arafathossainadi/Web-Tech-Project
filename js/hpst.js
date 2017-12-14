@@ -65,7 +65,7 @@ newStyle.appendChild(document.createTextNode("\
 .image {\
   opacity: 1;\
   display: block;\
-  height:180px;\
+  width:250px;\
   transition: .5s ease;\
   backface-visibility: hidden;\
 }\
@@ -92,7 +92,7 @@ newStyle.appendChild(document.createTextNode("\
   background-color: #D2D2D2;\
   color: #E41E26;\
   border-radius: 5px;\
-  width:80px;\
+  width:87px;\
   font-size: 16px;\
   padding: 10px 15px;\
   transition: all  0.2s ease-in-out 0s;\
@@ -131,7 +131,7 @@ newStyle.appendChild(document.createTextNode("\
 	width: 217px;\
 	margin-top: 7px;\
 }\
-#smbtn{\
+.smbtn{\
 	height: 31px !important;\
 	border: none;\
 	border-radius: 3px;\
@@ -140,9 +140,39 @@ newStyle.appendChild(document.createTextNode("\
 	color: #D2D2D2;\
 	transition: all  0.2s ease-in-out 0s;\
 }\
-#smbtn:hover{\
+.smbtn:hover{\
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
 	cursor: pointer;\
+}\
+#exclusive-field{\
+	padding: 20px 0px;\
+}\
+#exclusive-item p{\
+	display: inline-block;\
+	color: #D2D2D2;\
+	padding-left: 15px;\
+}\
+#exclusive-item button{\
+	padding: 0 !important;\
+	width: 70px;\
+	height: 40px !important;\
+	margin: 15px;\
+	float: right;\
+	color: #D2D2D2;\
+	padding-left: 15px;\
+}\
+#exclusive-item button:hover{\
+	background-color: #D2D2D2;\
+	color: #E41E26;\
+	cursor: pointer;\
+}\
+.brands-item img{\
+	transition: all  0.2s ease-in-out 0s;\
+}\
+.brands-item img:hover{\
+	box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.5);\
+	-webkit-transform: scale(1.1);\
+	transform: scale(1.1);\
 }\
 "));
 document.head.appendChild(newStyle);
