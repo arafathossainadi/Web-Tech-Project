@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<title>ADMIN</title>
-	<link rel="icon" href="Image/logo.png">
-	<script src="app/view/resources/js/jquery-3.2.1.min.js"></script>
+	<link rel="icon" href="../../resources/Images/logo.png">
+	<script src="../../resources/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -13,7 +13,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="dashboard.php"><img src="../../resources/Images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="10" color="white">ADMIN PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -27,9 +27,9 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="login.php" id="logout">
+								<a href="../public/login.php" id="logout">
 									<font size="5">Logout</font>
-									<image src="Image/logout.png" height="25" alt="icon"/>
+									<image src="../../resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
 							</td>
 						</td>
@@ -49,7 +49,7 @@
 									<td >
 										<a href="dashboard.php">
 											<button>
-												<img src="Image/dashboard.png" height="40">
+												<img src="../../resources/Images/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
 											</button>
 										</a>
@@ -59,9 +59,9 @@
 								<tr>
 									
 									<td >
-										<a href="AllProductinfo.php">
+										<a href="All-Product-info.php">
 											<button>
-												<img src="Image/vehicle.png" height="40">
+												<img src="../../resources/Images/vehicle.png" height="40">
 												<span >All Stuff<br>Information</span>
 											</button>
 										</a>
@@ -73,7 +73,7 @@
 									<td >
 										<a href="employeeinfo.php">
 											<button>
-												<img src="Image/employee.png" height="40">
+												<img src="../../resources/Images/employee.png" height="40">
 												<span >Employee<br>Information</span>
 											</button>
 										</a>
@@ -83,9 +83,9 @@
 								<tr>
 									
 									<td >
-										<a href="customerinfo.php">
+										<a href="customer-info.php">
 											<button>
-												<img src="Image/customerinfo.png" height="40">
+												<img src="../../resources/Images/customerinfo.png" height="40">
 												<span >Customer<br>Information</span>
 											</button>
 										</a>
@@ -95,9 +95,9 @@
 								<tr>
 									
 									<td >
-										<a href="saleshistory.php">
+										<a href="sales-history.php">
 											<button>
-												<img src="Image/chart.png" height="40">
+												<img src="../../resources/Images/chart.png" height="40">
 												<span >Sales<br>History</span>
 											</button>
 										</a>
@@ -109,7 +109,7 @@
 									<td >
 										<a href="message.php">
 											<button>
-												<img src="Image/message.png" height="40">
+												<img src="../../resources/Images/message.png" height="40">
 												<span class="dash">Messages(3)</span>
 											</button>
 										</a>
@@ -119,9 +119,9 @@
 								<tr>
 									
 									<td >
-										<a href="adminprofile.php">
+										<a href="profile.php">
 											<button>
-												<img src="Image/profile.png" height="40">
+												<img src="../../resources/Images/profile.png" height="40">
 												<span class="dash">Edit Profile</span>
 											</button>
 										</a>
@@ -152,7 +152,7 @@
 																		<table>
 																			<tr>
 																				<td align="center" colspan="2">
-																					<img src="image/cars.png" alt="car Image" width="700" id="empp"><br/>
+																					<img src="../../resources/images/cars.png" alt="car Image" width="700" id="empp"><br/>
 																					<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
 																					<input type="file" style="display:none;" id="uploadimage" name="file">
 																				</td>
@@ -272,7 +272,7 @@
 			</td>
 		</tr>
 	</table>
-<script src="app/view/resources/js/handler.js"></script>
-<script src="app/view/resources/js/edprodst.js"></script>
+<script src="../../resources/js/handler.js"></script>
+<script src="../../resources/js/edit-product-st.js"></script>
 </body>
 </html>

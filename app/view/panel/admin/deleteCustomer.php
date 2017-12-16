@@ -38,7 +38,7 @@
 			</td>
 		</tr>
 		<tr bgcolor="#C0C0C0">
-			<td >
+			<td>
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr>
 						<td width="180" align="left" valign="top" bgcolor="#52be80" class="addash">
@@ -129,122 +129,95 @@
 								<tr><td height="10"></td></tr>
 							</table>
 						</td> 
-						<td width="10" bgcolor="D7DBDD"></td>
-						<td valign="top" bgcolor="D7DBDD" align="center">
-							<table>
+						<td valign="center" bgcolor="D7DBDD">
+							<table border="0" width="800" align="center">
 								<tr>
 									<td>
-										<table>
+										<table border="0">
 											<tr>
-												<td height="20"></td>
+												<td>
+													<table>
+														<tr>
+															<td height="20"></td>
+														</tr>
+													</table>
+													<font size="5">
+														<table align="left" border="0" cellpadding="5">
+															<tr>
+																<td width="230px" align="Center" valign="top" colspan="3"><b><u>Customer Details</u></b></td>
+															</tr>
+															<tr>
+																<td width="230px" align="Center" valign="top" colspan="3"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+															</tr>
+															<tr>
+																<td width="230px" align="left" valign="top"><b>Name</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">ABCD</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>Email</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">abc@gmail.com</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>Address</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">Dhaka</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>Contact No.</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">0123456789</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>User Name</b></td>
+																<td valign="top">:</td>
+																<td align="left" valign="top">abc12</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>Gender</b></td>
+																<td align="left" valign="top">: </td>
+																<td>Male</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>Last Login Date & Time</b></td>
+																<td align="left" valign="top">: </td>
+																<td>1/1/17 at 10.00pm</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"><b>Total Product Purchased</b></td>
+																<td align="left" valign="top">: </td>
+																<td>0</td>
+															</tr>
+														</table>
+													</font>
+												</td>
 											</tr>
 										</table>
-										<font size="3">
-											<table align="left">
-												<tr>
-													<td>
-														<fieldset>
-															<legend align="center"><font size="5"><b>Add New Car Details</b></font></legend>
-															<table border="0" id="anc">
-																<tr>
-																	<td>
-																		<table>
-																			<tr>
-																				<td align="center" colspan="2">
-																					<img src="../../resources/images/cars.png" alt="car Image" width="700"><br/>
-																					<input type="submit" value="Upload Image"/>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<fieldset id="ancdet">
-																			<table border="0" align="center">
-																				<tr><td height="10"></td></tr>
-																				<tr>
-																					<td align="left"><b>Model No./ Car Name:</b></td>
-																					<td><input type="text"/></td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Category:</b></td>
-																					<td>
-																						<select>
-																							<option value="SUV">SUV</option>
-																							<option value="SEDAN">SEDAN</option>
-																							<option value="CROSSOVER">CROSSOVER</option>
-																							<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-																							<option value="PARTS">VEHICLE PARTS</option>
-																						</select>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Brand:</b></td>
-																					<td>
-																						<select>
-																							<option value="TOYOTA">TOYOTA</option>
-																							<option value="NISSAN">NISSAN</option>
-																							<option value="MITSUBISHI">MITSUBISHI</option>
-																							<option value="MERCEDES">MERCEDES</option>
-																							<option value="PORCHE">PORCHE</option>
-																						</select>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Colors:</b></td>
-																					<td valign="top">
-																						<input type="color" id="color">
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Price:</b></td>
-																					<td>
-																						<input type="text"/>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>In Stock:</b></td>
-																					<td>
-																						<input type="text"/>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td valign="top" align="left"><b>Features:</b></td>
-																					<td>
-																						<textarea name=""  cols="40" rows="10"></textarea>
-																					</td>
-																				</tr>
-																				<tr>
-																					<td colspan="3"><hr/></td>
-																				</tr>
-																				<tr>
-																					
-																					<td></td>
-																					<td align="left">
-																						<input type="submit" value="SAVE" class="smbtn" />
-																					</td>
-																				</tr>
-																			</table>
-																		</fieldset>
-																	</td>
-																</tr>
-															</table>
-														</fieldset>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</font>
-							<table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="52be80"></td>
+						<td  bgcolor="D7DBDD" align="center" colspan="3">
+							<table width="500px" align="center">
+								<tr>
+									<td align="center">
+										<fieldset>
+											<font size="5">
+												Are you sure, you want to delete this ?
+											</font>
+											<br><br>
+											<input type="submit" class="smbtn" value="YES">
+											&nbsp;&nbsp;
+											<input type="submit" class="smbtn" value="NO">
+										</fieldset>
+									</td>
+								</tr>
+							</table>
+							<table border="0">
 								<tr>
 									<td height="20"></td>
 								</tr>
@@ -270,6 +243,6 @@
 			</td>
 		</tr>
 	</table>
-<script src="../../resources/js/add-product-st.js"></script>
+<script src="../../resources/js/delete-customer-st.js"></script>
 </body>
 </html>

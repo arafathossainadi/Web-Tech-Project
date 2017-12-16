@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>ADMIN</title>
-	<link rel="icon" href="Image/logo.png">
+	<link rel="icon" href="../../resources/Images/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -12,7 +12,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="dashboard.php"><img src="../../resources/Images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="10" color="white">ADMIN PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -26,9 +26,9 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="login.php" id="logout">
+								<a href="../public/login.php" id="logout">
 									<font size="5">Logout</font>
-									<image src="Image/logout.png" height="25" alt="icon"/>
+									<image src="../../resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
 							</td>
 						</td>
@@ -48,7 +48,7 @@
 									<td >
 										<a href="dashboard.php">
 											<button>
-												<img src="Image/dashboard.png" height="40">
+												<img src="../../resources/Images/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
 											</button>
 										</a>
@@ -58,9 +58,9 @@
 								<tr>
 									
 									<td >
-										<a href="AllProductinfo.php">
+										<a href="All-Product-info.php">
 											<button>
-												<img src="Image/vehicle.png" height="40">
+												<img src="../../resources/Images/vehicle.png" height="40">
 												<span >All Stuff<br>Information</span>
 											</button>
 										</a>
@@ -72,7 +72,7 @@
 									<td >
 										<a href="employeeinfo.php">
 											<button>
-												<img src="Image/employee.png" height="40">
+												<img src="../../resources/Images/employee.png" height="40">
 												<span >Employee<br>Information</span>
 											</button>
 										</a>
@@ -82,9 +82,9 @@
 								<tr>
 									
 									<td >
-										<a href="customerinfo.php">
+										<a href="customer-info.php">
 											<button>
-												<img src="Image/customerinfo.png" height="40">
+												<img src="../../resources/Images/customerinfo.png" height="40">
 												<span >Customer<br>Information</span>
 											</button>
 										</a>
@@ -94,9 +94,9 @@
 								<tr>
 									
 									<td >
-										<a href="saleshistory.php">
+										<a href="sales-history.php">
 											<button>
-												<img src="Image/chart.png" height="40">
+												<img src="../../resources/Images/chart.png" height="40">
 												<span >Sales<br>History</span>
 											</button>
 										</a>
@@ -108,7 +108,7 @@
 									<td >
 										<a href="message.php">
 											<button>
-												<img src="Image/message.png" height="40">
+												<img src="../../resources/Images/message.png" height="40">
 												<span class="dash">Messages(3)</span>
 											</button>
 										</a>
@@ -118,9 +118,9 @@
 								<tr>
 									
 									<td >
-										<a href="adminprofile.php">
+										<a href="profile.php">
 											<button>
-												<img src="Image/profile.png" height="40">
+												<img src="../../resources/Images/profile.png" height="40">
 												<span class="dash">Edit Profile</span>
 											</button>
 										</a>
@@ -202,7 +202,7 @@
 											</select>
 											<input type="text" placeholder="Search here"/>
 											<input type="submit" value="Search"/>
-											<a href="addnewproduct.php">Add New Stuff</a>
+											<a href="add-product.php">Add New Stuff</a>
 										</td>
 									</tr>
 									<tr align="center">
@@ -223,9 +223,9 @@
 										<td>Toyota</td>
 										<td>$50000</td>
 										<td align="center">3</td>
-										<td><a href="product_details.php">See Details</a></td>
-										<td align="center"><a href="edit_product.php">Edit</a></td>
-										<td align="center"><a href="deleteproduct.php">Delete</a></td>
+										<td><a href="product-details.php">See Details</a></td>
+										<td align="center"><a href="edit-product.php">Edit</a></td>
+										<td align="center"><a href="delete-product.php">Delete</a></td>
 									</tr>
 								</table>
 							</font>
@@ -255,6 +255,6 @@
 			</td>
 		</tr>
 	</table>
-<script src="app/view/resources/js/allprodinst.js"></script>
+<script src="../../resources/js/all-product-info-st.js"></script>
 </body>
 </html>

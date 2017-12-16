@@ -1,6 +1,4 @@
-<?php 
-	include 'data/core/back-end/test.php';
- ?>
+<?phpset_include_path('/app/view/resources');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

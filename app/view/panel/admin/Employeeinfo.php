@@ -40,8 +40,7 @@
 		<tr bgcolor="#C0C0C0">
 			<td >
 				<table width="1170" align="center" border="0" cellspacing="0">
-					<tr>
-						<td width="150" align="left" valign="top" bgcolor="#52be80" class="addash">
+					<td width="150" align="left" valign="top" bgcolor="#52be80" class="addash">
 							<table border="0" bgcolor="#52be80" align="center">
 								<tr><td height="10"></td></tr>
 								<tr>
@@ -137,18 +136,19 @@
 										<table border="1" align="center" cellpadding="10" width="100%" cellspacing="0">
 											<tr align="center">
 												<th colspan="9">
-													CUSTOMER INFORMATION
+													EMPLOYEE INFORMATION&nbsp;&nbsp;&nbsp;
+													<a href="add-employee.php">Create a New Employee Profile</a>
 												</th>
 											</tr>
 											<tr align="center">
-												<td><b>Customer ID</b></td>
-												<td><b>Customer Name</b></td>
+												<td><b>Employee ID</b></td>
+												<td><b>Employee Name</b></td>
 												<td><b>Gender</b></td>
 												<td><b>Phone No.</b></td>
 												<td><b>Email Address</b></td>
-												<td><b>Last Login Date & Time</b></td>
-												<td><b>Total Product Purchased</b></td>
-												<td><b>Delete User</b></td>
+												<td><b>Salary</b></td>
+												<td><b>Joining Date</b></td>
+												<td><b>Total Product Delivered</b></td>
 											</tr>
 											<tr align="center">
 												<td>1001</td>
@@ -156,9 +156,9 @@
 												<td>Male</td>
 												<td>0123456789</td>
 												<td>abc@gmail.com</td>
+												<td>20000</td>
 												<td>1/1/2017</td>
 												<td>4</td>
-												<td><a href="DeleteCustomer.php">Delete</a></td>
 											</tr>
 											<tr align="center">
 												<td>1002</td>
@@ -166,9 +166,9 @@
 												<td>Male</td>
 												<td>0123456789</td>
 												<td>abc@gmail.com</td>
+												<td>20000</td>
 												<td>1/1/2017</td>
 												<td>4</td>
-												<td><a href="DeleteCustomer.php">Delete</a></td>
 											</tr>
 											<tr align="center">
 												<td>1003</td>
@@ -176,69 +176,13 @@
 												<td>Male</td>
 												<td>0123456789</td>
 												<td>abc@gmail.com</td>
+												<td>20000</td>
 												<td>1/1/2017</td>
 												<td>4</td>
-												<td><a href="DeleteCustomer.php">Delete</a></td>
 											</tr>
 										</table>
 									</td>
 								</tr>
-								<tr><td height="20"></td></tr>
-								<tr>
-									<td align="center">
-										<table>
-											<tr>
-												<td align="center"><font size="5"><b>CUSTOMER LOGIN INFORMATION</b></font></td>
-											</tr>
-									</table>
-									</td>
-								</tr>
-								<tr>
-									<td align="center">
-										<table border="1" align="center" cellpadding="10" width="100%" cellspacing="0">
-											<tr align="center">
-												<th colspan="9">
-													<font color="red" size="5">Login Before 6 Months Ago</font>
-												</th>
-											</tr>
-											<tr align="center">
-												<td><b>Customer ID</b></td>
-												<td><b>Customer Name</b></td>
-												<td><b>Phone No.</b></td>
-												<td><b>Email Address</b></td>
-												<td><b>Last Login Date & Time</b></td>
-												<td><b>Send Message</b></td>
-											</tr>
-											<tr align="center">
-												<td>1001</td>
-												<td>ABC XYZ</td>
-												<td>0123456789</td>
-												<td>abc@gmail.com</td>
-												<td>1/1/2017</td>
-												<td><a href="#">Notify User</a></td>
-											</tr>
-											<tr align="center">
-												<td>1001</td>
-												<td>ABC XYZ</td>
-												<td>0123456789</td>
-												<td>abc@gmail.com</td>
-												<td>1/1/2017</td>
-												<td><a href="#">Notify User</a></td>
-											</tr>
-											<tr align="center">
-												<td>1001</td>
-												<td>ABC XYZ</td>
-												<td>0123456789</td>
-												<td>abc@gmail.com</td>
-												<td>1/1/2017</td>
-												<td><a href="#">Notify User</a></td>
-											</tr>
-												
-											</tr>
-										</table>
-									</td>
-								</tr>
-								
 								<tr><td height="20"></td></tr>
 								<tr><td height="20"></td></tr>
 							</table>
@@ -264,6 +208,6 @@
 			</td>
 		</tr>
 	</table>
-	<script src="../../resources/js/customer-info-st.js"></script>
+	<script src="../../resources/js/employee-info-st.js"></script>
 </body>
 </html>
