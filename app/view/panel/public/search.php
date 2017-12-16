@@ -33,6 +33,7 @@
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="5"></td></tr>
 					<tr>
+						<td align="left"><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search results for "xyz"</font></td>
 						<td align="right" id="top-menu">
 							<a  href="../../../../index.php"><font size="5"><b>HOME</b></font></a>
 							<font>&nbsp;&nbsp;</font>
@@ -42,7 +43,7 @@
 							<font>&nbsp;&nbsp;</font>
 							<a href="Login.php" ><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="registration.php" ><font size="5"><b>SIGN UP</b></font></a>
+							<a href="registration.php" ><font size="5"><b>SIGNUP</b></font></a>
 						</td>
 					</tr>
 					<tr><td height="5"></td></tr>
@@ -54,34 +55,48 @@
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr>
 						<td>
-							<img src="../../resources/images/banner.png" width="100%">
-						</td>
-					</tr>
-				</table>
-				<table align="center">
-					<tr>
-						<td><img src="../../resources/images/banner2.jpg" width="100%"></td>
-						<td><img src="../../resources/images/banner3.jpg" width="100%"></td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr bgcolor="#C0C0C0">
-			<td >
-				<table width="1170" align="center" border="1" cellspacing="0">
-					<tr>
-						<td width="200" valign="top" bgcolor="#C0C0C0">
 							<table>
 								<tr>
 									<td height="20"></td>
 								</tr>
 							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" bgcolor="#E8E7E5" align="center" class="sort">
+							<p>sort by</p>
+							<select name="" id="">
+								<option value="Alphabetically">alphabetically</option>
+								<option value="newest first">newest first</option>
+								<option value="oldest first">oldest first</option>
+								<option value="price low to high">price low to high</option>
+								<option value="price high to low">price high to low</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td width="200" valign="top" bgcolor="#212121">
 							<table>
 								<tr>
-									<td width="10"></td>
-									<td >
+									<td height="20"></td>
+								</tr>
+							</table>
+							<table cellspacing="0" bgcolor="red" border="1" align="center" cellpadding="10">
+								<tr>
+									<td bgcolor="#E41E26">
+										Filter By
+									</td>
+								</tr>
+								<tr>
+									<td bgcolor="#D2D2D2">
 										<fieldset>
 											<legend>CATEGORY</legend>
+											<input type="checkbox" value="SUV">
+											<input type="checkbox" value="SEDAN">
+											<input type="checkbox" value="">
+											<input type="checkbox" value="">
+											<input type="checkbox" value="">
+											<input type="checkbox" value="">
 											<select name="" id="">
 												<option value="Select" selected="selected">Select Anyone</option>
 												<option value="SUV">SUV</option>
@@ -93,10 +108,8 @@
 										</fieldset>
 									</td>
 								</tr>
-								<tr><td height="20"></td></tr>
 								<tr>
-									<td width="10"></td>
-									<td >
+									<td bgcolor="#D2D2D2" >
 										<fieldset>
 											<legend>BRAND</legend>
 											<select name="" id="">
@@ -113,12 +126,11 @@
 							</table>
 						</td>
 						<td bgcolor="#C0C0C0">
-							<table>
+							<table border="0" align="center" cellspacing="0">
 								<tr>
-									<td height="20"></td>
+									<td height="20" colspan="5"></td>
 								</tr>
 								<tr>
-									<td width="20"></td>
 									<td align="center">
 										<div class="container">
 										  <img src="../../resources/images/product1.jpg" border="1" alt="Avatar" class="image">
@@ -159,7 +171,6 @@
 									</td>
 								</tr>
 								<tr>
-									<td width="20"></td>
 									<td align="center">
 										<div class="container">
 										  <img src="../../resources/images/product1.jpg" border="1" alt="Avatar" class="image">

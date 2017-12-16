@@ -2,7 +2,7 @@ var newStyle = document.createElement('style');
 newStyle.appendChild(document.createTextNode("\
 @font-face {\
 	font-family:lr;\
-	src:url(../fonts/Lato-Regular.ttf);\
+	src:url(../../resources/fonts/Lato-Regular.ttf);\
 }\
 *{\
 	font-family: lr;\
@@ -34,6 +34,20 @@ newStyle.appendChild(document.createTextNode("\
 	left: 54px;\
 	position: absolute;\
 	font-size: 17px;\
+}\
+.smbtn{\
+	height: 31px !important;\
+	border: none;\
+	border-radius: 3px;\
+	width: 70px;\
+	margin-right: 10px;\
+	background-color: #E41E26;\
+	color: #D2D2D2;\
+	transition: all  0.2s ease-in-out 0s;\
+}\
+.smbtn:hover{\
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
+	cursor: pointer;\
 }\
 #logout{\
 	text-decoration: none;\

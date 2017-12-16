@@ -476,6 +476,6 @@
 			</td>
 		</tr>
 	</table>
-<script type="text/javascript" src="app/view/resources/js/index-st.js"></script>
+<script type="text/javascript" src="app/view/resources/js/public/index-st.js"></script>
 </body>
 </html>

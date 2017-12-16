@@ -2,7 +2,7 @@ var newStyle = document.createElement('style');
 newStyle.appendChild(document.createTextNode("\
 @font-face {\
 	font-family:lr;\
-	src:url(../fonts/Lato-Regular.ttf);\
+	src:url(../../resources/fonts/Lato-Regular.ttf);\
 }\
 *{\
 	font-family: lr;\
@@ -45,9 +45,9 @@ newStyle.appendChild(document.createTextNode("\
 	transition: all  0.2s ease-in-out 0s\
 }\
 #logout:hover{\
-	cursor: pointer;\
 	background-color: #D7DBDD;\
 	border-radius: 45px;\
+	cursor: pointer;\
 }\
 #logout img{\
 	position: relative;\
