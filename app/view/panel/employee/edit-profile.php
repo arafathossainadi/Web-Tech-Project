@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<title>EMPLOYEE</title>
-	<link rel="icon" href="Image/logo.png">
-	<script src="app/view/resources/js/jquery-3.2.1.min.js"></script>
+	<link rel="icon" href="../../resources/images/logo.png">
+	<script src="../../resources/js//jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -13,7 +13,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="7" color="white">EMPLOYEE PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -27,9 +27,9 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="login.php" id="logout">
+								<a href="../public/login.php" id="logout">
 									<font size="5">Logout</font>
-									<image src="Image/logout.png" height="25" alt="icon"/>
+									<image src="../../resources/images/logout.png" height="25" alt="icon"/>
 								</a>
 							</td>
 						</td>
@@ -47,9 +47,9 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td >
-										<a href="employeedashboard.php">
+										<a href="dashboard.php">
 											<button>
-												<img src="Image/dashboard.png" height="40">
+												<img src="../../resources/images/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
 											</button>
 										</a>
@@ -59,8 +59,8 @@
 								<tr>
 									
 									<td >
-										<a href="employeemessage.php"><button>
-												<img src="Image/message.png" height="40">
+										<a href="message.php"><button>
+												<img src="../../resources/images/message.png" height="40">
 												<span class="dash">Messages(3)</span>
 											</button></a>
 									</td>
@@ -69,9 +69,9 @@
 								<tr>
 									
 									<td >
-										<a href="employeeeditprofile.php">
+										<a href="edit-profile.php">
 											<button>
-												<img src="Image/profile.png" height="40">
+												<img src="../../resources/images/profile.png" height="40">
 												<span class="dash">Edit Profile</span>
 											</button>
 										</a>
@@ -97,7 +97,7 @@
 																<table border="0">
 																	<tr>
 																		<td align="center">
-																			<img id="empp" src="image/defpp.png" width="200">
+																			<img id="empp" src="../../resources/images/defpp.png" width="200">
 																		</td>
 																	</tr>
 																	<tr><td height="10"></td></tr>
@@ -227,7 +227,7 @@
 			</td>
 		</tr>
 	</table>
-	<script src="app/view/resources/js/handler.js"></script>
-	<script src="app/view/resources/js/emedst.js"></script>
+	<script src="../../../../data/core/front-end//handler.js"></script>
+	<script src="../../resources/js/employee/edit-profile-st.js"></script>
 </body>
 </html>

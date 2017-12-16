@@ -1,11 +1,11 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>Login</title>
+		<title>Reset Password</title>
 		<link rel="icon" href="../../resources/images/logo.png">
 	</head>
 	<body>
-		<table width="100%" border="0" cellspacing="0" align="center">
+		<table width="100%" align="center" border="0" cellspacing="0"  >
 			<tr bgcolor="#212121">
 				<td>
 					<table width="1170" align="center" border="0" cellspacing="0">
@@ -50,34 +50,45 @@
 										<td width="300">
 											<img src="../../resources/images/p1.png" height="250" alt="">
 										</td>
-										<td  align="center">
+										<td  align="center" width="500">
 											<fieldset>
-												<legend><font size="5"><b>LOGIN</b></font></legend>
-													<table>
-														<tr>
-															<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" id="username" placeholder="  Username" name="username" size="30" valign="center" required/><td>
-														</tr>
-														<tr></tr>
-														<tr>
-															<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" id="password" placeholder="  Password" name="password"  size="30" valign="center" required/><td>
-														</tr>
-													</table>
-													<hr/>
-													<table align="left">
-														<tr>
-															<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><a href="email-verify.php">Forgot Password?</a><br/><br></font></td>
-														</tr>
-														<tr>
-															<td align="left">
-																<button type="submit" onclick="loginhandle();" id="smbtn" valign="center" align="right">
-																	<font size="">Login</font>
-																</button>
-															</td>
-														</tr>
-														<tr>
-															<td><br><u>Not a member yet ?</u>&nbsp;&nbsp;<a href="registration.php">Sign Up</a></td>
-														</tr>
-													</table>
+												<legend><font size="5"><b>Reset Password</b></font></legend>
+												<table>
+													<tr>
+														<td height="50"></td>
+													</tr>
+												</table>
+												<table border="0">
+													<tr>
+														<td colspan="2" align="right"><font size="5"><b><i>New Password&nbsp;&nbsp;</i></b></td>
+														<td><input type="text" name="password" size="30" valign="center" required/></td>
+													</tr>
+													<tr>
+														<td colspan="2" align="right"><font size="5"><b><i>Confirm Password&nbsp;&nbsp;</i></b></td>
+														<td><input type="password" name="re_password" size="30" valign="center" required/></td>
+													</tr>
+													<tr></tr>
+												</table>
+												<hr/>
+												<table align="center">
+													<tr>
+														<td align="center">
+															<button valign="right" align="right" class="smbtn">
+																<font size="5">Cancel</font>
+															</button>
+														</td>
+														<td align="left">&nbsp;&nbsp;
+															<button valign="right" align="right" class="smbtn">
+																<font size="5">Submit</font>
+															</button>
+														</td>
+													</tr>
+												</table>
+												<table>
+													<tr>
+														<td height="50"></td>
+													</tr>
+												</table>
 											</fieldset>
 										</td>
 										<td width="300" align="right">
@@ -149,7 +160,6 @@
 				</td>
 			</tr>
 		</table>
-	<script src="../../resources/js/public/login-st.js"></script>
-	<script src="../../../../data/core/front-end/handler.js"></script>
+		<script src="../../resources/js/public/reset-password-st.js"></script>
 	</body>
 </html>

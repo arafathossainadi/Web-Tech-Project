@@ -170,6 +170,6 @@
 				</td>
 			</tr>
 		</table>
-	<script src="../../resources/js/contact-st.js"></script>
+	<script src="../../resources/js/public/contact-st.js"></script>
 	</body>
 </html>

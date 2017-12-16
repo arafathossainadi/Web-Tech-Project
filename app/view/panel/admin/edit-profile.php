@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>ADMIN</title>
 	<link rel="icon" href="../../resources/Images/logo.png">
-	<script src="../../resources/js//jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -131,112 +131,43 @@
 							</table>
 						</td> 
 						<td width="10" bgcolor="D7DBDD"></td>
-						<td valign="top" bgcolor="D7DBDD" align="center">
-							<table>
+						<td valign="center" bgcolor="D7DBDD" align="center">
+							<table border="0">
 								<tr>
-									<td>
-										<table>
-											<tr>
-												<td height="20"></td>
-											</tr>
-										</table>
-										<font size="3">
-											<table align="left">
+									<td valign="center">
+										<font size="4">
+											<table align="left" border="0">
 												<tr>
 													<td>
 														<fieldset>
-															<legend align="center"><font size="5"><b>Add New Car Details</b></font></legend>
-															<table border="0" id="anc">
+														<legend align="center"><font size="5"><b>Edit Profile</b></font></legend>
+															<table border="0 class="smbtn"" cellpadding="5">
 																<tr>
-																	<td>
-																		<table>
-																			<tr>
-																				<td align="center" colspan="2">
-																					<img id="empp" src="../../resources/images/cars.png" alt="car Image" width="700"><br/>
-																					<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
-																					<input type="file" style="display:none;" id="uploadimage" name="file">
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
+																	<td align="left"><b>Contact Number:</b></td>
+																	<td><input type="text"/></td>
 																</tr>
 																<tr>
-																	<td>
-																		<fieldset id="ancdet">
-																			<table border="0" align="center">
-																				<tr><td height="10"></td></tr>
-																				<tr>
-																					<td align="left"><b>Model No./ Car Name:</b></td>
-																					<td><input type="text"/></td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Category:</b></td>
-																					<td>
-																						<select>
-																							<option value="SUV">SUV</option>
-																							<option value="SEDAN">SEDAN</option>
-																							<option value="CROSSOVER">CROSSOVER</option>
-																							<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-																							<option value="PARTS">VEHICLE PARTS</option>
-																						</select>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Brand:</b></td>
-																					<td>
-																						<select>
-																							<option value="TOYOTA">TOYOTA</option>
-																							<option value="NISSAN">NISSAN</option>
-																							<option value="MITSUBISHI">MITSUBISHI</option>
-																							<option value="MERCEDES">MERCEDES</option>
-																							<option value="PORCHE">PORCHE</option>
-																						</select>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Colors:</b></td>
-																					<td valign="top">
-																						<input type="color" id="color">
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Price:</b></td>
-																					<td>
-																						<input type="text"/>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>In Stock:</b></td>
-																					<td>
-																						<input type="text"/>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td valign="top" align="left"><b>Features:</b></td>
-																					<td>
-																						<textarea name=""  cols="40" rows="10"></textarea>
-																					</td>
-																				</tr>
-																				<tr>
-																					<td colspan="3"><hr/></td>
-																				</tr>
-																				<tr>
-																					
-																					<td></td>
-																					<td align="left">
-																						<input type="submit" value="SAVE" class="smbtn" />
-																					</td>
-																				</tr>
-																			</table>
-																		</fieldset>
-																	</td>
+																	<td align="left"><b>Email:</b></td>
+																	<td><input type="text"/></td>
 																</tr>
+																<tr>
+																	<td align="left"><b>Password:</b></td>
+																	<td><input type="text"/></td>
+																</tr>
+																<tr>
+																	<td align="left"><b>Confirm Password:</b></td>
+																	<td><input type="text"/></td>
+																</tr>
+																<tr>
+																	<td colspan="3"><hr/></td>
+																</tr>
+																<tr>
+																	<td align="right">
+																		<input type="submit" value="Cancel" class="smbtn"/>
+																	</td>
+																	<td align="left">
+																		<input type="submit" value="SAVE" class="smbtn"/>
+																	</td>
 															</table>
 														</fieldset>
 													</td>
@@ -272,7 +203,6 @@
 			</td>
 		</tr>
 	</table>
-<script src="../../../../data/core/front-end//handler.js"></script>
-<script src="../../resources/js/admin/add-new-product-st.js"></script>
+<script src="../../resources/js/admin/edit-profile-st.js"></script>
 </body>
 </html>

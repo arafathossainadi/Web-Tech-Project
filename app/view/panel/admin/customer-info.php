@@ -70,7 +70,7 @@
 								<tr>
 									
 									<td >
-										<a href="employeeinfo.php">
+										<a href="employee-info.php">
 											<button>
 												<img src="../../resources/Images/employee.png" height="40">
 												<span >Employee<br>Information</span>
@@ -118,7 +118,7 @@
 								<tr>
 									
 									<td >
-										<a href="profile.php">
+										<a href="edit-profile.php">
 											<button>
 												<img src="../../resources/Images/profile.png" height="40">
 												<span class="dash">Edit Profile</span>
@@ -158,7 +158,7 @@
 												<td>abc@gmail.com</td>
 												<td>1/1/2017</td>
 												<td>4</td>
-												<td><a href="DeleteCustomer.php">Delete</a></td>
+												<td><a href="delete-customer.php">Delete</a></td>
 											</tr>
 											<tr align="center">
 												<td>1002</td>
@@ -168,7 +168,7 @@
 												<td>abc@gmail.com</td>
 												<td>1/1/2017</td>
 												<td>4</td>
-												<td><a href="DeleteCustomer.php">Delete</a></td>
+												<td><a href="delete-customer.php">Delete</a></td>
 											</tr>
 											<tr align="center">
 												<td>1003</td>
@@ -178,7 +178,7 @@
 												<td>abc@gmail.com</td>
 												<td>1/1/2017</td>
 												<td>4</td>
-												<td><a href="DeleteCustomer.php">Delete</a></td>
+												<td><a href="delete-customer.php">Delete</a></td>
 											</tr>
 										</table>
 									</td>
@@ -264,6 +264,6 @@
 			</td>
 		</tr>
 	</table>
-	<script src="../../resources/js/customer-info-st.js"></script>
+	<script src="../../resources/js/admin/customer-info-st.js"></script>
 </body>
 </html>

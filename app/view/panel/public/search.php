@@ -289,6 +289,6 @@
 			</td>
 		</tr>
 	</table>
-<script type="text/javascript" src="js/hpst.js"></script>
+<script type="text/javascript" src="../../resources/js/public/search-st.js"></script>
 </body>
 </html>

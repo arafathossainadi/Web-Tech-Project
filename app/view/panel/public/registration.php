@@ -228,7 +228,7 @@
 				</td>
 			</tr>
 		</table>
-	<script src="../../resources/js/signup-st.js"></script>
+	<script src="../../resources/js/public/signup-st.js"></script>
 	<script src="../../../../data/core/front-end/handler.js"></script>
 	</body>
 </html>

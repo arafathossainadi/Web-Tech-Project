@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>ADMIN</title>
-	<link rel="icon" href="../../resources/Image/logo.png">
+	<link rel="icon" href="../../resources/images/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -70,7 +70,7 @@
 								<tr>
 									
 									<td >
-										<a href="employeeinfo.php">
+										<a href="employee-info.php">
 											<button>
 												<img src="../../resources/Images/employee.png" height="40">
 												<span >Employee<br>Information</span>
@@ -118,7 +118,7 @@
 								<tr>
 									
 									<td >
-										<a href="profile.php">
+										<a href="edit-profile.php">
 											<button>
 												<img src="../../resources/Images/profile.png" height="40">
 												<span class="dash">Edit Profile</span>
@@ -233,6 +233,6 @@
 			</td>
 		</tr>
 	</table>
-<script src="../../resources/js/admin-dashboard-st.js"></script>
+<script src="../../resources/js/admin/dashboard-st.js"></script>
 </body>
 </html>

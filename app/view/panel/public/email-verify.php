@@ -1,11 +1,11 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>Login</title>
+		<title>Email Verify</title>
 		<link rel="icon" href="../../resources/images/logo.png">
 	</head>
 	<body>
-		<table width="100%" border="0" cellspacing="0" align="center">
+		<table width="100%" align="center" border="0" cellspacing="0"  >
 			<tr bgcolor="#212121">
 				<td>
 					<table width="1170" align="center" border="0" cellspacing="0">
@@ -26,13 +26,13 @@
 							<td align="right" id="top-menu">
 								<a  href="../../../../index.php"><font size="5"><b>HOME</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
+								<a href="about.php" target="_blank"><font size="5"><b>ABOUT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
+								<a href="Contact.php" target="_blank"><font size="5"><b>CONTACT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Login.php" ><font size="5"><b>LOGIN</b></font></a>
+								<a href="Login.php" target="_blank"><font size="5"><b>LOGIN</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="registration.php" ><font size="5"><b>SIGN UP</b></font></a>
+								<a href="registration.php" target="_blank"><font size="5"><b>SIGN UP</b></font></a>
 							</td>
 						</tr>
 						<tr><td height="5"></td></tr>
@@ -52,32 +52,40 @@
 										</td>
 										<td  align="center">
 											<fieldset>
-												<legend><font size="5"><b>LOGIN</b></font></legend>
-													<table>
-														<tr>
-															<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" id="username" placeholder="  Username" name="username" size="30" valign="center" required/><td>
-														</tr>
-														<tr></tr>
-														<tr>
-															<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" id="password" placeholder="  Password" name="password"  size="30" valign="center" required/><td>
-														</tr>
-													</table>
-													<hr/>
-													<table align="left">
-														<tr>
-															<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><a href="email-verify.php">Forgot Password?</a><br/><br></font></td>
-														</tr>
-														<tr>
-															<td align="left">
-																<button type="submit" onclick="loginhandle();" id="smbtn" valign="center" align="right">
-																	<font size="">Login</font>
-																</button>
-															</td>
-														</tr>
-														<tr>
-															<td><br><u>Not a member yet ?</u>&nbsp;&nbsp;<a href="registration.php">Sign Up</a></td>
-														</tr>
-													</table>
+												<legend><font size="5"><b>Email Verification</b></font></legend>
+												<table>
+													<tr>
+														<td height="50"></td>
+													</tr>
+												</table>
+												<table>
+													<tr>
+														<td align="center"><font size="5"><b>ENTER YOUR EMAIL</b><input type="text" placeholder="                   someone@example.com" name="email" size="40" valign="center" required/><td>
+													</tr>
+													<tr></tr>
+												</table>
+												<hr/>
+												<table align="center">
+													<tr>
+														<td align="center">
+															<button valign="right" align="right" class="smbtn">
+																<font size="5">Cancel</font>
+															</button>
+														</td>
+														<td align="left">&nbsp;&nbsp;
+															<a href="resetpassword.php">
+															<button valign="right" align="right" class="smbtn">
+																<font size="5">Submit</font>
+															</button>
+															</a>
+														</td>
+													</tr>
+												</table>
+												<table>
+													<tr>
+														<td height="50"></td>
+													</tr>
+												</table>
 											</fieldset>
 										</td>
 										<td width="300" align="right">
@@ -149,7 +157,6 @@
 				</td>
 			</tr>
 		</table>
-	<script src="../../resources/js/public/login-st.js"></script>
-	<script src="../../../../data/core/front-end/handler.js"></script>
+	<script src="../../resources/js/public/email-verify-st.js"></script>
 	</body>
 </html>

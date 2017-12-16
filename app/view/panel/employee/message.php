@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>EMPLOYEE</title>
-	<link rel="icon" href="Image/logo.png">
+	<link rel="icon" href="../../resources/images/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -12,7 +12,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="index.html"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="7" color="white">EMPLOYEE PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -26,9 +26,9 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="login.php" id="logout">
+								<a href="../public/login.php" id="logout">
 									<font size="5">Logout</font>
-									<image src="Image/logout.png" height="25" alt="icon"/>
+									<image src="../../resources/images/logout.png" height="25" alt="icon"/>
 								</a>
 							</td>
 						</td>
@@ -46,9 +46,9 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td >
-										<a href="employeedashboard.php">
+										<a href="dashboard.php">
 											<button>
-												<img src="Image/dashboard.png" height="40">
+												<img src="../../resources/images/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
 											</button>
 										</a>
@@ -58,9 +58,9 @@
 								<tr>
 									
 									<td >
-									<a href="employeemessage.php">
+									<a href="message.php">
 										<button>
-											<img src="Image/message.png" height="40">
+											<img src="../../resources/images/message.png" height="40">
 											<span class="dash">Messages(3)</span>
 										</button>
 									</a>
@@ -70,9 +70,9 @@
 								<tr>
 									
 									<td >
-									<a href="employeeeditprofile.php">
+									<a href="edit-profile.php">
 										<button>
-											<img src="Image/profile.png" height="40">
+											<img src="../../resources/images/profile.png" height="40">
 											<span class="dash">Edit Profile</span>
 										</button>
 									</td>
@@ -123,6 +123,6 @@
 			</td>
 		</tr>
 	</table>
-	<script src="app/view/resources/js/emdashst.js"></script>
+	<script src="../../resources/js/employee/message-st.js"></script>
 </body>
 </html>

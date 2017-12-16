@@ -119,6 +119,6 @@
 				</td>
 			</tr>
 		</table>
-	<script type="text/javascript" src="../../resources/js/about-st.js"></script>
+	<script type="text/javascript" src="../../resources/js/public/about-st.js"></script>
 	</body>
 </html>

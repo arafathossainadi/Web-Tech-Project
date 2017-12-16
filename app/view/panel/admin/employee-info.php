@@ -3,7 +3,6 @@
 <head>
 	<title>ADMIN</title>
 	<link rel="icon" href="../../resources/Images/logo.png">
-	<script src="../../resources/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -41,8 +40,7 @@
 		<tr bgcolor="#C0C0C0">
 			<td >
 				<table width="1170" align="center" border="0" cellspacing="0">
-					<tr>
-						<td width="150" align="left" valign="top" bgcolor="#52be80" class="addash">
+					<td width="150" align="left" valign="top" bgcolor="#52be80" class="addash">
 							<table border="0" bgcolor="#52be80" align="center">
 								<tr><td height="10"></td></tr>
 								<tr>
@@ -135,140 +133,52 @@
 								<tr><td height="20"></td></tr>
 								<tr>
 									<td align="center">
-										<table>
-											<tr>
-												<td>
-													<fieldset>
-												<legend><h3>Employee Register</h3></legend>
-												<form>
-													<table border="0">
-														<tr>
-															<td colspan="3" align="center">
-																<table border="0">
-																	<tr>
-																		<td align="center">
-																			<img id="empp" src="../../resources/images/defpp.png" width="200">
-																		</td>
-																	</tr>
-																	<tr><td height="10"></td></tr>
-																	<tr>
-																		<td align="center">
-																			<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
-																			<input type="file" style="display:none;" id="uploadimage" name="file">
-																		</td>
-																	</tr>
-																</table>
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>														
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Epmloyee Name :</b>
-															</td>
-															<td align="left">
-																<input type="text" name="name">
-															</td>
-														</tr>
-														
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Email :</b>
-															</td>
-															<td align="left">
-																<input type="text" name="email">
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Address :</b>
-															</td>
-															<td align="left">
-																<input type="text" name="address">
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Contact No. :</b>
-															</td>
-															<td align="left">
-																<input type="text" name="contactNo">
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b >Gender :</b>
-															</td>
-															<td align="left">
-																<select id="empgen">
-																	<option value="Select Any">Select Any</option>
-																	<option value="Male">Male</option>
-																	<option value="Female">Female</option>
-																	<option value="Other">Other</option>
-																</select>
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Password :</b>
-															</td>
-															<td align="left">
-																<input type="text" name="password">
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Confirm Password :</b>
-															</td>
-															<td align="left">
-																<input type="password" name="password">
-															</td>
-														</tr>
-														<tr>
-															<td align="right" colspan="2">
-															</td>
-														</tr>
-														<tr>
-															<td align="left">
-																<b>Salary :</b>
-															</td>
-															<td align="left">
-																<input type="text" name="name">
-															</td>
-														</tr>
-													</table>
-													<hr>
-													<input type="Reset" value="Reset" class="smbtn">
-													<input type="submit" value="Submit" class="smbtn">
-												</form>
-											</fieldset>
-												</td>
+										<table border="1" align="center" cellpadding="10" width="100%" cellspacing="0">
+											<tr align="center">
+												<th colspan="9">
+													EMPLOYEE INFORMATION&nbsp;&nbsp;&nbsp;
+													<a href="add-employee.php">Create a New Employee Profile</a>
+												</th>
+											</tr>
+											<tr align="center">
+												<td><b>Employee ID</b></td>
+												<td><b>Employee Name</b></td>
+												<td><b>Gender</b></td>
+												<td><b>Phone No.</b></td>
+												<td><b>Email Address</b></td>
+												<td><b>Salary</b></td>
+												<td><b>Joining Date</b></td>
+												<td><b>Total Product Delivered</b></td>
+											</tr>
+											<tr align="center">
+												<td>1001</td>
+												<td>ABC XYZ</td>
+												<td>Male</td>
+												<td>0123456789</td>
+												<td>abc@gmail.com</td>
+												<td>20000</td>
+												<td>1/1/2017</td>
+												<td>4</td>
+											</tr>
+											<tr align="center">
+												<td>1002</td>
+												<td>ABC XYZ</td>
+												<td>Male</td>
+												<td>0123456789</td>
+												<td>abc@gmail.com</td>
+												<td>20000</td>
+												<td>1/1/2017</td>
+												<td>4</td>
+											</tr>
+											<tr align="center">
+												<td>1003</td>
+												<td>ABC XYZ</td>
+												<td>Male</td>
+												<td>0123456789</td>
+												<td>abc@gmail.com</td>
+												<td>20000</td>
+												<td>1/1/2017</td>
+												<td>4</td>
 											</tr>
 										</table>
 									</td>
@@ -298,7 +208,6 @@
 			</td>
 		</tr>
 	</table>
-<script type="text/javascript" src="../../resources/js/admin/employee-add-st.js"></script>
-<script src="../../../../data/core/front-end//handler.js"></script>
+	<script src="../../resources/js/admin/employee-info-st.js"></script>
 </body>
 </html>

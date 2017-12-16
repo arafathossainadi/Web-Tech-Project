@@ -25,4 +25,7 @@ function loginhandle() {
 	else if(uname.value == "emp"){
 		window.location = "../../../../app/view/panel/employee/dashboard.php";
 	}
+	else if(uname.value == "cust"){
+		window.location = "../../../../app/view/panel/customer/dashboard.php";
+	}
 }

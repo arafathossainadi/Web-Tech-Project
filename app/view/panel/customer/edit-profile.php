@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>Customer</title>
-	<link rel="icon" href="Image/logo.png">
+	<link rel="icon" href="../../resources/images/logo.png">
 	<script src="app/view/resources/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -13,7 +13,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="PurchasedProduct.php"><img src="Image/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="purchased-product.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="7" color="white">Hello ABC</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -27,9 +27,9 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="login.php" id="logout">
+								<a href="../public/login.php" id="logout">
 									<font size="5">Logout</font>
-									<image src="Image/logout.png" height="25" alt="icon"/>
+									<image src="../../resources/images/logout.png" height="25" alt="icon"/>
 								</a>
 							</td>
 						</td>
@@ -47,9 +47,9 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td valign="top">
-										<a href="PurchasedProduct.php">
+										<a href="purchased-product.php">
 											<button>
-												<img src="Image/dashboard.png" height="43">
+												<img src="../../resources/images/dashboard.png" height="43">
 												<span >Product<br>Purchased</span>
 											</button>
 										</a>
@@ -59,9 +59,9 @@
 								<tr>
 									
 									<td >
-									<a href="customerMessage.php">
+									<a href="message.php">
 										<button>
-											<img src="Image/message.png" height="40">
+											<img src="../../resources/images/message.png" height="40">
 											<span class="dash">Messages(3)</span>
 										</button>
 									</a>
@@ -71,9 +71,9 @@
 								<tr>
 									
 									<td >
-									<a href="customereditprofile.php">
+									<a href="edit-profile.php">
 										<button>
-											<img src="Image/profile.png" height="40">
+											<img src="../../resources/images/profile.png" height="40">
 											<span class="dash">Edit Profile</span>
 										</button>
 									</td>
@@ -211,7 +211,7 @@
 			</td>
 		</tr>
 	</table>
-	<script src="app/view/resources/js/handler.js"></script>
-	<script src="app/view/resources/js/custedst.js"></script>
+	<script src="../../../../data/core/front-end/handler.js"></script>
+	<script src="../../resources/js/customer/edit-profile-st.js"></script>
 </body>
 </html>
