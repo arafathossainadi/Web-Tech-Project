@@ -156,10 +156,15 @@
 															<td align="left" colspan="2">
 															</td>
 														</tr>
+														<tr>
+															<td></td>
+															<td>
+																<hr>
+																<input type="Reset" value="Reset" class="smbtn">
+																<input type="submit" value="Submit" class="smbtn">
+															</td>
+														</tr>
 													</table>
-													<hr>
-													<input type="Reset" value="Reset" class="smbtn">
-													<input type="submit" value="Submit" class="smbtn">
 												</form>
 												</fieldset>
 												</td>

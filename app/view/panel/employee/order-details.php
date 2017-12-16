@@ -120,7 +120,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left" width="140">
 																<b>Order Id :</b>
 															</td>
 															<td align="left">
@@ -133,7 +133,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Product Id :</b>
 															</td>
 															<td align="left">
@@ -145,7 +145,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Product Name :</b>
 															</td>
 															<td align="left">
@@ -153,7 +153,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Color :</b>
 															</td>
 															<td align="left">
@@ -165,7 +165,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Customer Name :</b>
 															</td>
 															<td align="left">
@@ -173,7 +173,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Phone No. :</b>
 															</td>
 															<td align="left">
@@ -181,7 +181,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Address :</b>
 															</td>
 															<td align="left">
@@ -189,7 +189,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Email :</b>
 															</td>
 															<td align="left">
@@ -197,7 +197,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Order Date & Time:</b>
 															</td>
 															<td align="left">
@@ -205,7 +205,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="right">
+															<td align="left">
 																<b>Quantity :</b>
 															</td>
 															<td align="left">
@@ -224,10 +224,15 @@
 															<td align="left" colspan="2">
 															</td>
 														</tr>
+														<tr>
+															<td colspan="2" align="center">
+																
+																<hr>
+																<input type="Reset" value="Cancel" class="smbtn">
+																<input type="submit" value="OK" class="smbtn">
+															</td>
+														</tr>
 													</table>
-													<hr>
-													<input type="Reset" value="Cancel" class="smbtn">
-													<input type="submit" value="OK" class="smbtn">
 												</form>
 												</fieldset>
 												</td>

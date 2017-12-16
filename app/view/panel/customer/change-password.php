@@ -95,14 +95,13 @@
 								<tr><td height="20"></td></tr>
 								<tr>
 									<td align="center">
-										<table>
+										<table border="0">
 											<tr>
 												<td>
 												<fieldset>
 												<legend><h3>UPDATE Password</h3></legend>
 												<form action="regHandle.php">
 													<table border="0">
-														
 														<tr>
 															<td align="left" colspan="2">
 															</td>														
@@ -141,13 +140,17 @@
 															</td>
 														</tr>
 														<tr>
-															<td align="left" colspan="2">
+															<td align="left" colspan="2"></td>
+														</tr>
+														<tr>
+															<td></td>
+															<td>
+																<hr>
+																<input type="Reset" value="Reset" class="smbtn">
+																<input type="submit" value="Submit" class="smbtn">
 															</td>
 														</tr>
-																											</table>
-													<hr>
-													<input type="Reset" value="Reset" class="smbtn">
-													<input type="submit" value="Submit" class="smbtn">
+													</table>
 												</form>
 												</fieldset>
 												</td>
@@ -181,6 +184,6 @@
 		</tr>
 	</table>
 	<script src="../../../../data/core/front-end/handler.js"></script>
-	<script src="../../resources/js/customer/edit-profile-st.js"></script>
+	<script src="../../resources/js/customer/change-password-st.js"></script>
 </body>
 </html>
