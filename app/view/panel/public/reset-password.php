@@ -60,11 +60,11 @@
 												</table>
 												<table border="0">
 													<tr>
-														<td colspan="2" align="right"><font size="5"><b><i>New Password&nbsp;&nbsp;</i></b></td>
+														<td colspan="2" align="right"><font size="4"><b><i>New Password&nbsp;&nbsp;</i></b></td>
 														<td><input type="text" name="password" size="30" valign="center" required/></td>
 													</tr>
 													<tr>
-														<td colspan="2" align="right"><font size="5"><b><i>Confirm Password&nbsp;&nbsp;</i></b></td>
+														<td colspan="2" align="right"><font size="4"><b><i>Confirm Password&nbsp;&nbsp;</i></b></td>
 														<td><input type="password" name="re_password" size="30" valign="center" required/></td>
 													</tr>
 													<tr></tr>
