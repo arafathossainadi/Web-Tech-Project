@@ -184,5 +184,22 @@ newStyle.appendChild(document.createTextNode("\
 	font-size: 24px;\
 	margin-left: 5px;\
 }\
+.filterby{\
+	font-size: 24px;\
+	color: #D2D2D2;\
+	margin-left: 5px;\
+}\
+.filter legend{\
+	text-align: center;\
+	margin-bottom: 10px;\
+}\
+.filter input{\
+	vertical-align: center;\
+	margin-bottom: 10px;\
+}\
+.filter button{\
+	margin-bottom: 10px;\
+	width: 80px;\
+}\
 "));
 document.head.appendChild(newStyle);

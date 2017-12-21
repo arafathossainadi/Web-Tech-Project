@@ -12,7 +12,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="../../../../dashboard.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="7" color="white">EMPLOYEE PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -56,7 +56,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-
+									
 									<td >
 									<a href="message.php">
 										<button>
@@ -68,7 +68,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-
+									
 									<td >
 									<a href="edit-profile.php">
 										<button>
@@ -78,19 +78,8 @@
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
-								<tr>
-									<td valign="top" >
-										<a href="change-password.php">
-											<button>
-												<img src="../../resources/images/password_icon.png" height="43">
-												<span>Change<br>Password</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-
 							</table>
-						</td>
+						</td> 
 						<td width="895" bgcolor="#C0C0C0" valign="top">
 							<table border="0" width="860" align="center">
 								<tr><td height="20"></td></tr>
@@ -105,8 +94,11 @@
 											<tr align="center">
 												<td><b>Order ID</b></td>
 												<td><b>Product ID</b></td>
+												<td><b>Product Name</b></td>
 												<td><b>Customer Name</b></td>
 												<td><b>Phone No.</b></td>
+												<td><b>Email Address</b></td>
+												<td><b>Address</b></td>
 												<td><b>Order Date</b></td>
 												<td><b>Quantity</b></td>
 												<td><b>Details</b></td>
@@ -114,29 +106,38 @@
 											<tr align="center">
 												<td>1001</td>
 												<td>2001</td>
+												<td>Car-1-1</td>
 												<td>ABC XYZ</td>
 												<td>0123456789</td>
+												<td>abc@gmail.com</td>
+												<td>Dhaka</td>
 												<td>1/1/2017</td>
 												<td>2</td>
-												<td><a href="order-details.php">See Details</a></td>
+												<td><a href="#">See Details</a></td>
 											</tr>
 											<tr align="center">
 												<td>1001</td>
 												<td>2001</td>
+												<td>Car-1-1</td>
 												<td>ABC XYZ</td>
 												<td>0123456789</td>
+												<td>abc@gmail.com</td>
+												<td>Dhaka</td>
 												<td>1/1/2017</td>
 												<td>2</td>
-												<td><a href="order-details.php">See Details</a></td>
+												<td><a href="#">See Details</a></td>
 											</tr>
 											<tr align="center">
 												<td>1001</td>
 												<td>2001</td>
+												<td>Car-1-1</td>
 												<td>ABC XYZ</td>
 												<td>0123456789</td>
+												<td>abc@gmail.com</td>
+												<td>Dhaka</td>
 												<td>1/1/2017</td>
 												<td>2</td>
-												<td><a href="order-details.php">See Details</a></td>
+												<td><a href="#">See Details</a></td>
 											</tr>
 										</table>
 									</td>
@@ -148,7 +149,7 @@
 					</tr>
 				</table>
 			</td>
-
+			
 		</tr>
 		<tr bgcolor="#212121" height="50" >
 			<td>

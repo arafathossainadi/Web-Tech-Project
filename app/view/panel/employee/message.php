@@ -12,7 +12,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="../../../../dashboard.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="7" color="white">EMPLOYEE PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -56,7 +56,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-
+									
 									<td >
 									<a href="message.php">
 										<button>
@@ -68,7 +68,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-
+									
 									<td >
 									<a href="edit-profile.php">
 										<button>
@@ -78,20 +78,9 @@
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
-								<tr>
-									<td valign="top" >
-										<a href="change-password.php">
-											<button>
-												<img src="../../resources/images/password_icon.png" height="43">
-												<span>Change<br>Password</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-
 							</table>
-						</td>
-						<td width="895" bgcolor="#C0C0C0" valign="top" height="350">
+						</td> 
+						<td width="895" bgcolor="#C0C0C0" valign="top">
 							<table border="0" width="860" align="center">
 								<tr><td height="20"></td></tr>
 								<tr>
@@ -107,7 +96,7 @@
 												<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi odit nihil temporibus odio delectus provident laborum! Quaerat ratione aliquid eum fugit deleniti repellat, possimus ad cupiditate aliquam, aspernatur sit!</td>
 											</tr>
 										</table>
-									</td>
+										</td>
 								</tr>
 								<tr><td height="20"></td></tr>
 								<tr><td height="20"></td></tr>
@@ -116,7 +105,7 @@
 					</tr>
 				</table>
 			</td>
-
+			
 		</tr>
 		<tr bgcolor="#212121" height="50" >
 			<td>

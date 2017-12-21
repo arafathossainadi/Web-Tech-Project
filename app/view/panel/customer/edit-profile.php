@@ -69,6 +69,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
+									
 									<td >
 									<a href="edit-profile.php">
 										<button>
@@ -78,15 +79,6 @@
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
-								<tr>
-									<td >
-									<a href="change-password.php">
-										<button>
-											<img src="../../resources/images/password_icon.png" height="43">
-											<span>Change<br>Password</span>
-										</button>
-									</td>
-								</tr>
 							</table>
 						</td> 
 						<td width="895" bgcolor="#C0C0C0" valign="top">
@@ -161,14 +153,10 @@
 														</tr>
 														<tr>
 															<td align="left">
-																<b>Gender :</b>
+																<b>Password :</b>
 															</td>
 															<td align="left">
-																<select>
-																	<option>Male</option>
-																	<option>Female</option>
-																	<option>Others</option>
-																</select>
+																<input type="text" name="password">
 															</td>
 														</tr>
 														<tr>
@@ -177,7 +165,7 @@
 														</tr>
 														<tr>
 															<td align="left">
-																<b>Date of Birth :</b>
+																<b>Confirm Password :</b>
 															</td>
 															<td align="left">
 																<input type="password" name="password">

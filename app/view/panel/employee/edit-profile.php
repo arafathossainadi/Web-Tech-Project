@@ -13,7 +13,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="../../../../dashboard.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="7" color="white">EMPLOYEE PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -57,7 +57,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-
+									
 									<td >
 										<a href="message.php"><button>
 												<img src="../../resources/images/message.png" height="40">
@@ -67,7 +67,7 @@
 								</tr>
 								<tr><td height="10"></td></tr>
 								<tr>
-
+									
 									<td >
 										<a href="edit-profile.php">
 											<button>
@@ -78,19 +78,8 @@
 									</td>
 								</tr>
 								<tr><td height="10"></td></tr>
-								<tr>
-									<td valign="top" >
-										<a href="change-password.php">
-											<button>
-												<img src="../../resources/images/password_icon.png" height="43">
-												<span>Change<br>Password</span>
-											</button>
-										</a>
-									</td>
-								</tr>
-
 							</table>
-						</td>
+						</td> 
 						<td width="895" bgcolor="#C0C0C0" valign="top">
 							<table border="0" width="860" align="center">
 								<tr><td height="20"></td></tr>
@@ -123,7 +112,7 @@
 														</tr>
 														<tr>
 															<td align="left" colspan="2">
-															</td>
+															</td>														
 														</tr>
 														<tr>
 															<td align="left">
@@ -133,7 +122,7 @@
 																<input type="text" name="name">
 															</td>
 														</tr>
-
+														
 														<tr>
 															<td align="left" colspan="2">
 															</td>
@@ -179,6 +168,26 @@
 															</td>
 														</tr>
 														<tr>
+															<td align="left">
+																<b>Password :</b>
+															</td>
+															<td align="left">
+																<input type="text" name="password">
+															</td>
+														</tr>
+														<tr>
+															<td align="left" colspan="2">
+															</td>
+														</tr>
+														<tr>
+															<td align="left">
+																<b>Confirm Password :</b>
+															</td>
+															<td align="left">
+																<input type="password" name="password">
+															</td>
+														</tr>
+														<tr>
 															<td align="left" colspan="2">
 															</td>
 														</tr>
@@ -200,7 +209,7 @@
 					</tr>
 				</table>
 			</td>
-
+			
 		</tr>
 		<tr bgcolor="#212121" height="50" >
 			<td>

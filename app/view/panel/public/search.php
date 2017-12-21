@@ -75,36 +75,31 @@
 						</td>
 					</tr>
 					<tr>
-						<td width="200" valign="top" bgcolor="#212121">
+						<td width="240" valign="top" bgcolor="#212121">
 							<table>
 								<tr>
 									<td height="20"></td>
 								</tr>
 							</table>
-							<table cellspacing="0" bgcolor="red" border="1" align="center" cellpadding="10">
+							<table cellspacing="0" bgcolor="red" border="0" align="center" cellpadding="10" class="filter">
 								<tr>
 									<td bgcolor="#E41E26">
-										Filter By
+										<div class="filterby">Filter By</div>
 									</td>
 								</tr>
 								<tr>
-									<td bgcolor="#D2D2D2">
+									<td bgcolor="#D2D2D2" >
 										<fieldset>
-											<legend>CATEGORY</legend>
-											<input type="checkbox" value="SUV">
-											<input type="checkbox" value="SEDAN">
-											<input type="checkbox" value="">
-											<input type="checkbox" value="">
-											<input type="checkbox" value="">
-											<input type="checkbox" value="">
-											<select name="" id="">
-												<option value="Select" selected="selected">Select Anyone</option>
-												<option value="SUV">SUV</option>
-												<option value="SEDAN">SEDAN</option>
-												<option value="CROSSOVER">CROSSOVER</option>
-												<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-												<option value="PARTS">VEHICLE PARTS</option>
-											</select>
+											<legend >CATEGORY</legend>
+											<input type="checkbox" value="SUV">SUV
+											<br>
+											<input type="checkbox" value="SEDAN">SEDAN
+											<br>
+											<input type="checkbox" value="CROSSOVER">CROSSOVER
+											<br>
+											<input type="checkbox" value="PICKUP TRUCKS">PICKUP TRUCKS
+											<br>
+											<input type="checkbox" value="VEHICLE PARTS">VEHICLE PARTS
 										</fieldset>
 									</td>
 								</tr>
@@ -112,15 +107,44 @@
 									<td bgcolor="#D2D2D2" >
 										<fieldset>
 											<legend>BRAND</legend>
-											<select name="" id="">
-												<option value="Select" selected="selected">Select Anyone</option>
-												<option value="TOYOTA">TOYOTA</option>
-												<option value="NISSAN">NISSAN</option>
-												<option value="MITSUBISHI">MITSUBISHI</option>
-												<option value="MERCEDES">MERCEDES</option>
-												<option value="PROCHE">PROCHE</option>
-											</select>
+											<input type="checkbox" value="TOYOTA">TOYOTA
+											<br>
+											<input type="checkbox" value="NISSAN">NISSAN
+											<br>
+											<input type="checkbox" value="FORD">FORD
+											<br>
+											<input type="checkbox" value="AUDI">AUDI
+											<br>
+											<input type="checkbox" value="BMW">BMW
+											<br>
+											<input type="checkbox" value="MERCEDES">MERCEDES
+											<br>
+											<input type="checkbox" value="PORSCHE">PORSCHE
+											<br>
+											<input type="checkbox" value="LAMBORGHINI">LAMBORGHINI
+											<br>
+											<input type="checkbox" value="FERRARI">FERRARI
 										</fieldset>
+									</td>
+								</tr>
+								<tr>
+									<td bgcolor="#D2D2D2" >
+										<fieldset>
+											<legend>COLOR</legend>
+											<input type="checkbox" value="RED">RED
+											<br>
+											<input type="checkbox" value="BLUE">BLUE
+											<br>
+											<input type="checkbox" value="WHITE">WHITE
+											<br>
+											<input type="checkbox" value="BLACK">BLACK
+											<br>
+										</fieldset>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" bgcolor="#D2D2D2">
+										<button class="smbtn">PROCEED</button>
 									</td>
 								</tr>
 							</table>
@@ -211,6 +235,56 @@
 										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 									</td>
 								</tr>
+								<tr>
+									<td align="center">
+										<div class="container">
+										  <img src="../../resources/images/product1.jpg" border="1" alt="Avatar" class="image">
+										  <a href="publicproductdetails.php" target="_blank">
+										  	<div class="middle">
+										  	  <div class="text">See Details</div>
+										  	</div>
+										  </a>
+										</div>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
+										
+									</td>
+									<td width="20"></td>
+									<td align="center">
+										<div class="container">
+										  <img src="../../resources/images/product2.png" border="1" alt="Avatar" class="image">
+										  <a href="publicproductdetails.php" target="_blank">
+										  	<div class="middle">
+										  	  <div class="text">See Details</div>
+										  	</div>
+										  </a>
+										</div>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
+									</td>
+									<td width="20"></td>
+									<td align="center">
+										<div class="container">
+										  <img src="../../resources/images/product3.png" border="1" alt="Avatar" class="image">
+										  <a href="publicproductdetails.php" target="_blank">
+										  	<div class="middle">
+										  	  <div class="text">See Details</div>
+										  	</div>
+										  </a>
+										</div>
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table>
+								<tr>
+									<td height="20"></td>
+								</tr>
 							</table>
 						</td>
 					</tr>
@@ -261,7 +335,7 @@
 									</tr>
 									<tr>
 										<td><font size="5" color="#f7f9f9"></td>
-										<td><input type="submit" id="smbtn" value="Send Message"></td>
+										<td><input type="submit" class="smbtn" value="Send Message"></td>
 									</tr>
 								</form>
 							</table>
