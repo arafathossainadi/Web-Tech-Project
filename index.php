@@ -1,3 +1,4 @@
+<?php include 'app/controller/main.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,194 +80,65 @@
 									<tr><td height="20"></td></tr>
 									<tr>
 										<td width="20"></td>
-										<td align="left">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td align="left" bgcolor="#212121">
-														<p>Toyota Model-ABC<br/>Price-$10000</p>
-														<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-													</td>
-												</tr>
-											</table>
-										</td>
-										<td width="20"></td>
-										<td align="left">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
+										<?php 
+										for ($i = 0; $i < 4; $i++) {
+											echo '<td align="left">
+												<table border="0" cellspacing="0">
+													<tr>
+														<td bgcolor="#EEEDEB">
+															<div class="container">
+															  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
+															  <a href="app/view/panel/public/product-details.php" target="_blank">
+															  	<div class="middle">
+															  	  <div class="text">VIEW NOW</div>
+															  	</div>
+															  </a>
+															</div>
+														</td>
+													</tr>
 													<tr>
 														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<p>'.$products[$i]['ProductName'].'<br/>Price-$10000</p>
 															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
 														</td>
 													</tr>
-											</table>
-										</td>
-										<td width="20"></td>
-										<td align="center">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-											</table>
-										</td>
-										<td width="20"></td>
-										<td align="center">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-											</table>
-										</td>
-										<td width="20"></td>
+												</table>
+											</td>
+											<td width="20"></td>';
+										}
+									echo '
 									</tr>
 									<tr><td height="20"></td></tr>
 									<tr>
-										<td width="20"></td>
-										<td align="center">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
+										<td width="20"></td>';
+										for ($i = 4; $i < 8; $i++) {
+											echo '<td align="left">
+												<table border="0" cellspacing="0">
+													<tr>
+														<td bgcolor="#EEEDEB">
+															<div class="container">
+															  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
+															  <a href="app/view/panel/public/product-details.php" target="_blank">
+															  	<div class="middle">
+															  	  <div class="text">VIEW NOW</div>
+															  	</div>
+															  </a>
+															</div>
+														</td>
+													</tr>
 													<tr>
 														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
+															<p>'.$products[$i]['ProductName'].'<br/>Price-$10000</p>
 															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
 														</td>
 													</tr>
-											</table>
-										</td>
-										<td width="20"></td>
-										<td align="center">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-											</table>
-										</td>
-										<td width="20"></td>
-										<td align="center">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-											</table>
-										</td>
-										<td width="20"></td>
-										<td align="center">
-											<table border="0" cellspacing="0">
-												<tr>
-													<td bgcolor="#EEEDEB">
-														<div class="container">
-														  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-														  <a href="app/view/panel/public/product-details.php" target="_blank">
-														  	<div class="middle">
-														  	  <div class="text">VIEW NOW</div>
-														  	</div>
-														  </a>
-														</div>
-													</td>
-												</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>Toyota Model-ABC<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-											</table>
-										</td>
-									</tr>
+												</table>
+											</td>
+											<td width="20"></td>';
+										}
+										
+									echo '</tr>';
+									?>
 									<tr><td height="20"></td></tr>
 								</table>
 							</fieldset>
