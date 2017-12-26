@@ -103,16 +103,16 @@
 																<span>Password:</span>
 															</td>
 															<td>
-																<input type="password" value="<?=$customer['password']?>">
+																<input type="Password" name="password" value="<?=$customer['password']?>">
 															</td>
 														</tr>
-														<!-- <tr><td colspan="2"> <hr></td></tr>
+														<tr><td colspan="2"> <hr></td></tr>
 														<tr>
 															<td>
 																<span>Confirm Password:</span>
 															</td>
 															<td>
-																<input type="Password" value="<?=$customer['confirmpassword']?>">
+																<input type="Password" name="confirmpassword" value="<?=$customer['confirmpassword']?>">
 															</td>
 														</tr>
 													</table>
@@ -122,9 +122,9 @@
 															<td width="600">
 																<fieldset>
 																	<legend>Gender</legend>
-																	<input type="radio" name="gen" value="Male" value="<?=$customer['male']?>">Male
-																	<input type="radio" name="gen" value="Female" value="<?=$customer['female']?>">Female
-																	<input type="radio" name="gen" value="Other" value="<?=$customer['other']?>">Other
+																	<input type="radio" name="gender" value="<?=$customer['gender']="Male"?>">Male
+																	<input type="radio" name="gender" value="<?=$customer['gender']="Female"?>">Female
+																	<input type="radio" name="gender" value="<?=$customer['gender']="Others"?>">Other
 																</fieldset>
 															</td>
 														</tr>
@@ -138,13 +138,13 @@
 																	<table>
 																		<tr>
 																			<td>
-																				<input type="text" name="day" placeholder="Day" size="4" name="day"/ value="<?=$customer['dobday']?>"> /
+																				<input type="text" name="dobday" placeholder="Day" size="4" name="day" value="<?=$customer['dobday']?>"> /
 																			</td>
 																			<td>
-																				<input type="text" name="month" placeholder="Month" size="4" name="month"/ value="<?=$customer['dobmonth']?>"> /
+																				<input type="text" name="dobmonth" placeholder="Month" size="4" name="month"value="<?=$customer['dobmonth']?>"> /
 																			</td>
 																			<td>
-																				<input type="text" name="year" placeholder="Year" size="4" name="year"/ value="<?=$customer['dobyear']?>">
+																				<input type="text" name="dobyear" placeholder="Year" size="4" name="year" value="<?=$customer['dobyear']?>">
 																			</td>
 																			<td>
 																				&nbsp(dd/mm/yyyy)
@@ -153,7 +153,7 @@
 																	</table>
 																</fieldset>
 															</td>
-														</tr> -->
+														</tr>
 													</table>
 													<hr>
 													<input type="submit" value="Submit" class="smbtn">

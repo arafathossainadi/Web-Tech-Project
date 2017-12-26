@@ -2,7 +2,7 @@
     $host="127.0.0.1";
     $user="root";
     $pass="";
-    $dbname="test";
+    $dbname="webo";
     $port=3306;
     
     function executeSQL($sql){

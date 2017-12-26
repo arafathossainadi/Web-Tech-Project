@@ -6,22 +6,29 @@
 			$x = sizeof($products);
 			break;
 		case "registration":
-		    $customer = array("name"=>"", "email"=>"","address"=>"","contactnumber"=>"","username"=>"","password"=>"");
-		    // $customerErr = array("name"=>"", "email"=>"");
+		    $customer = array("name"=>"", "email"=>"","address"=>"","contactnumber"=>"","username"=>"","password"=>"",
+			"confirmpassword"=>"","gender"=>"","dobday"=>"","dobmonth"=>"","dobyear"=>"");
 		    $msg = "";
 
 		    if($_SERVER['REQUEST_METHOD']=="POST"){
 		        $customer['name'] = trim($_POST['name']);
 		        $customer['email'] = trim($_POST['email']);
 		        $customer['address'] = trim($_POST['address']);
-		        $customer['contactnumber'] = trim($_POST['contactnumber']);
+		        $customer['contactnumber']=trim($_POST['contactnumber']);
 		        $customer['username'] = trim($_POST['username']);
 		        $customer['password'] = trim($_POST['password']);
-		        var_dump(validateCustomerForCreate($customer));
-		        var_dump(addCustomer($customer));
+				$customer['confirmpassword'] = trim($_POST['confirmpassword']);
+				$customer['gender'] = trim($_POST['gender']);
+				$customer['dobday'] =trim($_POST['dobday']);
+				$customer['dobmonth'] =trim($_POST['dobmonth']);
+				$customer['dobyear'] =trim($_POST['dobyear']);
+				$customer['dob'] =$customer['dobday']."/".$customer['dobmonth']."/".$customer['dobyear'];
+		       // var_dump(validateCustomerForCreate($customer));
+		        //var_dump(addCustomer($customer));
 		        	if (validateCustomerForCreate($customer) == true) {
 		        		if(addCustomer($customer) == true){
-		        		    echo "<script>
+							//echo $_POST['password'];
+		        		   echo "<script>
 		        		            alert('Record Created');
 		        		            document.location='index.php?controller=public&action=index';
 		        		         </script>";
