@@ -4,6 +4,6 @@ function getAllProducts(){
         return getAllProductsDateTimeWise();
     }
     function addCustomer($customer){
-    	addCustomerToDb($customer);
+    	return addCustomerToDb($customer);
     }
  ?>

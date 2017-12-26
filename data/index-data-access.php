@@ -11,7 +11,7 @@
 	    return $products;
 	}
 	function addCustomerToDb($customer){
-	    $sql = "INSERT INTO customer(id, name, email) VALUES(NULL, '$customer[name]', '$customer[email]')";
+	    $sql = "INSERT INTO customer(Id, Name, Email, Address, ContactNumber, UserName, Password) VALUES(NULL, '$customer[name]', '$customer[email]','$customer[address]','$customer[contactnumber]','$customer[username]','$customer[password]' )";
 	    $result = executeSQL($sql);
 	    return $result;
 	}

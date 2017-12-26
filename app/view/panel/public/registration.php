@@ -66,17 +66,17 @@
 																<span>Email:</span>
 															</td>
 															<td>
-																<input type="text" name="email" "<?=$customer['email']?>">
+																<input type="text" name="email" value="<?=$customer['email']?>">
 																&nbsp;&nbsp;<img src="app/view/resources/images/i.png" alt="" width="22" align="center">
 															</td>
 														</tr>
-														<!-- <tr><td colspan="2"> <hr></td></tr>
+														<tr><td colspan="2"> <hr></td></tr>
 														<tr>
 															<td>
 																<span>Address:</span>
 															</td>
 															<td>
-																<input type="text" name="address">
+																<input type="text" name="address" value="<?=$customer['address']?>">
 															</td>
 														</tr>
 														<tr><td colspan="2"> <hr></td></tr>
@@ -85,7 +85,7 @@
 																<span>Contact Number:</span>
 															</td>
 															<td>
-																<input type="text" name="address">
+																<input type="text" name="contactnumber" value="<?=$customer['contactnumber']?>">
 															</td>
 														</tr>
 														<tr><td colspan="2"> <hr></td></tr>
@@ -94,7 +94,7 @@
 																<span>User Name:</span>
 															</td>
 															<td>
-																<input type="text" name="username">
+																<input type="text" name="username" value="<?=$customer['username']?>">
 															</td>
 														</tr>
 														<tr><td colspan="2"> <hr></td></tr>
@@ -103,16 +103,16 @@
 																<span>Password:</span>
 															</td>
 															<td>
-																<input type="Password" name="pass">
+																<input type="password" value="<?=$customer['password']?>">
 															</td>
 														</tr>
-														<tr><td colspan="2"> <hr></td></tr>
+														<!-- <tr><td colspan="2"> <hr></td></tr>
 														<tr>
 															<td>
 																<span>Confirm Password:</span>
 															</td>
 															<td>
-																<input type="Password">
+																<input type="Password" value="<?=$customer['confirmpassword']?>">
 															</td>
 														</tr>
 													</table>
@@ -122,9 +122,9 @@
 															<td width="600">
 																<fieldset>
 																	<legend>Gender</legend>
-																	<input type="radio" name="gen" value="Male">Male
-																	<input type="radio" name="gen" value="Female">Female
-																	<input type="radio" name="gen" value="Other">Other
+																	<input type="radio" name="gen" value="Male" value="<?=$customer['male']?>">Male
+																	<input type="radio" name="gen" value="Female" value="<?=$customer['female']?>">Female
+																	<input type="radio" name="gen" value="Other" value="<?=$customer['other']?>">Other
 																</fieldset>
 															</td>
 														</tr>
@@ -138,13 +138,13 @@
 																	<table>
 																		<tr>
 																			<td>
-																				<input type="text" name="day" placeholder="Day" size="4" name="day"/> /
+																				<input type="text" name="day" placeholder="Day" size="4" name="day"/ value="<?=$customer['dobday']?>"> /
 																			</td>
 																			<td>
-																				<input type="text" name="month" placeholder="Month" size="4" name="month"/> /
+																				<input type="text" name="month" placeholder="Month" size="4" name="month"/ value="<?=$customer['dobmonth']?>"> /
 																			</td>
 																			<td>
-																				<input type="text" name="year" placeholder="Year" size="4" name="year"/>
+																				<input type="text" name="year" placeholder="Year" size="4" name="year"/ value="<?=$customer['dobyear']?>">
 																			</td>
 																			<td>
 																				&nbsp(dd/mm/yyyy)

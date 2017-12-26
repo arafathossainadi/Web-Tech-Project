@@ -36,7 +36,7 @@
 					<tr><td height="5"></td></tr>
 					<tr>
 						<td align="right" id="top-menu">
-							<a  href="index.php"><font size="5"><b>HOME</b></font></a>
+							<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="app/view/panel/public/about.php" ><font size="5"><b>ABOUT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
@@ -44,7 +44,7 @@
 							<font>&nbsp;&nbsp;</font>
 							<a href="app/view/panel/public/Login.php" ><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="app/view/panel/public/registration.php" ><font size="5"><b>SIGN UP</b></font></a>
+							<a href="index.php?controller=public&action=registration" ><font size="5"><b>SIGN UP</b></font></a>
 						</td>
 					</tr>
 					<tr><td height="5"></td></tr>
