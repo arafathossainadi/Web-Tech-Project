@@ -163,14 +163,15 @@
 											echo '
 											<td align="center">
 												<div class="container">
-												  <img src="app/view/resources/images/'.$shprod['Image'].' border="1" alt="'.$shprod['Image'].'" class="image">
+												  
+												  <img src="app/view/resources/images/'.$shprod['Image'].'" border="0" height="140" width="200" alt="Avatar" class="image">
 												  <a href="publicproductdetails.php" target="_blank">
 												  	<div class="middle">
 												  	  <div class="text">See Details</div>
 												  	</div>
 												  </a>
 												</div>
-												<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;'.$shprod['Brand'].'&nbsp;&nbsp;'.$shprod['ModelNo'].'<br/>&nbsp;&nbsp;&nbsp;&nbsp;'.$shprod['Price'].'
 												<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
 											</td>
 											<td width="20"></td>';

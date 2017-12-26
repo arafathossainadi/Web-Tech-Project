@@ -9,4 +9,10 @@ function getAllProducts(){
     function getProductsByKey($key){
     	return getProductsByKeyFromDb($key);
     }
+	function userLogin($userlogin){
+		
+			return checkLoginToDb($userlogin);
+		
+    	
+    }
  ?>

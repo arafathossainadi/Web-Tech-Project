@@ -27,4 +27,16 @@
 	    }
 	    return $shProduct;
 	}
+	function checkLoginToDb($userlogin){
+		$username=$userlogin['username'];
+		$password=$userlogin['password'];
+	    $sql = "SELECT * FROM customer where UserName='$username' AND Password='$password'";
+	    $result = executeSQL($sql);
+		if(mysqli_num_rows($result) > 0){
+		return true;
+    
+	} else {
+		return false;
+}
+	}
 ?>
