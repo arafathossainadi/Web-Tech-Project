@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Login</title>
-		<link rel="icon" href="app/view/resources/images/logo.png">
+		<link rel="icon" href="../../resources/images/logo.png">
 	</head>
 	<body>
 		<table width="100%" border="0" cellspacing="0" align="center">
@@ -12,7 +12,7 @@
 						<tr><td height="10"></td></tr>
 						<tr id="schct">
 							<td width="25"></td>
-							<td height="160"><a href="../../../../index.php"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+							<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
 						<tr><td height="10"></td></tr>
 					</table>
@@ -51,17 +51,15 @@
 											<img src="../../resources/images/p1.png" height="250" alt="">
 										</td>
 										<td  align="center">
-										<form method="post">
 											<fieldset>
 												<legend><font size="5"><b>LOGIN</b></font></legend>
-												
 													<table>
 														<tr>
-															<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" id="username" placeholder="  Username" name="username" size="30" valign="center" value="<?=$userlogin['username']?>" required/><td>
+															<td><font size="5"><b><i>Username&nbsp;&nbsp;&nbsp;</i></b><input type="text" id="username" placeholder="  Username" name="username" size="30" valign="center" required/><td>
 														</tr>
 														<tr></tr>
 														<tr>
-															<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" id="password" placeholder="  Password" name="password"  size="30" valign="center" value="<?=$userlogin['password']?>" required/><td>
+															<td><font size="5"><b><i>Password&nbsp;&nbsp;&nbsp;&nbsp;</i></b><input type="password" id="password" placeholder="  Password" name="password"  size="30" valign="center" required/><td>
 														</tr>
 													</table>
 													<hr/>
@@ -71,7 +69,9 @@
 														</tr>
 														<tr>
 															<td align="left">
-																<input type="submit" value="Login" class="smbtn">
+																<button type="submit" onclick="loginhandle();" id="smbtn" valign="center" align="right">
+																	<font size="">Login</font>
+																</button>
 															</td>
 														</tr>
 														<tr>
@@ -79,7 +79,6 @@
 														</tr>
 													</table>
 											</fieldset>
-											</form>
 										</td>
 										<td width="300" align="right">
 											<img src="../../resources/images/p2.png" height="250" alt="">

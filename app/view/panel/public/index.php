@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,15 +13,15 @@
 					<tr id="schct">
 						<td width="25"></td>
 						<td height="160"><a href="index.php"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
-						<td width="7"></td>
-						<td width="50">
-							<a href="app/view/panel/public/search.php">
-								<button valign="center" align="left">
-									<font size="4">Search</font>
-								</button>
-							</a>
-						</td>
+						<form method="post">
+							<td align="right"><input type="text" placeholder="   Search Here" name="search" value="<?= $searchKey ?>" size="60" valign="center"/></td>
+							<td width="7"></td>
+							<td width="50">
+									<button type="submit" valign="center" align="left">
+										<font size="4">Search</font>
+									</button>
+							</td>
+						</form>
 						<td width="10"></td>
 						<td><a href="#" ><img src="app/view/resources/images/cart.png" height="40" alt="cart_icon"></a></td>
 					</tr>
@@ -42,7 +41,7 @@
 							<font>&nbsp;&nbsp;</font>
 							<a href="app/view/panel/public/Contact.php" ><font size="5"><b>CONTACT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="index.php?controller=public&action=login" ><font size="5"><b>LOGIN</b></font></a>
+							<a href="app/view/panel/public/Login.php" ><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="index.php?controller=public&action=registration" ><font size="5"><b>SIGN UP</b></font></a>
 						</td>
@@ -80,9 +79,9 @@
 									<tr><td height="20"></td></tr>
 									<tr>
 										
-										<?php 
-										$count=0;
-										
+									<?php 
+									
+									$count=0;
 									 foreach ($products as $product) {	
 									echo ' 
 									

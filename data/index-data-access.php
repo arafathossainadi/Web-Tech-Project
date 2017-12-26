@@ -17,16 +17,14 @@
 	    $result = executeSQL($sql);
 	    return $result;
 	}
-	function checkLoginToDb($userlogin){
-		$username=$userlogin['username'];
-		$password=$userlogin['password'];
-	    $sql = "SELECT * FROM customer where UserName='$username' AND Password='$password'";
+	function getProductsByKeyFromDb($key){
+	    $sql = "SELECT * FROM product WHERE Brand LIKE '%$key%' OR Color LIKE '%$key%'";
 	    $result = executeSQL($sql);
-		if(mysqli_num_rows($result) > 0){
-		return true;
-    
-	} else {
-		return false;
-}
+	    
+	    $shProduct = array();
+	    for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+	        $shProduct[$i] = $row;
+	    }
+	    return $shProduct;
 	}
 ?>

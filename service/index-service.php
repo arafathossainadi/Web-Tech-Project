@@ -6,10 +6,7 @@ function getAllProducts(){
     function addCustomer($customer){
     	return addCustomerToDb($customer);
     }
-	function userLogin($userlogin){
-		
-			return checkLoginToDb($userlogin);
-		
-    	
+    function getProductsByKey($key){
+    	return getProductsByKeyFromDb($key);
     }
  ?>

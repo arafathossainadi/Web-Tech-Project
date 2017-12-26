@@ -2,7 +2,7 @@ var newStyle = document.createElement('style');
 newStyle.appendChild(document.createTextNode("\
 @font-face {\
 	font-family:lr;\
-	src:url(../../resources/fonts/Lato-Regular.ttf);\
+	src:url(app/view/resources/fonts/Lato-Regular.ttf);\
 }\
 *{\
 	font-family: lr;\
