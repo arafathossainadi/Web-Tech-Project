@@ -79,64 +79,43 @@
 								<table border="0" id="exclusive-item">
 									<tr><td height="20"></td></tr>
 									<tr>
-										<td width="20"></td>
-										<?php 
-										for ($i = 0; $i < 4; $i++) {
-											echo '<td align="left">
-												<table border="0" cellspacing="0">
-													<tr>
-														<td bgcolor="#EEEDEB">
-															<div class="container">
-															  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-															  <a href="app/view/panel/public/product-details.php" target="_blank">
-															  	<div class="middle">
-															  	  <div class="text">VIEW NOW</div>
-															  	</div>
-															  </a>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>'.$products[$i]['ProductName'].'<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-												</table>
-											</td>
-											<td width="20"></td>';
-										}
-									echo '
-									</tr>
-									<tr><td height="20"></td></tr>
-									<tr>
-										<td width="20"></td>';
-										for ($i = 4; $i < 8; $i++) {
-											echo '<td align="left">
-												<table border="0" cellspacing="0">
-													<tr>
-														<td bgcolor="#EEEDEB">
-															<div class="container">
-															  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
-															  <a href="app/view/panel/public/product-details.php" target="_blank">
-															  	<div class="middle">
-															  	  <div class="text">VIEW NOW</div>
-															  	</div>
-															  </a>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td align="left" bgcolor="#212121">
-															<p>'.$products[$i]['ProductName'].'<br/>Price-$10000</p>
-															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
-														</td>
-													</tr>
-												</table>
-											</td>
-											<td width="20"></td>';
-										}
 										
+										<?php 
+										$count=0;
+										
+									 foreach ($products as $product) {	
+									echo ' 
+									
+									<td align="left">
+												<table border="0" cellspacing="0">
+													<tr>
+														<td bgcolor="#EEEDEB">
+															<div class="container">
+															  <img src="app/view/resources/images/product3.png" border="0" alt="Avatar" class="image">
+															  <a href="app/view/panel/public/product-details.php" target="_blank">
+															  	<div class="middle">
+															  	  <div class="text">VIEW NOW</div>
+															  	</div>
+															  </a>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td align="left" bgcolor="#212121">
+															<p>'.$product['ProductName'].'<br/>Price-$10000</p>
+															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											
+											<td width="20"></td>';
+											$count++;
+											if($count%4==0)
+												echo '</tr><tr>';
+											
+										}
+									
 									echo '</tr>';
 									?>
 									<tr><td height="20"></td></tr>
