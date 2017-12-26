@@ -42,7 +42,7 @@
 							<font>&nbsp;&nbsp;</font>
 							<a href="app/view/panel/public/Contact.php" ><font size="5"><b>CONTACT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="app/view/panel/public/Login.php" ><font size="5"><b>LOGIN</b></font></a>
+							<a href="index.php?controller=public&action=login" ><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="index.php?controller=public&action=registration" ><font size="5"><b>SIGN UP</b></font></a>
 						</td>

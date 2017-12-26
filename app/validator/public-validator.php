@@ -5,4 +5,8 @@
     	$isvalid = true;
          	return $isvalid;
     }
+	function checkUserLogin(&$userlogin){
+    	$isvalid = true;
+         	return $isvalid;
+    }
 ?>
