@@ -3,7 +3,6 @@
 	switch ($action) {
 		case "retrieve":
 			$products = getAllProducts();
-			$x = sizeof($products);
 			break;
 	}
  ?>
