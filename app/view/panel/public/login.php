@@ -66,7 +66,7 @@
 														<hr/>
 														<table align="left">
 															<tr>
-																<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><a href="email-verify.php">Forgot Password?</a><br/><br></font></td>
+																<td><input type="checkbox" name="remember_me"><font size="3"><b>&nbsp;&nbsp;Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><a href="index.php?controller=public&action=email-verify">Forgot Password?</a><br/><br></font></td>
 															</tr>
 															<tr>
 																<td align="left">
@@ -76,7 +76,7 @@
 																</td>
 															</tr>
 															<tr>
-																<td><br><u>Not a member yet ?</u>&nbsp;&nbsp;<a href="registration.php">Sign Up</a></td>
+																<td><br><u>Not a member yet ?</u>&nbsp;&nbsp;<a href="index.php?controller=public&action=registration">Sign Up</a></td>
 															</tr>
 														</table>
 												</fieldset>

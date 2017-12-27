@@ -271,7 +271,7 @@
 								</tr>
 							</table>
 							<table border="0" id="feedback">
-								<form action="publicopininon">
+								<form >
 									<tr>
 										<td><font size="5" color="#f7f9f9">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 										<td><input type="text"  size="30" placeholder="  Your name"/></td>

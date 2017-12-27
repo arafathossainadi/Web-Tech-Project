@@ -26,7 +26,7 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="../public/login.php" id="logout">
+								<a href="index.php?controller=customer&action=edit-profile" id="logout">
 									<font size="5">Logout</font>
 									<image src="app/view/resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
@@ -137,7 +137,7 @@
 											<tr align="center">
 												<th colspan="9">
 													EMPLOYEE INFORMATION&nbsp;&nbsp;&nbsp;
-													<a href="add-employee.php">Create a New Employee Profile</a>
+													<a href="index.php?controller=admin&action=add-employee">Create a New Employee Profile</a>
 												</th>
 											</tr>
 											<tr align="center">
