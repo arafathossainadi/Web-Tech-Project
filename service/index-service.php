@@ -12,7 +12,5 @@ function getAllProducts(){
 	function userLogin($userlogin){
 		
 			return checkLoginToDb($userlogin);
-		
-    	
     }
  ?>
