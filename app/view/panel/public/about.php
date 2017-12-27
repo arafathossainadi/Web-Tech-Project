@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>About</title>
-		<link rel="icon" href="../../resources/images/logo.png">
+		<link rel="icon" href="app/view/resources/images/logo.png">
 	</head>
 	<body>
 		<table width="100%"  border="0" cellspacing="0" align="center">
@@ -12,7 +12,7 @@
 						<tr><td height="10"></td></tr>
 						<tr id="schct">
 							<td width="25"></td>
-							<td height="160"><a href="index.php?controller=public&action=index"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+							<td height="160"><a href="index.php?controller=public&action=index"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
 						<tr><td height="10"></td></tr>
 					</table>
@@ -26,9 +26,9 @@
 							<td align="right" id="top-menu">
 								<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
+								<a href="index.php?controller=public&action=about" ><font size="5"><b>ABOUT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
+								<a href="index.php?controller=public&action=contact" ><font size="5"><b>CONTACT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
 								<a href="index.php?controller=public&action=login" ><font size="5"><b>LOGIN</b></font></a>
 								<font>&nbsp;&nbsp;</font>
@@ -56,7 +56,7 @@
 											</tr>
 										</table>
 									</td>
-									<td align="left"><img src="../../resources/images/logo.png" width="400" alt=""></td>
+									<td align="left"><img src="app/view/resources/images/logo.png" width="400" alt=""></td>
 								</tr>
 							</table>
 						</td>
@@ -82,19 +82,19 @@
 									<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 									<td align="center" width="350" valign="top">
 										<font size="5" color="white"><b><u>Join Us On</u></b></font><br/><br/>
-										<a href="http://www.linkedin.com"><img src="../../resources/images/lin.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<a href="http://www.gmail.com"><img src="../../resources/images/g+.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<a href="http://www.facebook.com"><img src="../../resources/images/fb.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<a href="http://www.twitter.com"><img src="../../resources/images/twitt.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<a href="http://www.instagram.com"><img src="../../resources/images/insta.png"  height="50" valign="top"><br/><br/></a>
+										<a href="http://www.linkedin.com"><img src="app/view/resources/images/lin.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="http://www.gmail.com"><img src="app/view/resources/images/g+.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="http://www.facebook.com"><img src="app/view/resources/images/fb.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="http://www.twitter.com"><img src="app/view/resources/images/twitt.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href="http://www.instagram.com"><img src="app/view/resources/images/insta.png"  height="50" valign="top"><br/><br/></a>
 									</td>
 									<td width="50"></td>
 									<td align="center" valign="top">
 										
 										<font size="5" color="white"><b><u>Payement Method</u></b></font><br/><br/>
-										<img src="../../resources/images/payoneer.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<img src="../../resources/images/payza.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-										<img src="../../resources/images/paypal.png"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<img src="app/view/resources/images/payoneer.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<img src="app/view/resources/images/payza.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<img src="app/view/resources/images/paypal.png"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									</td>
 								</tr>
 								<tr><td height="20" colspan="6"></td></tr>
@@ -119,6 +119,68 @@
 				</td>
 			</tr>
 		</table>
-	<script type="text/javascript" src="../../resources/js/public/about-st.js"></script>
+	<script>
+		var newStyle = document.createElement('style');
+		newStyle.appendChild(document.createTextNode("\
+		@font-face {\
+			font-family:lr;\
+			src:url(app/view/resources/fonts/Lato-Regular.ttf);\
+		}\
+		*{\
+			font-family: lr;\
+		}\
+		#top-menu > a{\
+			position: relative;\
+			text-decoration: none;\
+			color:#212121;\
+			-webkit-transition: color 0.2s ease-in-out 0s;\
+		        	transition: color 0.2s ease-in-out 0s;\
+		}\
+		#top-menu > a:hover{\
+			color: #E41E26;\
+		}\
+		#top-menu > a::before{\
+			content: '';\
+			position: absolute;\
+			width: 100%;\
+			height: 2px;\
+			bottom: -5px;\
+			left: 0;\
+			background-color: #E41E26;\
+			visibility: hidden;\
+			-webkit-transform: scaleX(0);\
+			transform: scaleX(0);\
+			-webkit-transition: all 0.2s ease-in-out 0s;\
+			transition: all 0.2s ease-in-out 0s;\
+		}\
+		#top-menu > a:hover::before{\
+			visibility: visible;\
+			  -webkit-transform: scaleX(0.9);\
+			  transform: scaleX(0.9);\
+		}\
+		#feedback input{\
+			height: 25px;\
+			margin-top: 5px;\
+		}\
+		#feedback textarea{\
+			resize: none;\
+			width: 217px;\
+			margin-top: 7px;\
+		}\
+		#smbtn{\
+			height: 31px !important;\
+			border: none;\
+			border-radius: 3px;\
+			width: 95px;\
+			background-color: #E41E26;\
+			color: #D2D2D2;\
+			transition: all  0.2s ease-in-out 0s;\
+		}\
+		#smbtn:hover{\
+			box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);\
+		}\
+		"));
+		document.head.appendChild(newStyle);
+	</script>
 	</body>
 </html>

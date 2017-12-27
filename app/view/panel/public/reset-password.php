@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Reset Password</title>
-		<link rel="icon" href="../../resources/images/logo.png">
+		<link rel="icon" href="app/view/resources/images/logo.png">
 	</head>
 	<body>
 		<table width="100%" align="center" border="0" cellspacing="0"  >
@@ -12,7 +12,7 @@
 						<tr><td height="10"></td></tr>
 						<tr id="schct">
 							<td width="25"></td>
-							<td height="160"><a href="index.php?controller=public&action=index"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+							<td height="160"><a href="index.php?controller=public&action=index"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
 						<tr><td height="10"></td></tr>
 					</table>
@@ -26,9 +26,9 @@
 							<td align="right" id="top-menu">
 								<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
+								<a href="index.php?controller=public&action=about" ><font size="5"><b>ABOUT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
+								<a href="index.php?controller=public&action=contact" ><font size="5"><b>CONTACT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
 								<a href="index.php?controller=public&action=login" ><font size="5"><b>LOGIN</b></font></a>
 								<font>&nbsp;&nbsp;</font>
@@ -48,7 +48,7 @@
 									<tr><td height="20"></td></tr>
 									<tr>
 										<td width="300">
-											<img src="../../resources/images/p1.png" height="250" alt="">
+											<img src="app/view/resources/images/p1.png" height="250" alt="">
 										</td>
 										<td  align="center" width="500">
 											<fieldset>
@@ -92,7 +92,7 @@
 											</fieldset>
 										</td>
 										<td width="300" align="right">
-											<img src="../../resources/images/p2.png" height="250" alt="">
+											<img src="app/view/resources/images/p2.png" height="250" alt="">
 										</td>
 									</tr>
 									<tr><td height="20"></td></tr>
@@ -122,19 +122,19 @@
 										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 										<td align="center" width="350" valign="top">
 											<font size="5" color="white"><b><u>Join Us On</u></b></font><br/><br/>
-											<a href="http://www.linkedin.com"><img src="../../resources/images/lin.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="http://www.gmail.com"><img src="../../resources/images/g+.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="http://www.facebook.com"><img src="../../resources/images/fb.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="http://www.twitter.com"><img src="../../resources/images/twitt.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="http://www.instagram.com"><img src="../../resources/images/insta.png"  height="50" valign="top"><br/><br/></a>
+											<a href="http://www.linkedin.com"><img src="app/view/resources/images/lin.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="http://www.gmail.com"><img src="app/view/resources/images/g+.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="http://www.facebook.com"><img src="app/view/resources/images/fb.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="http://www.twitter.com"><img src="app/view/resources/images/twitt.png"  height="50" valign="top"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="http://www.instagram.com"><img src="app/view/resources/images/insta.png"  height="50" valign="top"><br/><br/></a>
 										</td>
 										<td width="50"></td>
 										<td align="center" valign="top">
 											
 											<font size="5" color="white"><b><u><i>Payement Method</i></u></b></font><br/><br/>
-											<img src="../../resources/images/payoneer.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<img src="../../resources/images/payza.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<img src="../../resources/images/paypal.png"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<img src="app/view/resources/images/payoneer.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<img src="app/view/resources/images/payza.jpg"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<img src="app/view/resources/images/paypal.png"  height="35" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										</td>
 									</tr>
 									<tr><td height="20"></td></tr>

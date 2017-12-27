@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>Details</title>
-	<link rel="icon" href="../../resources/images/logo.png">
+	<link rel="icon" href="app/view/resources/images/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -12,7 +12,7 @@
 					<tr><td height="10"></td></tr>
 					<tr id="schct">
 						<td width="25"></td>
-						<td height="160"><a href="index.php?controller=public&action=index"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="index.php?controller=public&action=index"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
 						<td width="7"></td>
 						<td width="50">
@@ -22,7 +22,7 @@
 							</a>
 						</td>
 						<td width="10"></td>
-						<td><a href="#" ><img src="../../resources/images/cart.png" height="40" alt="cart_icon"></a></td>
+						<td><a href="#" ><img src="app/view/resources/images/cart.png" height="40" alt="cart_icon"></a></td>
 					</tr>
 					<tr><td height="10"></td></tr>
 				</table>
@@ -36,9 +36,9 @@
 						<td align="right" id="top-menu">
 							<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
+							<a href="index.php?controller=public&action=about" ><font size="5"><b>ABOUT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
+							<a href="index.php?controller=public&action=contact" ><font size="5"><b>CONTACT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="index.php?controller=public&action=login" ><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
@@ -66,7 +66,7 @@
 											<tr>
 												<td>
 													<fieldset>
-														<img src="../../resources/images/cars.png" alt="car Image" width="500"><br/><br><br>
+														<img src="app/view/resources/images/cars.png" alt="car Image" width="500"><br/><br><br>
 													</fieldset>
 												</td>
 											</tr>

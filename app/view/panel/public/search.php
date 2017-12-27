@@ -38,9 +38,9 @@
 						<td align="right" id="top-menu">
 							<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
+							<a href="index.php?controller=public&action=about" ><font size="5"><b>ABOUT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
+							<a href="index.php?controller=public&action=contact" ><font size="5"><b>CONTACT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="index.php?controller=public&action=login"><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
