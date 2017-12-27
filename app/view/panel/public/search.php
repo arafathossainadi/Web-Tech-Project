@@ -4,6 +4,15 @@
 <head>
 	<title>WEBO MOTORS</title>
 	<link rel="icon" href="app/view/resources/images/logo.png">
+	<script type="text/javascript">
+	var x=0;
+	function a(){
+		x=x+1;
+		document.getElementById("ptag").innerHTML=x;
+		alert("Item Successfully added to your cart");
+	}
+	
+	</script>
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -23,7 +32,7 @@
 							</a>
 						</td>
 						<td width="10"></td>
-						<td><a href="#" ><img src="app/view/resources/images/cart.png" height="40" alt="cart_icon"></a></td>
+						<td><a href="#" ><img src="app/view/resources/images/cart.png" height="40" alt="cart_icon"></a><a id="ptag" style="color:white">0</a></td>
 					</tr>
 					<tr><td height="10"></td></tr>
 				</table>
@@ -151,6 +160,7 @@
 							</table>
 						</td>
 						<td bgcolor="#C0C0C0">
+						<form method="post">
 							<table border="0" align="center" cellspacing="0">
 								<tr>
 									<td height="20" colspan="5"></td>
@@ -171,7 +181,7 @@
 												  </a>
 												</div>
 												<p>&nbsp;&nbsp;&nbsp;&nbsp;'.$shprod['Brand'].'&nbsp;&nbsp;'.$shprod['ModelNo'].'<br/>&nbsp;&nbsp;&nbsp;&nbsp;'.$shprod['Price'].'
-												<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
+												<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="a();" id="atc">Add to Cart</button></p>
 											</td>
 											<td width="20"></td>';
 											$count++;
@@ -182,6 +192,7 @@
 										
 									 ?>
 							</table>
+							</form>
 						</td>
 					</tr>
 					<tr>
