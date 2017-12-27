@@ -1,6 +1,6 @@
 <?php require_once 'data/index-data-access.php' ?>
 <?php 
-function getAllProducts(){
+    function getAllProducts(){
         return getAllProductsDateTimeWise();
     }
     function addCustomer($customer){
@@ -9,8 +9,7 @@ function getAllProducts(){
     function getProductsByKey($key){
     	return getProductsByKeyFromDb($key);
     }
-	function userLogin($userlogin){
-		
-			return checkLoginToDb($userlogin);
+    function userLogin($userlogin){
+            return checkLoginToDb($userlogin);
     }
  ?>

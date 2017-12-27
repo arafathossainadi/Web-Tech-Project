@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>ADMIN</title>
-	<link rel="icon" href="../../resources/Images/logo.png">
+	<link rel="icon" href="app/view/resources/Images/logo.png">
 </head>
 <body>
 	<table width="100%" border="0" cellspacing="0" align="center">
@@ -12,7 +12,7 @@
 					<tr><td height="10"></td></tr>
 					<tr>
 						<td width="25"></td>
-						<td height="160"><a href="dashboard.php"><img src="../../resources/Images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="index.php?controller=admin&action=dashboard"><img src="app/view/resources/Images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><font size="10" color="white">ADMIN PANEL</font></td>
 					</tr>
 					<tr><td height="10"></td></tr>
@@ -28,7 +28,7 @@
 							<td align="right" valign="center">&nbsp;
 								<a href="../public/login.php" id="logout">
 									<font size="5">Logout</font>
-									<image src="../../resources/Images/logout.png" height="25" alt="icon"/>
+									<image src="app/view/resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
 							</td>
 						</td>
@@ -46,9 +46,9 @@
 								<tr><td height="10"></td></tr>
 								<tr>
 									<td >
-										<a href="dashboard.php">
+										<a href="index.php?controller=admin&action=dashboard">
 											<button>
-												<img src="../../resources/Images/dashboard.png" height="40">
+												<img src="app/view/resources/Images/dashboard.png" height="40">
 												<span class="dash">Dashboard</span>
 											</button>
 										</a>
@@ -58,9 +58,9 @@
 								<tr>
 									
 									<td >
-										<a href="All-Product-info.php">
+										<a href="index.php?controller=admin&action=all-product-info">
 											<button>
-												<img src="../../resources/Images/vehicle.png" height="40">
+												<img src="app/view/resources/Images/vehicle.png" height="40">
 												<span >All Stuff<br>Information</span>
 											</button>
 										</a>
@@ -70,9 +70,9 @@
 								<tr>
 									
 									<td >
-										<a href="employee-info.php">
+										<a href="index.php?controller=admin&action=employee-info">
 											<button>
-												<img src="../../resources/Images/employee.png" height="40">
+												<img src="app/view/resources/Images/employee.png" height="40">
 												<span >Employee<br>Information</span>
 											</button>
 										</a>
@@ -82,9 +82,9 @@
 								<tr>
 									
 									<td >
-										<a href="customer-info.php">
+										<a href="index.php?controller=admin&action=customer-info">
 											<button>
-												<img src="../../resources/Images/customerinfo.png" height="40">
+												<img src="app/view/resources/Images/customerinfo.png" height="40">
 												<span >Customer<br>Information</span>
 											</button>
 										</a>
@@ -94,9 +94,9 @@
 								<tr>
 									
 									<td >
-										<a href="sales-history.php">
+										<a href="index.php?controller=admin&action=sales-history">
 											<button>
-												<img src="../../resources/Images/chart.png" height="40">
+												<img src="app/view/resources/Images/chart.png" height="40">
 												<span >Sales<br>History</span>
 											</button>
 										</a>
@@ -106,9 +106,9 @@
 								<tr>
 									
 									<td >
-										<a href="message.php">
+										<a href="index.php?controller=admin&action=message">
 											<button>
-												<img src="../../resources/Images/message.png" height="40">
+												<img src="app/view/resources/Images/message.png" height="40">
 												<span class="dash">Messages(3)</span>
 											</button>
 										</a>
@@ -118,9 +118,9 @@
 								<tr>
 									
 									<td >
-										<a href="edit-profile.php">
+										<a href="index.php?controller=admin&action=edit-profile">
 											<button>
-												<img src="../../resources/Images/profile.png" height="40">
+												<img src="app/view/resources/Images/profile.png" height="40">
 												<span class="dash">Edit Profile</span>
 											</button>
 										</a>
