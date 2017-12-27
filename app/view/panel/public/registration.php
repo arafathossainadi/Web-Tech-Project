@@ -12,7 +12,7 @@
 						<tr><td height="10"></td></tr>
 						<tr id="schct">
 							<td width="25"></td>
-							<td height="160"><a href="../../../../index.php"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+							<td height="160"><a href="index.php?controller=public&action=index"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
 						<tr><td height="10"></td></tr>
 					</table>
@@ -30,7 +30,7 @@
 								<font>&nbsp;&nbsp;</font>
 								<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Login.php" ><font size="5"><b>LOGIN</b></font></a>
+								<a href="index.php?controller=public&action=login" ><font size="5"><b>LOGIN</b></font></a>
 								<font>&nbsp;&nbsp;</font>
 								<a href="registration.php" ><font size="5"><b>SIGN UP</b></font></a>
 							</td>
@@ -157,7 +157,7 @@
 													</table>
 													<hr>
 													<input type="submit" value="Submit" class="smbtn">
-													<a href="login.php"><input type="Reset" value="Reset" class="smbtn"></a>
+													<a href="index.php?controller=public&action=login"><input type="Reset" value="Reset" class="smbtn"></a>
 												</form>
 											</fieldset>
 										</td>

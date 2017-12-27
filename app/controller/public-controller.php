@@ -52,39 +52,28 @@
 		        	}
 		    }
 		    break;
-			case "login":
+			
+		case "login":
 			$userlogin= array("username"=>"","password"=>"");
 			if($_SERVER['REQUEST_METHOD']=="POST"){
 			$userlogin['username']=trim($_POST['username']);
 			$userlogin['password']=trim($_POST['password']);
 			if (checkUserLogin($userlogin) == true) {
 		        		if(userLogin($userlogin) == true){
-							//echo $_POST['password'];
 		        		   echo "<script>
 		        		            alert('Login Successfull');
-		        		            document.location='app/view/panel/customer/purchased-product.php?controller=public&action=purchased-product';
+		        		            document.location='index.php?controller=customer&action=purchased-product';
 		        		         </script>";
-		        		    die();
 		        		}
 		        		else{
-		        			
 		        		    echo "<script>
 		        		            alert('Username and Password Doesn't Match');
-									location.reload();
+					document.location='index.php?controller=public&action=login';
 		        		         </script>";
-								 
-								die();
 		        		}
 		        	}
 			}
 			break;
-			case "purchased-product":
-			echo "<script>
-			</script>";
-			die();
-			
-			break;
-	
 	}
 	require_once "app/view/panel/$controller/$action".".php";
  ?>

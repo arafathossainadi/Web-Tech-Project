@@ -1,4 +1,4 @@
-<?php session_start(); var_dump($_SESSION); ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@
 					<tr><td height="10"></td></tr>
 					<tr id="schct">
 						<td width="25"></td>
-						<td height="160"><a href="../../../../index.php"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+						<td height="160"><a href="index.php?controller=public&action=index"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
 						<td width="7"></td>
 						<td width="50">
@@ -36,13 +36,13 @@
 					<tr>
 						<td align="left"><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search results for "<?=($_GET['tmp'])?>"</font></td>
 						<td align="right" id="top-menu">
-							<a  href="../../../../index.php"><font size="5"><b>HOME</b></font></a>
+							<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="about.php" ><font size="5"><b>ABOUT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="Contact.php" ><font size="5"><b>CONTACT</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="Login.php" ><font size="5"><b>LOGIN</b></font></a>
+							<a href="index.php?controller=public&action=login"><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
 							<a href="registration.php" ><font size="5"><b>SIGNUP</b></font></a>
 						</td>
@@ -158,7 +158,6 @@
 								<tr>
 									<?php
 										$count = 0;
-										$i = 0;
 										foreach ($_SESSION['sp'] as $shprod) {
 											echo '
 											<td align="center">
@@ -176,121 +175,12 @@
 											</td>
 											<td width="20"></td>';
 											$count++;
-											if($count%4==0){
+											if($count%3==0){
 												echo '</tr>';
 											}
 										}
 										
 									 ?>
-									
-									<!-- <td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product2.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product3.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td> -->
-								</tr>
-								<!-- <tr>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product1.jpg" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-										
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product2.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product3.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-								</tr>
-								<tr>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product1.jpg" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-										
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product2.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-									<td width="20"></td>
-									<td align="center">
-										<div class="container">
-										  <img src="app/view/resources/images/product3.png" border="1" alt="Avatar" class="image">
-										  <a href="publicproductdetails.php" target="_blank">
-										  	<div class="middle">
-										  	  <div class="text">See Details</div>
-										  	</div>
-										  </a>
-										</div>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;Toyota Model-ABC<br/>&nbsp;&nbsp;&nbsp;&nbsp;Price-$10000
-										<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Add to Cart" id="atc"></p>
-									</td>
-								</tr> -->
 							</table>
 						</td>
 					</tr>

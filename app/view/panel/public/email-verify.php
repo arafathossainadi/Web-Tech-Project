@@ -12,7 +12,7 @@
 						<tr><td height="10"></td></tr>
 						<tr id="schct">
 							<td width="25"></td>
-							<td height="160"><a href="../../../../index.php"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
+							<td height="160"><a href="index.php?controller=public&action=index"><img src="../../resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
 						</tr>
 						<tr><td height="10"></td></tr>
 					</table>
@@ -24,13 +24,13 @@
 						<tr><td height="5"></td></tr>
 						<tr>
 							<td align="right" id="top-menu">
-								<a  href="../../../../index.php"><font size="5"><b>HOME</b></font></a>
+								<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 								<font>&nbsp;&nbsp;</font>
 								<a href="about.php" target="_blank"><font size="5"><b>ABOUT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
 								<a href="Contact.php" target="_blank"><font size="5"><b>CONTACT</b></font></a>
 								<font>&nbsp;&nbsp;</font>
-								<a href="Login.php" target="_blank"><font size="5"><b>LOGIN</b></font></a>
+								<a href="index.php?controller=public&action=login" target="_blank"><font size="5"><b>LOGIN</b></font></a>
 								<font>&nbsp;&nbsp;</font>
 								<a href="registration.php" target="_blank"><font size="5"><b>SIGN UP</b></font></a>
 							</td>
