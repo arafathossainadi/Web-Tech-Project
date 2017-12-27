@@ -70,7 +70,7 @@
 															</tr>
 															<tr>
 																<td align="left">
-																	<button type="submit" id="smbtn" valign="center" align="right">
+																	<button type="submit" id="smbtn" name="login" valign="center" align="right">
 																		<font size="">Login</font>
 																	</button>
 																</td>

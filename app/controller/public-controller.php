@@ -48,6 +48,7 @@
 		        		else{
 		        			var_dump($msg);
 		        		    $msg = "Internal Error<hr/>";
+		        		    echo $msg;
 		        		}
 		        	}
 		    }
@@ -64,14 +65,15 @@
 		        		            alert('Login Successfull');
 		        		            document.location='index.php?controller=customer&action=purchased-product';
 		        		         </script>";
+		        		         die();
 		        		}
 		        		else{
 		        		    echo "<script>
-		        		            alert('Username and Password Doesn't Match');
+		        		            alert('Username and Password Doesnt Match');
 					document.location='index.php?controller=public&action=login';
 		        		         </script>";
 		        		}
-		        	}
+		        	      }
 			}
 			break;
 	}
