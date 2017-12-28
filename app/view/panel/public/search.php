@@ -1,9 +1,10 @@
-<?php session_start(); ?>
+<?php $tmp = $_SESSION['tmp'] = $_GET['tmp']; $sp = $_SESSION['sp'];?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>WEBO MOTORS</title>
 	<link rel="icon" href="app/view/resources/images/logo.png">
+	<script src="app/view/resources/js//jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">
 	var x=0;
 	function a(){
@@ -23,14 +24,16 @@
 					<tr id="schct">
 						<td width="25"></td>
 						<td height="160"><a href="index.php?controller=public&action=index"><img src="app/view/resources/images/mainlogo.gif" alt="Webo Motors" width="150" align="left"><a></td>
-						<td align="right"><input type="text" placeholder="   Search Here" name="search_bar" size="60" valign="center"/></td>
-						<td width="7"></td>
-						<td width="50">
-							<a href="#"><button valign="center" align="left">
-									<font size="4">Search</font>
-								</button>
-							</a>
-						</td>
+						<form method="post">
+							<td align="right"><input type="text" placeholder="   Search Here"  name="search" value="<?= $searchKey ?>" size="60" valign="center"/></td>
+							<td width="7"></td>
+							<td width="50">
+								<a href="#"><button valign="center" align="left">
+										<font size="4">Search</font>
+									</button>
+								</a>
+							</td>
+						</form>
 						<td width="10"></td>
 						<td><a href="#" ><img src="app/view/resources/images/cart.png" height="40" alt="cart_icon"></a><a id="ptag" style="color:white">0</a></td>
 					</tr>
@@ -43,7 +46,7 @@
 				<table width="1170" align="center" border="0" cellspacing="0">
 					<tr><td height="5"></td></tr>
 					<tr>
-						<td align="left"><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search results for "<?=($_GET['tmp'])?>"</font></td>
+						<td align="left"><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search results for "<?=$tmp ?>"</font></td>
 						<td align="right" id="top-menu">
 							<a  href="index.php?controller=public&action=index"><font size="5"><b>HOME</b></font></a>
 							<font>&nbsp;&nbsp;</font>
@@ -76,11 +79,9 @@
 						<td colspan="2" bgcolor="#E8E7E5" align="center" class="sort">
 							<p>sort by</p>
 							<select name="" id="">
-								<option value="Alphabetically">alphabetically</option>
-								<option value="newest first">newest first</option>
-								<option value="oldest first">oldest first</option>
-								<option value="price low to high">price low to high</option>
-								<option value="price high to low">price high to low</option>
+								<option value="Alphabetically" <?php if (isset($_GET['choice'])) {if($_GET['choice']=="alphabetically"){echo 'selected="selected"';}} ?>>alphabetically</option>
+								<option value="price low to high" <?php if (isset($_GET['choice'])) {if($_GET['choice']=="price low to high"){echo 'selected="selected"';}} ?>>price low to high</option>
+								<option value="price high to low" <?php if (isset($_GET['choice'])) {if($_GET['choice']=="price high to low"){echo 'selected="selected"';}} ?>>price high to low</option>
 							</select>
 						</td>
 					</tr>
@@ -168,7 +169,7 @@
 								<tr>
 									<?php
 										$count = 0;
-										foreach ($_SESSION['sp'] as $shprod) {
+										foreach ($sp as $shprod) {
 											echo '
 											<td align="center">
 												<div class="container">
@@ -186,10 +187,9 @@
 											<td width="20"></td>';
 											$count++;
 											if($count%3==0){
-												echo '</tr>';
+												echo '</tr><tr><td height="20"></td></tr>';
 											}
 										}
-										
 									 ?>
 							</table>
 							</form>
@@ -290,6 +290,20 @@
 			</td>
 		</tr>
 	</table>
+<script>
+	$('select').on(
+	  { "focus": function() {
+	      //console.log('clicked!', this, this.value);
+	      this.selectedIndex = -1;
+	    }
+	  , "change": function() {
+	      choice = $(this).val();
+	      //console.log('changed!', this, choice);
+	      this.blur();
+	      setTimeout(function() { document.location='index.php?controller=public&action=search&tmp='+"<?=$tmp?>"+'&choice='+choice; }, 0);
+	    }
+	  });
+</script>
 <script>
 	var newStyle = document.createElement('style');
 	newStyle.appendChild(document.createTextNode("\

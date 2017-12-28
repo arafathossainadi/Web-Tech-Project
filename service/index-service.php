@@ -12,5 +12,16 @@
     function userLogin($userlogin){
             return checkLoginToDb($userlogin);
     }
+    function sortByPriceLowToHigh(){
+            return sortByPriceLowToHighIntoDb();
+    }
+    function sortByPriceHighToLow()
+    {
+            return sortByPriceHighToLowIntoDb();
+    }
+    function sortByAlphabetically()
+    {
+            return sortByAlphabeticallyIntoDb();
+    }
     
  ?>

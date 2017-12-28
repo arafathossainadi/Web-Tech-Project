@@ -12,11 +12,49 @@
 			    	$_SESSION['sp'] = $shProducts;
 			    	header("location: index.php?controller=public&action=search&tmp=$searchKey");
 			    }
+			    else {
+			    	echo "<script>
+		        		            alert('Nothing Found');
+		        		            document.location='index.php?controller=public&action=index';
+		        		         </script>";
+		        		         die();
+			    }
 			}
 			break;
 		case "search":
-			
-			break;
+			session_start();
+				$searchKey =  ""; 
+				if ($_SERVER['REQUEST_METHOD'] == "POST") {
+				    $searchKey = trim($_POST['search']);
+				    if (getProductsByKey($searchKey)==true) {
+				    	$shProducts = getProductsByKey($searchKey);
+				    	$_SESSION['sp'] = $shProducts;
+				    	header("location: index.php?controller=public&action=search&tmp=$searchKey");
+				    }
+				    else {
+				    	echo "<script>
+			        		            alert('Nothing Found');
+			        		            document.location='index.php?controller=public&action=index';
+			        		         </script>";
+			        		         die();
+				    }
+				}
+			if (isset($_GET['choice'])) {
+				$choice = $_GET['choice'];
+				if ($choice =="price low to high") {
+					$sortedProducts = sortByPriceLowToHigh();
+				    	$_SESSION['sp'] = $sortedProducts;
+				}
+				elseif ($choice =="price high to low") {
+					$sortedProducts = sortByPriceHighToLow();
+				    	$_SESSION['sp'] = $sortedProducts;
+				}
+				elseif ($choice =="Alphabetically") {
+					$sortedProducts = sortByAlphabetically();
+				    	$_SESSION['sp'] = $sortedProducts;
+				}	
+			}
+		break;
 		case "registration":
 		    $customer = array("name"=>"", "email"=>"","address"=>"","contactnumber"=>"","username"=>"","password"=>"",
 			"confirmpassword"=>"","gender"=>"","dobday"=>"","dobmonth"=>"","dobyear"=>"");
