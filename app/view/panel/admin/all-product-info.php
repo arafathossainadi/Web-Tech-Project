@@ -1,4 +1,3 @@
-<?php  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -147,37 +146,37 @@
 												</tr>
 												<tr>
 													<td valign="top">Total Stuffs</td>
-													<td valign="top" align="center">10</td>
+													<td valign="top" align="center"><?=$totalstuffs ?></td>
 												</tr>
 												<tr>
 													<td valign="top" colspan="2" align="center"><b>CATEGORY</b></td>
 												</tr>
 												<tr>
 													<td valign="top">SUV</td>
-													<td valign="top" align="center">1</td>
+													<td valign="top" align="center"><?=$suv?></td>
 												</tr>
 												<tr>
 													<td valign="top">SEDAN</td>
-													<td valign="top" align="center">1</td>
+													<td valign="top" align="center"><?=$sedan?></td>
 												</tr>
 												<tr>
 													<td valign="top">CROSSOVER</td>
-													<td valign="top" align="center">1</td>
+													<td valign="top" align="center"><?=$crossover?></td>
 												</tr>
 												<tr>
 													<td valign="top">PICKUP TRUCKS</td>
-													<td valign="top" align="center">1</td>
+													<td valign="top" align="center"><?=$pickuptrucks?></td>
 												</tr>
 												<tr>
 													<td valign="top" colspan="2" align="center"><b>VEHICLE PARTS</b></td>
 												</tr>
 												<tr>
 													<td valign="top">Engine</td>
-													<td valign="top" align="center">1</td>
+													<td valign="top" align="center"><?=$engine?></td>
 												</tr>
 												<tr>
 													<td valign="top">Headlight</td>
-													<td valign="top" align="center">1</td>
+													<td valign="top" align="center"><?=$headlight?></td>
 												</tr>
 											</table>
 										</font>

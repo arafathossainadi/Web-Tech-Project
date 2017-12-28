@@ -78,19 +78,17 @@
 								<table border="0" id="exclusive-item">
 									<tr><td height="20"></td></tr>
 									<tr>
-										
 									<?php 
 									
 									$count=0;
-									 foreach ($products as $product) {	
-									echo ' 
-									
+									 foreach($products as $product) {	
+									echo '
 									<td align="left">
 												<table border="0" cellspacing="0">
 													<tr>
 														<td bgcolor="#EEEDEB">
 															<div class="container">
-															  <img src="app/view/resources/images/'.$product['Image'].'" border="0" height="140" width="60" alt="Avatar" class="image">
+															  <img src="app/view/resources/images/'.$products[$count]['Image'].'" border="0" height="140" width="60" alt="Avatar" class="image">
 															  <a href="app/view/panel/public/product-details.php" target="_blank">
 															  	<div class="middle">
 															  	  <div class="text">VIEW NOW</div>
@@ -101,8 +99,7 @@
 													</tr>
 													<tr>
 														<td align="left" bgcolor="#212121">
-														<p>'.$product['ModelNo'].'<br/>'.$product['Brand'].'<br/>'.$product['Price'].'</p>
-
+														<p>'.$products[$count]['ModelNo'].'<br/>'.$products[$count]['Brand'].'<br/>'.$products[$count]['Price'].'</p>
 															<a href="app/view/panel/public/product-details.php"><button class="smbtn">VIEW<br>NOW</button></a>
 														</td>
 													</tr>
@@ -111,9 +108,12 @@
 											
 											<td width="20"></td>';
 											$count++;
-											if($count%4==0)
-												echo '</tr><tr>';
-											
+											if($count%4==0){
+												echo '</tr><tr><tr><td height="20"></td></tr>';
+											}
+											if ($count==8) {
+												break;
+											}
 										}
 									
 									echo '</tr>';
