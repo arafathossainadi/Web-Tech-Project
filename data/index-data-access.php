@@ -39,4 +39,34 @@
 		return false;
 	}
 	}
+	function sortByPriceLowToHighIntoDb(){
+	    $sql = "SELECT * FROM Product ORDER BY Price ASC";       
+	    $result = executeSQL($sql);
+	    
+	    $products = array();
+	    for($i=0; $row=mysqli_fetch_assoc($result); ++$i){
+	        $products[$i] = $row;
+	    }
+	    return $products;
+	}
+	function sortByPriceHighToLowIntoDb(){
+	    $sql = "SELECT * FROM Product ORDER BY Price DESC";       
+	    $result = executeSQL($sql);
+	    
+	    $products = array();
+	    for($i=0; $row=mysqli_fetch_assoc($result); ++$i){
+	        $products[$i] = $row;
+	    }
+	    return $products;
+	}
+	function sortByAlphabeticallyIntoDb(){
+	    $sql = "SELECT * FROM Product ORDER BY ModelNo ASC";       
+	    $result = executeSQL($sql);
+	    
+	    $products = array();
+	    for($i=0; $row=mysqli_fetch_assoc($result); ++$i){
+	        $products[$i] = $row;
+	    }
+	    return $products;
+	}
 ?>
