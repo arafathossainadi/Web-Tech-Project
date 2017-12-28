@@ -6,6 +6,19 @@
 		break;
 		case "all-product-info":
 			$products = getAllProducts();
+			$totalstuffs = sizeof($products);
+			$suvdb = getProductBySUV("SUV");
+			$suv = sizeof($suvdb);
+			$sedandb = getProductBySEDAN("SEDAN");
+			$sedan = sizeof($sedandb);
+			$crossoverdb = getProductByCROSSOVER("CROSSOVER");
+			$crossover = sizeof($crossoverdb);
+			$pickuptrucksdb = getProductByPICKUPTRUCKS("PICKUP TRUCK");
+			$pickuptrucks = sizeof($pickuptrucksdb);
+			$enginedb = getProductByEngine("Engine");
+			$engine = sizeof($enginedb);
+			$headlightdb = getProductByHeadlight("Headlight");
+			$headlight = sizeof($headlightdb);
 		break;
 		case "delete-product":
 			$id = $_GET['id'];
