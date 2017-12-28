@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2017 at 09:18 PM
+-- Generation Time: Dec 28, 2017 at 09:22 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -47,7 +47,8 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`ID`, `Name`, `Username`, `Email`, `Address`, `ContactNumber`, `Password`, `Gender`, `DOB`, `LastLoginDate`, `ProductPurchased`) VALUES
-(1, '', 'admin', '', '', '', 'admin', '', '', '', 0);
+(1, '', 'admin', '', '', '', 'admin', '', '', '', 0),
+(2, '', 'webo', '', '', '', 'webo', '', '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -164,7 +165,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `product`
