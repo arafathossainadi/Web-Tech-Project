@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2017 at 03:24 PM
--- Server version: 10.1.19-MariaDB
--- PHP Version: 5.6.28
+-- Generation Time: Dec 28, 2017 at 05:48 PM
+-- Server version: 10.1.26-MariaDB
+-- PHP Version: 7.1.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -115,7 +117,13 @@ INSERT INTO `product` (`ID`, `ModelNo`, `Category`, `Brand`, `Color`, `Price`, `
 (13, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
 (14, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
 (15, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
-(17, 'C-2020', 'PICKUP TRU', 'MITSUBISHI', 'Black', '$15000', 2, 'abcdfvhjnakdakd', 'product4.jpg', '');
+(18, 'C-2020', 'PICKUP TRUCK', 'MITSUBISHI', 'Black', '$15000', 2, 'abcdfvhjnakdakd', 'product4.jpg', ''),
+(19, 'C-100942', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(20, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(21, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(22, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(23, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(24, 'C-2020', 'PICKUP TRUCK', 'MITSUBISHI', 'Black', '$15000', 2, 'abcdfvhjnakdakd', 'product4.jpg', '');
 
 --
 -- Indexes for dumped tables
@@ -148,11 +156,14 @@ ALTER TABLE `product`
 --
 ALTER TABLE `customer`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

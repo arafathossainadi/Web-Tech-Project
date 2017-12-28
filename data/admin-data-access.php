@@ -49,4 +49,58 @@
 	    $result = executeSQL($sql);
 	    return $result;
 	}
+	function getProductBySUVFromDb($cat){
+			$sql = "SELECT * FROM product WHERE Category LIKE 'SUV'";
+			$result = executeSQL($sql);
+			$idproduct = array();
+			for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+			    $idproduct[$i] = $row;
+			}
+			return $idproduct;
+	}
+	function getProductBySEDANFromDb($cat){
+			$sql = "SELECT * FROM product WHERE Category LIKE 'SEDAN'";
+			$result = executeSQL($sql);
+			$idproduct = array();
+			for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+			    $idproduct[$i] = $row;
+			}
+			return $idproduct;
+	}
+	function getProductByCROSSOVERFromDb($cat){
+			$sql = "SELECT * FROM product WHERE Category LIKE 'CROSSOVER'";
+			$result = executeSQL($sql);
+			$idproduct = array();
+			for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+			    $idproduct[$i] = $row;
+			}
+			return $idproduct;
+	}
+	function getProductByPICKUPTRUCKSFromDb($cat){
+			$sql = "SELECT * FROM product WHERE Category LIKE '$cat'";
+			$result = executeSQL($sql);
+			$idproduct = array();
+			for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+			    $idproduct[$i] = $row;
+			}
+			return $idproduct;
+	}
+	function getProductByEngineFromDb($cat){
+			$sql = "SELECT * FROM product WHERE Category LIKE 'Engine'";
+			$result = executeSQL($sql);
+			$idproduct = array();
+			for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+			    $idproduct[$i] = $row;
+			}
+			return $idproduct;
+	}
+	function getProductByHeadlightFromDb($cat){
+			$sql = "SELECT * FROM product WHERE Category LIKE 'Headlight'";
+			$result = executeSQL($sql);
+			$idproduct = array();
+			for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+			    $idproduct[$i] = $row;
+			}
+			return $idproduct;
+	}
 ?>

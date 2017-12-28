@@ -16,8 +16,32 @@
     {
     	return editProductIntoDb($products);
     }
-	function addProduct($product)
+    function addProduct($product)
     {
     	return addProductIntoDb($product);
+    }
+    function getProductBySUV($cat)
+    {
+        return getProductBySUVFromDb($cat);
+    }
+    function getProductBySEDAN($cat)
+    {
+        return getProductBySEDANFromDb($cat);
+    }
+    function getProductByCROSSOVER($cat)
+    {
+        return getProductByCROSSOVERFromDb($cat);
+    }
+    function getProductByPICKUPTRUCKS($cat)
+    {
+        return getProductByPICKUPTRUCKSFromDb($cat);
+    }
+    function getProductByEngine($cat)
+    {
+        return getProductByEngineFromDb($cat);
+    }
+    function getProductByHeadlight($cat)
+    {
+        return getProductByHeadlightFromDb($cat);
     }
  ?>
