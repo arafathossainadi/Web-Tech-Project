@@ -8,4 +8,8 @@
     	$isvalid = true;
          	return $isvalid;
     }
+	function validateEmployeeForCreate(&$employee){
+    	$isvalid = true;
+         	return $isvalid;
+    }
 ?>

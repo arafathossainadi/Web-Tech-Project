@@ -88,7 +88,7 @@
 		       // var_dump(validateCustomerForCreate($customer));
 		        //var_dump(addCustomer($customer));
 		        	if (validateProductForCreate($product) == true) {
-		        		if(addPRODUCT($product) == true){
+		        		if(addProduct($product) == true){
 							//echo $_POST['password'];
 		        		   echo "<script>
 		        		            alert('Record Created');
@@ -104,6 +104,45 @@
 		        	}
 		    }
 		    break;
+		break;
+		
+		case "add-employee":
+			$employee = array("Name"=>"", "Email"=>"","Address"=>"","ContactNumber"=>"","Username"=>"","Gender"=>"",
+			"Password"=>"","ConfirmPassword"=>"","Salary"=>"","ProductSold"=>"","Image"=>"");
+		    $msg = "";
+		    if($_SERVER['REQUEST_METHOD']=="POST"){
+		        $employee['Name'] = trim($_POST['Name']);
+		        $employee['Email'] = trim($_POST['Email']);
+		        $employee['Address'] = trim($_POST['Address']);
+		        $employee['ContactNumber'] = trim($_POST['ContactNumber']);
+		        $employee['Username'] = trim($_POST['Username']);
+		        $employee['Gender'] = trim($_POST['Gender']);
+		        $employee['Password'] = trim($_POST['Password']);
+				$employee['ConfirmPassword'] = trim($_POST['ConfirmPassword']);
+		        $employee['Salary'] =trim($_POST['Salary']);
+				$employee['Image'] =trim($_POST['Image']);
+		       // var_dump(validateCustomerForCreate($customer));
+		        //var_dump(addCustomer($customer));
+		        	if (validateEmployeeForCreate($employee) == true) {
+		        		if(addEmployee($employee) == true){
+							//echo $_POST['password'];
+		        		   echo "<script>
+		        		            alert('Record Created');
+		        		            document.location='index.php?controller=admin&action=employee-info';
+		        		         </script>";
+		        		    die();
+		        		}
+		        		else{
+		        			var_dump($msg);
+		        		    $msg = "Internal Error<hr/>";
+		        		    echo $msg;
+		        		}
+		        	}
+		    }
+		    break;
+		break;
+		case "employee-info":
+			$employee = getAllEmployee();
 		break;
 
 	}

@@ -3,6 +3,10 @@
     function getAllCustomers(){
         return getAllCustomersFromDb();
     }
+	function getAllEmployee(){
+        return getAllEmployeeFromDb();
+    }
+	
     function getAllProducts(){
         return getAllProductsFromDb();
     }
@@ -43,5 +47,9 @@
     function getProductByHeadlight($cat)
     {
         return getProductByHeadlightFromDb($cat);
+    }
+	function addEmployee($employee)
+    {
+    	return addEmployeeIntoDb($employee);
     }
  ?>

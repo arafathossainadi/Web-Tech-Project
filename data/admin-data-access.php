@@ -20,6 +20,15 @@
 	    }
 	    return $products;
 	}
+	function getAllEmployeeFromDb(){
+	    $sql = "SELECT * FROM employee";       
+	    $result = executeSQL($sql);
+	    $employee = array();
+	    for($i=0; $row=mysqli_fetch_assoc($result); ++$i){
+	        $employee[$i] = $row;
+	    }
+	    return $employee;
+	}
 	function getProductByIdFromDb($id){
 			$sql = "SELECT * FROM product WHERE Id LIKE '%$id%'";
 			$result = executeSQL($sql);
@@ -102,5 +111,13 @@
 			    $idproduct[$i] = $row;
 			}
 			return $idproduct;
+	}
+	function addEmployeeIntoDb($employee)
+	{
+		$sql = "INSERT INTO employee(Name, Email, Address, ContactNumber, Username, Gender, Password,Salary,Image,JoiningDate) 
+		VALUES('$employee[Name]','$employee[Email]','$employee[Address]','$employee[ContactNumber]',
+		'$employee[Username]','$employee[Gender]','$employee[Password]','$employee[Salary]','$employee[Image]',now())";
+	    $result = executeSQL($sql);
+	    return $result;
 	}
 ?>

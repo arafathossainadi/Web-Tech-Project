@@ -140,21 +140,21 @@
 												<td>
 													<fieldset>
 												<legend><h3>Employee Register</h3></legend>
-												<form>
+												<form method="post">
 													<table border="0">
 														<tr>
 															<td colspan="3" align="center">
 																<table border="0">
 																	<tr>
 																		<td align="center">
-																			<img id="empp" src="app/view/resources/Images/defpp.png" width="200">
+																			<img id="empp" src="app/view/resources/Images/<?=$employee['Image']?>" width="200">
 																		</td>
 																	</tr>
 																	<tr><td height="10"></td></tr>
 																	<tr>
 																		<td align="center">
 																			<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
-																			<input type="file" style="display:none;" id="uploadimage" name="file">
+																			<input type="file" style="display:none;" id="uploadimage" name="Image">
 																		</td>
 																	</tr>
 																</table>
@@ -169,7 +169,7 @@
 																<b>Epmloyee Name :</b>
 															</td>
 															<td align="left">
-																<input type="text" name="name">
+																<input type="text" name="Name" value="<?=$employee['Name']?>">
 															</td>
 														</tr>
 														
@@ -182,7 +182,7 @@
 																<b>Email :</b>
 															</td>
 															<td align="left">
-																<input type="text" name="email">
+																<input type="text" name="Email" value="<?=$employee['Email']?>">
 															</td>
 														</tr>
 														<tr>
@@ -194,7 +194,15 @@
 																<b>Address :</b>
 															</td>
 															<td align="left">
-																<input type="text" name="address">
+																<input type="text" name="Address" value="<?=$employee['Address']?>">
+															</td>
+														</tr>
+														<tr>
+															<td align="left">
+																<b>Username :</b>
+															</td>
+															<td align="left">
+																<input type="text" name="Username" value="<?=$employee['Username']?>">
 															</td>
 														</tr>
 														<tr>
@@ -206,7 +214,7 @@
 																<b>Contact No. :</b>
 															</td>
 															<td align="left">
-																<input type="text" name="contactNo">
+																<input type="text" name="ContactNumber" value="<?=$employee['ContactNumber']?>">
 															</td>
 														</tr>
 														<tr>
@@ -218,12 +226,12 @@
 																<b >Gender :</b>
 															</td>
 															<td align="left">
-																<select id="empgen">
-																	<option value="Select Any">Select Any</option>
-																	<option value="Male">Male</option>
-																	<option value="Female">Female</option>
-																	<option value="Other">Other</option>
-																</select>
+																<fieldset>
+																	<legend>Gender</legend>
+																	<input type="radio" name="Gender" value="<?=$employee['Gender']="Male"?>">Male
+																	<input type="radio" name="Gender" value="<?=$employee['Gender']="Female"?>">Female
+																	<input type="radio" name="Gender" value="<?=$employee['Gender']="Others"?>">Other
+																</fieldset>
 															</td>
 														</tr>
 														<tr>
@@ -235,7 +243,7 @@
 																<b>Password :</b>
 															</td>
 															<td align="left">
-																<input type="text" name="password">
+																<input type="text" name="Password" value="<?=$employee['Password']?>" >
 															</td>
 														</tr>
 														<tr>
@@ -247,7 +255,7 @@
 																<b>Confirm Password :</b>
 															</td>
 															<td align="left">
-																<input type="password" name="password">
+																<input type="password" name="ConfirmPassword" value="<?=$employee['ConfirmPassword']?>">
 															</td>
 														</tr>
 														<tr>
@@ -259,7 +267,7 @@
 																<b>Salary :</b>
 															</td>
 															<td align="left">
-																<input type="text" name="name">
+																<input type="text" name="Salary" value="<?=$employee['Salary']?>">
 															</td>
 														</tr>
 													</table>

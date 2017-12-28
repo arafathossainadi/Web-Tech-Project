@@ -141,7 +141,6 @@
 												</th>
 											</tr>
 											<tr align="center">
-												<td><b>Employee ID</b></td>
 												<td><b>Employee Name</b></td>
 												<td><b>Gender</b></td>
 												<td><b>Phone No.</b></td>
@@ -150,36 +149,19 @@
 												<td><b>Joining Date</b></td>
 												<td><b>Total Product Delivered</b></td>
 											</tr>
-											<tr align="center">
-												<td>1001</td>
-												<td>ABC XYZ</td>
-												<td>Male</td>
-												<td>0123456789</td>
-												<td>abc@gmail.com</td>
-												<td>20000</td>
-												<td>1/1/2017</td>
-												<td>4</td>
-											</tr>
-											<tr align="center">
-												<td>1002</td>
-												<td>ABC XYZ</td>
-												<td>Male</td>
-												<td>0123456789</td>
-												<td>abc@gmail.com</td>
-												<td>20000</td>
-												<td>1/1/2017</td>
-												<td>4</td>
-											</tr>
-											<tr align="center">
-												<td>1003</td>
-												<td>ABC XYZ</td>
-												<td>Male</td>
-												<td>0123456789</td>
-												<td>abc@gmail.com</td>
-												<td>20000</td>
-												<td>1/1/2017</td>
-												<td>4</td>
-											</tr>
+											<?php
+									 foreach ($employee as $emp) {	
+									echo '
+									<tr align="center">
+										<td>'.$emp['Name'].'</td>
+										<td>'.$emp['Gender'].'</td>
+										<td>'.$emp['ContactNumber'].'</td>
+										<td>'.$emp['Email'].'</td>
+										<td>'.$emp['Salary'].'</td>
+										<td>'.$emp['JoiningDate'].'</td>
+										<td>'.$emp['ProductSold'].'</td>
+									</tr>';}
+									?>
 										</table>
 									</td>
 								</tr>
