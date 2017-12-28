@@ -1,0 +1,7 @@
+admin panel:
+username: admin
+password: admin
+
+customer panel:
+username: webo
+password: webo
