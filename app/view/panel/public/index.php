@@ -142,7 +142,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"   width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b1.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=toyota"><img src="app/view/resources/images/b1.png" alt=""></a>
 													</td>
 												</tr>
 											</table>
@@ -152,7 +152,7 @@
 											<table border="0" cellspacing="0">
 													<tr>
 														<td align="center"  width="100%" height="" class="brands-item">
-															<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b2.png" alt=""></a>
+															<a href="index.php?controller=public&action=search&tmp=nissan"><img src="app/view/resources/images/b2.png" alt=""></a>
 														</td>
 													</tr>
 											</table>
@@ -162,7 +162,7 @@
 											<table border="0" cellspacing="0">
 													<tr>
 														<td align="center"  width="100%" height="" class="brands-item">
-															<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b3.png" alt=""></a>
+															<a href="index.php?controller=public&action=search&tmp=ford"><img src="app/view/resources/images/b3.png" alt=""></a>
 														</td>
 													</tr>
 											</table>
@@ -176,7 +176,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"  width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b4.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=audi"><img src="app/view/resources/images/b4.png" alt=""></a>
 													</td>
 												</tr>
 											</table>
@@ -186,7 +186,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"  width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b5.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=bmw"><img src="app/view/resources/images/b5.png" alt=""></a>
 													</td>
 												</tr>
 											</table>
@@ -196,7 +196,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"  width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b6.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=mercedes"><img src="app/view/resources/images/b6.png" alt=""></a>
 													</td>
 												</tr>
 											</table>
@@ -209,7 +209,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"  width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b7.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=porsche"><img src="app/view/resources/images/b7.png" alt=""></a>
 													</td>
 												</tr>
 											</table>
@@ -219,7 +219,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"  width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b8.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=lamborghini"><img src="app/view/resources/images/b8.png" alt=""></a>
 													</td>
 												</tr>
 											</table>
@@ -229,7 +229,7 @@
 											<table border="0" cellspacing="0">
 												<tr>
 													<td align="center"  width="100%" height="" class="brands-item">
-														<a href="app/view/panel/public/search.php"><img src="app/view/resources/images/b9.png" alt=""></a>
+														<a href="index.php?controller=public&action=search&tmp=ferrari"><img src="app/view/resources/images/b9.png" alt=""></a>
 													</td>
 												</tr>
 											</table>

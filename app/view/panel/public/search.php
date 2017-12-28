@@ -56,7 +56,7 @@
 							<font>&nbsp;&nbsp;</font>
 							<a href="index.php?controller=public&action=login"><font size="5"><b>LOGIN</b></font></a>
 							<font>&nbsp;&nbsp;</font>
-							<a href="registration.php" ><font size="5"><b>SIGNUP</b></font></a>
+							<a href="index.php?controller=public&action=registration" ><font size="5"><b>SIGNUP</b></font></a>
 						</td>
 					</tr>
 					<tr><td height="5"></td></tr>
