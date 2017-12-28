@@ -4,4 +4,8 @@
     	$isvalid = true;
          	return $isvalid;
     }
+	function validateProductForCreate(&$product){
+    	$isvalid = true;
+         	return $isvalid;
+    }
 ?>

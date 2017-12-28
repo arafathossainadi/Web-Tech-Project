@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -142,7 +143,7 @@
 											<tr>
 												<td>
 													<fieldset>
-														<img src="app/view/resources/Images/cars.png" alt="car Image" width="500"><br/><br><br>
+														<img src="app/view/resources/Images/<?=$idProduct[0]['Image']?>" alt="car Image" height="270" width="500"><br/><br><br>
 													</fieldset>
 												</td>
 											</tr>
@@ -164,32 +165,32 @@
 															<tr>
 																<td width="230px" align="left" valign="top"><b>Name</b></td>
 																<td valign="top">:</td>
-																<td align="left" valign="top">Harrier</td>
+																<td align="left" valign="top"><?=$idProduct[0]['ModelNo']?></td>
 															</tr>
 															<tr>
 																<td align="left" valign="top"><b>Category</b></td>
 																<td valign="top">:</td>
-																<td align="left" valign="top">SUV</td>
+																<td align="left" valign="top"><?=$idProduct[0]['Category']?></td>
 															</tr>
 															<tr>
 																<td align="left" valign="top"><b>Brand</b></td>
 																<td valign="top">:</td>
-																<td align="left" valign="top">Toyota</td>
+																<td align="left" valign="top"><?=$idProduct[0]['Brand']?></td>
 															</tr>
 															<tr>
 																<td align="left" valign="top"><b>Features</b></td>
 																<td valign="top">:</td>
-																<td align="justify" valign="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ipsa, porro nisi eveniet rem libero quo possimus, voluptate minus est necessitatibus numquam, aliquid praesentium quasi cum officia quibusdam enim neque.</td>
+																<td align="justify" valign="top"><?=$idProduct[0]['Feature']?></td>
 															</tr>
 															<tr>
 																<td align="left" valign="top"><b>Available Colors</b></td>
 																<td valign="top">:</td>
-																<td align="left" valign="top">WHITE, BLACK</td>
+																<td align="left" valign="top"><?=$idProduct[0]['Color']?></td>
 															</tr>
 															<tr>
 																<td align="left" valign="top"><b>Price</b></td>
 																<td align="left" valign="top">: </td>
-																<td>$54854884</td>
+																<td><?=$idProduct[0]['Price']?></td>
 															</tr>
 														</table>
 													</font>

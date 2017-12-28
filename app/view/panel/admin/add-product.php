@@ -29,7 +29,7 @@
 							<td align="right" valign="center">&nbsp;
 								<a href="index.php?controller=public&action=login" id="logout">
 									<font size="5">Logout</font>
-									<image src="app/view/resources/Images/logout.png" height="25" alt="icon"/>
+									<image src="app/view/resources/Images/logout.png" height="25" alt="icon" name="Image"/>
 								</a>
 							</td>
 						</td>
@@ -144,6 +144,7 @@
 											<table align="left">
 												<tr>
 													<td>
+													<form method="post">
 														<fieldset>
 															<legend align="center"><font size="5"><b>Add New Car Details</b></font></legend>
 															<table border="0" id="anc">
@@ -152,9 +153,9 @@
 																		<table>
 																			<tr>
 																				<td align="center" colspan="2">
-																					<img id="empp" src="app/view/resources/Images/cars.png" alt="car Image" width="700"><br/>
+																					<img id="empp" src="app/view/resources/Images/<?=$product['Image']?>" alt="car Image" width="700"><br/>
 																					<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
-																					<input type="file" style="display:none;" id="uploadimage" name="file">
+																					<input type="file" style="display:none;" id="uploadimage" name="Image">
 																				</td>
 																			</tr>
 																		</table>
@@ -167,18 +168,18 @@
 																				<tr><td height="10"></td></tr>
 																				<tr>
 																					<td align="left"><b>Model No./ Car Name:</b></td>
-																					<td><input type="text"/></td>
+																					<td><input type="text" name="ModelNo" value="<?=$product['ModelNo']?>"/></td>
 																				</tr>
 																				<tr><td height="5"></td></tr>
 																				<tr>
 																					<td align="left"><b>Category:</b></td>
 																					<td>
-																						<select>
-																							<option value="SUV">SUV</option>
-																							<option value="SEDAN">SEDAN</option>
-																							<option value="CROSSOVER">CROSSOVER</option>
-																							<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-																							<option value="PARTS">VEHICLE PARTS</option>
+																						<select name="Category" value="<?=$product['Category']?>">
+																								<option value="SUV">SUV</option>
+																								<option value="SEDAN">SEDAN</option>
+																								<option value="CROSSOVER">CROSSOVER</option>
+																								<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
+																								<option value="PARTS">VEHICLE PARTS</option>
 																						</select>
 																					</td>
 																				</tr>
@@ -186,7 +187,7 @@
 																				<tr>
 																					<td align="left"><b>Brand:</b></td>
 																					<td>
-																						<select>
+																						<select name="Brand" value="<?=$product['Brand']?>">
 																							<option value="TOYOTA">TOYOTA</option>
 																							<option value="NISSAN">NISSAN</option>
 																							<option value="MITSUBISHI">MITSUBISHI</option>
@@ -199,28 +200,28 @@
 																				<tr>
 																					<td align="left"><b>Colors:</b></td>
 																					<td valign="top">
-																						<input type="color" id="color">
+																						<input type="text" name="Color" value="<?=$product['Color']?>">
 																					</td>
 																				</tr>
 																				<tr><td height="5"></td></tr>
 																				<tr>
 																					<td align="left"><b>Price:</b></td>
 																					<td>
-																						<input type="text"/>
+																						<input type="text" name="Price" value="<?=$product['Price']?>"/>
 																					</td>
 																				</tr>
 																				<tr><td height="5"></td></tr>
 																				<tr>
 																					<td align="left"><b>In Stock:</b></td>
 																					<td>
-																						<input type="text"/>
+																						<input type="text" name="InStock" value="<?=$product['InStock']?>"/>
 																					</td>
 																				</tr>
 																				<tr><td height="5"></td></tr>
 																				<tr>
 																					<td valign="top" align="left"><b>Features:</b></td>
 																					<td>
-																						<textarea name=""  cols="40" rows="10"></textarea>
+																						<textarea name="Feature"  cols="40" rows="10"><?=$product['Feature']?></textarea>
 																					</td>
 																				</tr>
 																				<tr>
@@ -239,6 +240,7 @@
 																</tr>
 															</table>
 														</fieldset>
+													</form>
 													</td>
 												</tr>
 											</table>

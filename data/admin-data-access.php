@@ -41,4 +41,12 @@
 		    $result = executeSQL($sql);
 		    return $result;
 	}
+	function addProductIntoDb($product)
+	{
+		$sql = "INSERT INTO product(ModelNo, Category, Brand, Color, Price, InStock, Feature,Image) 
+		VALUES('$product[ModelNo]','$product[Category]','$product[Brand]','$product[Color]',
+		'$product[Price]','$product[InStock]','$product[Feature]','$product[Image]')";
+	    $result = executeSQL($sql);
+	    return $result;
+	}
 ?>

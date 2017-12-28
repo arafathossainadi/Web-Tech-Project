@@ -227,7 +227,7 @@
 										<td>'.$product['Brand'].'</td>
 										<td>'.$product['Price'].'</td>
 										<td align="center">'.$product['InStock'].'</td>
-										<td><a href="index.php?controller=admin&action=product-details">See Details</a></td>
+										<td><a href="index.php?controller=admin&action=product-details&id='.$product['ID'].'">See Details</a></td>
 										<td align="center"><a href="index.php?controller=admin&action=edit-product&id='.$product['ID'].'">Edit</a></td>
 										<td align="center"><a href="index.php?controller=admin&action=delete-product&id='.$product['ID'].'">Delete</a></td>
 									</tr>';}

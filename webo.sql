@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2017 at 09:21 AM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 7.0.8
+-- Generation Time: Dec 28, 2017 at 03:24 PM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 5.6.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -95,7 +95,7 @@ CREATE TABLE `ordered` (
 CREATE TABLE `product` (
   `ID` int(11) NOT NULL,
   `ModelNo` varchar(10) NOT NULL,
-  `Category` varchar(10) NOT NULL,
+  `Category` varchar(25) NOT NULL,
   `Brand` varchar(15) NOT NULL,
   `Color` varchar(10) NOT NULL,
   `Price` varchar(10) NOT NULL,
@@ -114,7 +114,8 @@ INSERT INTO `product` (`ID`, `ModelNo`, `Category`, `Brand`, `Color`, `Price`, `
 (12, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
 (13, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
 (14, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
-(15, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', '');
+(15, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(17, 'C-2020', 'PICKUP TRU', 'MITSUBISHI', 'Black', '$15000', 2, 'abcdfvhjnakdakd', 'product4.jpg', '');
 
 --
 -- Indexes for dumped tables
@@ -151,7 +152,7 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

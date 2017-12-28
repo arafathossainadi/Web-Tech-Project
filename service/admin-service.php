@@ -16,4 +16,8 @@
     {
     	return editProductIntoDb($products);
     }
+	function addProduct($product)
+    {
+    	return addProductIntoDb($product);
+    }
  ?>

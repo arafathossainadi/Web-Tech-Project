@@ -4,8 +4,6 @@
 		case "dashboard":
 			$customers = getAllCustomers();
 		break;
-		case "product-details":
-		break;
 		case "all-product-info":
 			$products = getAllProducts();
 		break;
@@ -48,6 +46,51 @@
 			    }
 			    break;
 
+		case "product-details":
+			/* $id = $_GET['id'];
+			$idProduct = getProductById($id);
+			if (isset($_GET['idd'])) {
+				$idd = $_GET['idd'];*/
+				/*  if(getProductById($id)==true){
+					 die();
+				} */ 
+				if(isset($_GET['id'])){
+                $idProduct = trim($_GET['id']);
+                $idProduct = getProductById($idProduct);
+            }
+		break;
+		case "add-product":
+			$product = array("ModelNo"=>"", "Category"=>"","Brand"=>"","Color"=>"","Price"=>"","InStock"=>"",
+			"Feature"=>"","Image"=>"");
+		    $msg = "";
+		    if($_SERVER['REQUEST_METHOD']=="POST"){
+		        $product['ModelNo'] = trim($_POST['ModelNo']);
+		        $product['Category'] = trim($_POST['Category']);
+		        $product['Brand'] = trim($_POST['Brand']);
+		        $product['Color'] = trim($_POST['Color']);
+		        $product['Price'] = trim($_POST['Price']);
+		        $product['InStock'] = trim($_POST['InStock']);
+		        $product['Feature'] = trim($_POST['Feature']);
+		        $product['Image'] =trim($_POST['Image']);
+		       // var_dump(validateCustomerForCreate($customer));
+		        //var_dump(addCustomer($customer));
+		        	if (validateProductForCreate($product) == true) {
+		        		if(addPRODUCT($product) == true){
+							//echo $_POST['password'];
+		        		   echo "<script>
+		        		            alert('Record Created');
+		        		            document.location='index.php?controller=admin&action=all-product-info';
+		        		         </script>";
+		        		    die();
+		        		}
+		        		else{
+		        			var_dump($msg);
+		        		    $msg = "Internal Error<hr/>";
+		        		    echo $msg;
+		        		}
+		        	}
+		    }
+		    break;
 		break;
 
 	}
