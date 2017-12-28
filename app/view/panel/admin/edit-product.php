@@ -27,7 +27,7 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="index.php?controller=customer&action=edit-profile" id="logout">
+								<a href="index.php?controller=public&action=login" id="logout">
 									<font size="5">Logout</font>
 									<image src="app/view/resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
@@ -152,9 +152,9 @@
 																		<table>
 																			<tr>
 																				<td align="center" colspan="2">
-																					<img src="app/view/resources/Images/cars.png" alt="car Image" width="700" id="empp"><br/>
+																					<img src="app/view/resources/Images/<?=$idProduct[0]['Image']?>" alt="car Image" width="500" id="empp"><br/>
 																					<input type="button" id="ui" value="upload image" onclick="document.getElementById('uploadimage').click();">
-																					<input type="file" style="display:none;" id="uploadimage" name="file">
+																					<input type="file" style="display:none;" id="uploadimage">
 																				</td>
 																			</tr>
 																		</table>
@@ -163,77 +163,73 @@
 																<tr>
 																	<td>
 																		<fieldset id="ancdet">
-																			<table border="0" align="center">
-																				<tr><td height="10"></td></tr>
-																				<tr>
-																					<td align="left"><b>Name:</b></td>
-																					<td><input type="text"/></td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Category:</b></td>
-																					<td>
-																						<select>
-																							<option value="SUV">SUV</option>
-																							<option value="SEDAN">SEDAN</option>
-																							<option value="CROSSOVER">CROSSOVER</option>
-																							<option value="PICKUP TRUCKS">PICKUP TRUCKS</option>
-																							<option value="PARTS">VEHICLE PARTS</option>
-																						</select>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Brand:</b></td>
-																					<td>
-																						<select>
-																							<option value="TOYOTA">TOYOTA</option>
-																							<option value="NISSAN">NISSAN</option>
-																							<option value="MITSUBISHI">MITSUBISHI</option>
-																							<option value="MERCEDES">MERCEDES</option>
-																							<option value="PORCHE">PORCHE</option>
-																						</select>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Colors:</b></td>
-																					<td valign="top">
-																						<input type="color" id="color">
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>Price:</b></td>
-																					<td>
-																						<input type="text"/>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td align="left"><b>In Stock:</b></td>
-																					<td>
-																						<input type="text"/>
-																					</td>
-																				</tr>
-																				<tr><td height="5"></td></tr>
-																				<tr>
-																					<td valign="top" align="left"><b>Features:</b></td>
-																					<td>
-																						<textarea name=""  cols="40" rows="10"></textarea>
-																					</td>
-																				</tr>
-																				<tr>
-																					<td colspan="3"><hr/></td>
-																				</tr>
-																				<tr>
-																					
-																					<td></td>
-																					<td align="left">
-																						<input type="submit" value="UPDATE" id="smbtn" />
-																					</td>
-																				</tr>
-																			</table>
+																			<form method="post">
+																				<table border="0" align="center">
+																					<tr><td height="10"></td></tr>
+																					<tr>
+																						<td align="left"><b>Name:</b></td>
+																						<td><input type="text" name="name" value="<?=$idProduct[0]['ModelNo']?>" value="<?=$products['name']?>"></td>
+																					</tr>
+																					<tr><td height="5"></td></tr>
+																					<tr>
+																						<td align="left"><b>Category:</b></td>
+																						<td>
+																							<select name="category" value="<?=$products['category']?>">
+																								<option value="SUV" <?php if($idProduct[0]['Category']=="SUV"){echo 'selected=selected';} ?>>SUV</option>
+																								<option value="SEDAN" <?php if($idProduct[0]['Category']=="SEDAN"){echo 'selected=selected';} ?>>SEDAN</option>
+																								<option value="CROSSOVER" <?php if($idProduct[0]['Category']=="CROSSOVER"){echo 'selected=selected';} ?>>CROSSOVER</option>
+																								<option value="PICKUP TRUCKS" <?php if($idProduct[0]['Category']=="PICKUP TRUCKS"){echo 'selected=selected';} ?>>PICKUP TRUCKS</option>
+																								<option value="PARTS" <?php if($idProduct[0]['Category']=="VEHICLE PARTS"){echo 'selected=selected';} ?>>VEHICLE PARTS</option>
+																							</select>
+																						</td>
+																					</tr>
+																					<tr><td height="5"></td></tr>
+																					<tr>
+																						<td align="left"><b>Brand:</b></td>
+																						<td>
+																							<input type="text" name="brand" value="<?=$idProduct[0]['Brand']?>"  value="<?=$products['brand']?>">
+																						</td>
+																					</tr>
+																					<tr><td height="5"></td></tr>
+																					<tr>
+																						<td align="left"><b>Colors:</b></td>
+																						<td valign="top">
+																							<input type="text" id="color" name="colors" value="<?=$idProduct[0]['Color']?>" value="<?=$products['colors']?>">
+																						</td>
+																					</tr>
+																					<tr><td height="5"></td></tr>
+																					<tr>
+																						<td align="left"><b>Price:</b></td>
+																						<td>
+																							<input type="text" name="price" value="<?=$idProduct[0]['Price']?>" value="<?=$products['price']?>">
+																						</td>
+																					</tr>
+																					<tr><td height="5"></td></tr>
+																					<tr>
+																						<td align="left"><b>In Stock:</b></td>
+																						<td>
+																							<input type="text" name="instock" value="<?=$idProduct[0]['InStock']?>" value="<?=$products['instock']?> ">
+																						</td>
+																					</tr>
+																					<tr><td height="5"></td></tr>
+																					<tr>
+																						<td valign="top" align="left"><b>Features:</b></td>
+																						<td>
+																							<textarea name="feature"  cols="40" rows="10" value="<?=$products['feature']?>"><?=$idProduct[0]['Feature']?></textarea>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td colspan="3"><hr/></td>
+																					</tr>
+																					<tr>
+																						
+																						<td></td>
+																						<td align="left">
+																							<input type="submit" value="UPDATE" id="smbtn" />
+																						</td>
+																					</tr>
+																				</table>
+																			</form>
 																		</fieldset>
 																	</td>
 																</tr>

@@ -3,4 +3,17 @@
     function getAllCustomers(){
         return getAllCustomersFromDb();
     }
+    function getAllProducts(){
+        return getAllProductsFromDb();
+    }
+    function getProductById($id){
+        return getProductByIdFromDb($id);
+    }
+    function DeleteProduct($idd){
+        return DeleteProductFromDb($idd);
+    }
+    function editProduct($products)
+    {
+    	return editProductIntoDb($products);
+    }
  ?>

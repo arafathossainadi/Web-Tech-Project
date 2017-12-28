@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2017 at 04:24 PM
--- Server version: 10.1.19-MariaDB
--- PHP Version: 5.6.28
+-- Generation Time: Dec 28, 2017 at 09:21 AM
+-- Server version: 10.1.13-MariaDB
+-- PHP Version: 7.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -39,6 +39,13 @@ CREATE TABLE `customer` (
   `LastLoginDate` varchar(30) NOT NULL,
   `ProductPurchased` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `customer`
+--
+
+INSERT INTO `customer` (`ID`, `Name`, `Username`, `Email`, `Address`, `ContactNumber`, `Password`, `Gender`, `DOB`, `LastLoginDate`, `ProductPurchased`) VALUES
+(1, '', 'admin', '', '', '', 'admin', '', '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -86,6 +93,7 @@ CREATE TABLE `ordered` (
 --
 
 CREATE TABLE `product` (
+  `ID` int(11) NOT NULL,
   `ModelNo` varchar(10) NOT NULL,
   `Category` varchar(10) NOT NULL,
   `Brand` varchar(15) NOT NULL,
@@ -101,9 +109,12 @@ CREATE TABLE `product` (
 -- Dumping data for table `product`
 --
 
-INSERT INTO `product` (`ModelNo`, `Category`, `Brand`, `Color`, `Price`, `InStock`, `Feature`, `Image`, `DT`) VALUES
-('C-1001', 'SUV', 'Toyota', 'Black', '$10000', 3, 'abcdefgh', 'product2.png', ''),
-('C-1002', 'SEDAN', 'BMW', 'White', '$20000', 2, 'abcdefghijlkmno', 'product1.jpg', '');
+INSERT INTO `product` (`ID`, `ModelNo`, `Category`, `Brand`, `Color`, `Price`, `InStock`, `Feature`, `Image`, `DT`) VALUES
+(11, 'C-100942', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(12, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(13, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(14, 'C-1008', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', ''),
+(15, 'C-1009', 'SEDAN', 'PORSCHE', 'White', '$20000', 5, 'abcdefghijlkmno', 'product1.jpg', '');
 
 --
 -- Indexes for dumped tables
@@ -122,6 +133,12 @@ ALTER TABLE `employee`
   ADD PRIMARY KEY (`Username`);
 
 --
+-- Indexes for table `product`
+--
+ALTER TABLE `product`
+  ADD PRIMARY KEY (`ID`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -129,7 +146,12 @@ ALTER TABLE `employee`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `product`
+--
+ALTER TABLE `product`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,3 +1,4 @@
+<?php  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="index.php?controller=customer&action=edit-profile" id="logout">
+								<a href="index.php?controller=public&action=login" id="logout">
 									<font size="5">Logout</font>
 									<image src="app/view/resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
@@ -216,17 +217,21 @@
 										<th><b>Edit Information</b></th>
 										<th><b>Delete Product</b></th>
 									</tr>
+									<?php
+									 foreach ($products as $product) {	
+									echo '
 									<tr align="center">
-										<td>1010</td>
-										<td>Abc-11</td>
-										<td>SUV</td>
-										<td>Toyota</td>
-										<td>$50000</td>
-										<td align="center">3</td>
+										<td>'.$product['ID'].'</td>
+										<td>'.$product['ModelNo'].'</td>
+										<td>'.$product['Category'].'</td>
+										<td>'.$product['Brand'].'</td>
+										<td>'.$product['Price'].'</td>
+										<td align="center">'.$product['InStock'].'</td>
 										<td><a href="index.php?controller=admin&action=product-details">See Details</a></td>
-										<td align="center"><a href="index.php?controller=admin&action=edit-product">Edit</a></td>
-										<td align="center"><a href="index.php?controller=admin&action=delete-product">Delete</a></td>
-									</tr>
+										<td align="center"><a href="index.php?controller=admin&action=edit-product&id='.$product['ID'].'">Edit</a></td>
+										<td align="center"><a href="index.php?controller=admin&action=delete-product&id='.$product['ID'].'">Delete</a></td>
+									</tr>';}
+									?>
 								</table>
 							</font>
 							<table>

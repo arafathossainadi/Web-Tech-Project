@@ -61,11 +61,21 @@
 			$userlogin['password']=trim($_POST['password']);
 			if (checkUserLogin($userlogin) == true) {
 		        		if(userLogin($userlogin) == true){
-		        		   echo "<script>
+		        			if ($userlogin['username']=="admin" && $userlogin['password']=="admin") {
+		        				echo "<script>
 		        		            alert('Login Successfull');
-		        		            document.location='index.php?controller=customer&action=purchased-product';
+		        		            document.location='index.php?controller=admin&action=dashboard';
 		        		         </script>";
 		        		         die();
+		        			}
+		        			else{
+		        				echo "<script>
+		        				         alert('Login Successfull');
+		        				         document.location='index.php?controller=customer&action=purchased-product';
+		        				      </script>";
+		        				      die();
+		        			}
+		        		   
 		        		}
 		        		else{
 		        		    echo "<script>

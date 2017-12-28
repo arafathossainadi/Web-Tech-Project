@@ -26,7 +26,7 @@
 					<tr>
 						<td align="right">
 							<td align="right" valign="center">&nbsp;
-								<a href="index.php?controller=customer&action=edit-profile" id="logout">
+								<a href="index.php?controller=public&action=login" id="logout">
 									<font size="5">Logout</font>
 									<image src="app/view/resources/Images/logout.png" height="25" alt="icon"/>
 								</a>
